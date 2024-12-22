@@ -1,0 +1,116 @@
+namespace = settings
+
+country_event = {
+    id = settings.1
+
+    title = settings.1.t
+
+    desc = settings.1.d
+
+    picture = BIG_BOOK_eventPicture
+
+    is_triggered_only = yes
+
+    # Gift Recipient Notification
+    option = {
+        name = "SHOW_GIFT_RECIPIENT_EVENT_ON"
+        trigger = {
+            NOT = {
+                has_country_flag = settings_gift_recieved_event_off
+            }
+        }
+
+        set_country_flag = settings_gift_recieved_event_off
+        country_event = {
+            id = settings.2
+        }
+    }
+    option = {
+        name = "SHOW_GIFT_RECIPIENT_EVENT_OFF"
+        trigger = {
+            has_country_flag = settings_gift_recieved_event_off
+        }
+
+        clr_country_flag = settings_gift_recieved_event_off
+        country_event = {
+            id = settings.2
+        }
+    }
+
+    # Advisor Events Decisions
+    option = {
+        name = "SHOW_ADVISOR_EVENT_DECISIONS_ON"
+        trigger = {
+            NOT = {
+                has_country_flag = settings_show_qol_event_decision_off
+            }
+        }
+
+        set_country_flag = settings_show_qol_event_decision_off
+        country_event = {
+            id = settings.2
+        }
+    }
+    option = {
+        name = "SHOW_ADVISOR_EVENT_DECISIONS_OFF"
+        trigger = {
+            has_country_flag = settings_show_qol_event_decision_off
+        }
+
+        clr_country_flag = settings_show_qol_event_decision_off
+        country_event = {
+            id = settings.2
+        }
+    }
+
+    # Stats
+    option = {
+        name = "SHOW_STATS_ON"
+        trigger = {
+            NOT = {
+                has_country_flag = settings_show_stats_off
+            }
+        }
+
+        set_country_flag = settings_show_stats_off
+        country_event = {
+            id = settings.2
+        }
+    }
+    option = {
+        name = "SHOW_STATS_OFF"
+        trigger = {
+            has_country_flag = settings_show_stats_off
+        }
+
+        clr_country_flag = settings_show_stats_off
+        country_event = {
+            id = settings.2
+        }
+    }
+
+
+    option = {
+        name = "CLOSE_SETTINGS"
+    }
+}
+country_event = {
+    id = settings.2
+
+    title = settings.2.t
+
+    desc = settings.2.d
+    
+    is_triggered_only = yes
+
+    picture = BIG_BOOK_eventPicture
+    hidden = yes
+
+    # Gift Recipient Notification
+
+    option = {
+        country_event = {
+            id = settings.1
+        }
+    }
+}

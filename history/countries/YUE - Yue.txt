@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = confucianism
+primary_culture = cantonese
+capital = 667	#Canton
+
+1436.1.1 = {
+	monarch = {
+		name = "Youshan I Ma"
+		birth_date = 1420.1.1
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}

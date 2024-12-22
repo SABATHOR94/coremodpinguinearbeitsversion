@@ -1,0 +1,236 @@
+country_decisions = {
+    dev_click_display = {
+        major = yes
+        color = {75 0 75}
+        potential = {
+            NOT = { has_country_flag = settings_show_stats_off }
+        }
+        allow = {
+            always = false
+
+            custom_trigger_tooltip = {
+                tooltip = ADM_CLICKS
+                check_variable = {
+                    which = adm_dev_clicks
+                    value = 0
+                }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = DIP_CLICKS
+                check_variable = {
+                    which = dip_dev_clicks
+                    value = 0
+                }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = MIL_CLICKS
+                check_variable = {
+                    which = mil_dev_clicks
+                    value = 0
+                }
+            }
+        }
+    }
+
+    sent_gift_display = {
+        major = yes
+        color = {75 0 75}
+        potential = {
+            NOT = { has_country_flag = settings_show_stats_off }
+        }
+        allow = {
+            always = false
+
+            custom_trigger_tooltip = {
+                tooltip = GIFTS_SENT
+                check_variable = {
+                    which = gifts_sent
+                    value = 0
+                }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = GIFTS_RECIEVED
+                check_variable = {
+                    which = gifts_recieved
+                    value = 0
+                }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = GIFTS_TAXES
+                check_variable = {
+                    which = gifts_taxes
+                    value = 0
+                }
+            }
+        }
+    }
+
+    adm_advisor_event_display = {
+        color = {75 256 0}
+        potential = {
+            NOT = { has_country_flag = settings_show_qol_event_decision_off }
+        }
+        allow = {
+            always = false
+
+            custom_trigger_tooltip = {
+                tooltip = ARTIST_AVAILABLE
+                NOT = { has_country_modifier = artist }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = INQUISITOR_AVAILABLE
+                NOT = { has_country_modifier = inquisitor }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = MASTER_OF_MINT_AVAILABLE
+                NOT = { has_country_modifier = master_of_mint }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = NATURAL_SCIENTIST_AVAILABLE
+                NOT = { has_country_modifier = natural_scientist }
+            }
+            
+            custom_trigger_tooltip = {
+                tooltip = PHILOSOPHER_AVAILABLE
+                NOT = { has_country_modifier = philosopher }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = THEOLOGIAN_AVAILABLE
+                NOT = { has_country_modifier = theologian }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = TREASURER_AVAILABLE
+                NOT = { has_country_modifier = treasurer }
+            }
+        }
+    }
+
+    dip_advisor_event_display = {
+        color = {75 256 0}
+        potential = {
+            NOT = { has_country_flag = settings_show_qol_event_decision_off }
+        }
+        allow = {
+            always = false
+
+
+            custom_trigger_tooltip = {
+                tooltip = COLONIAL_GOVERNOR_AVAILABLE
+                NOT = { has_country_modifier = colonial_governor }
+            }
+            
+            custom_trigger_tooltip = {
+                tooltip = DIPLOMAT_AVAILABLE
+                NOT = { has_country_modifier = diplomat }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = NAVAL_REFORMER_AVAILABLE
+                NOT = { has_country_modifier = naval_reformer }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = NAVIGATOR_AVAILABLE
+                NOT = { has_country_modifier = navigator }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = SPYMASTER_AVAILABLE
+                NOT = { has_country_modifier = spymaster }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = STATESMAN_AVAILABLE
+                NOT = { has_country_modifier = statesman }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = TRADER_AVAILABLE
+                NOT = { has_country_modifier = trader }
+            }
+
+        }
+
+    }
+
+    mil_advisor_event_display = {
+        color = {75 256 0}
+        potential = {
+            NOT = { has_country_flag = settings_show_qol_event_decision_off }
+        }
+        allow = {
+            always = false
+
+            custom_trigger_tooltip = {
+                tooltip = ARMY_ORGANISER_AVAILABLE
+                NOT = { has_country_modifier = army_organiser }
+            }
+        
+            custom_trigger_tooltip = {
+                tooltip = ARMY_REFORMER_AVAILABLE
+                NOT = { has_country_modifier = army_reformer }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = COMMANDANT_AVAILABLE
+                NOT = { has_country_modifier = commandant }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = GRAND_CAPTAIN_AVAILABLE
+                NOT = { has_country_modifier = grand_captain }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = RECRUITMASTER_AVAILABLE
+                NOT = { has_country_modifier = recruitmaster }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = FORTIFICATION_EXPERT_AVAILABLE
+                NOT = { has_country_modifier = fortification_expert }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = QUARTERMASTER_AVAILABLE
+                NOT = { has_country_modifier = quartermaster }
+            }
+        }
+    }
+
+    important_events_display = {
+        major = yes
+        color = {75 0 75}
+        potential = {
+            NOT = { has_country_flag = settings_show_qol_event_decision_off }
+        }
+        allow = {
+            always = false
+
+            custom_trigger_tooltip = {
+                tooltip = RADICAL_REFORMS_AVAILABLE
+                NOT = { has_country_modifier = radical_mercantilist_reforms }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = COMMANDANT_AVAILABLE
+                NOT = { has_country_modifier = commandant }
+            }
+
+            custom_trigger_tooltip = {
+                tooltip = GRAND_CAPTAIN_AVAILABLE
+                NOT = { has_country_modifier = grand_captain }
+            }
+
+        }
+    }
+}

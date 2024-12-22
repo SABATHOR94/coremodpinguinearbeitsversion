@@ -1,0 +1,20 @@
+# 4775 - Bielefeld
+
+owner = KOL
+controller = KOL
+add_core = KOL
+add_core = LPP
+culture = hannoverian
+religion = catholic
+trade_goods = cloth #linen
+capital = "Bielefeld"
+base_tax = 5
+base_production = 5
+base_manpower = 5
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+hre = yes

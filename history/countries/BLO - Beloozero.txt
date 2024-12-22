@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = veche_republic
+government_rank = 1
+primary_culture = novgorodian
+religion = orthodox
+technology_group = eastern
+capital = 312	# Beloozero
+fixed_capital = 312 # Cannot move capital away from this province & no power cost to move to it
+
+
+1432.1.1 = {
+	monarch = {
+		name = "Mikhail"
+		dynasty = "Rurikovich"
+		birth_date = 1400.1.1
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+

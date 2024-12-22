@@ -1,0 +1,2420 @@
+# Philosopher
+country_event = {
+	id = 4021
+	title = "EVTNAME4021"
+	desc = "EVTDESC4021"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		philosopher = 3
+		NOT = { has_country_modifier = philosopher }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_philosopher }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			philosopher = 4
+		}
+		modifier = {
+			factor = 0.9
+			philosopher = 5
+		}
+		modifier = {
+			factor = 0.9
+			philosopher = 6
+		}
+		modifier = {
+			factor = 0.9
+			philosopher = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4021"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = philosopher
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4021"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = philosopher
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_philosopher
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+# Natural Scientist
+country_event = {
+	id = 4022
+	title = "EVTNAME4022"
+	desc = "EVTDESC4022"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		natural_scientist = 3
+		NOT = { has_country_modifier = natural_scientist }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_natural_scientist }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			natural_scientist = 4
+		}
+		modifier = {
+			factor = 0.9
+			natural_scientist = 5
+		}
+		modifier = {
+			factor = 0.9
+			natural_scientist = 6
+		}
+		modifier = {
+			factor = 0.9
+			natural_scientist = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4022"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_stability_or_adm_power = yes
+		add_meritocracy_effect = yes
+		add_country_modifier = {
+			name = "scientific_evolution"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = natural_scientist
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4022"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_prestige = 50
+		add_meritocracy_effect = yes
+		add_country_modifier = {
+			name = "scientific_evolution"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = natural_scientist
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_natural_scientist
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Army Reformer
+country_event = {
+	id = 4023
+	title = "EVTNAME4023"
+	desc = "EVTDESC4023"
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		army_reformer = 3
+		NOT = { has_country_modifier = army_reformer }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_army_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			army_reformer = 4
+		}
+		modifier = {
+			factor = 0.9
+			army_reformer = 5
+		}
+		modifier = {
+			factor = 0.9
+			army_reformer = 6
+		}
+		modifier = {
+			factor = 0.9
+			army_reformer = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4023"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "land_investment"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = army_reformer
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4023"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "land_investment"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = army_reformer
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_army_reformer
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+# Naval reformer
+country_event = {
+	id = 4024
+	title = "EVTNAME4024"
+	desc = "EVTDESC4024"
+	picture = REFORM_eventPicture
+	
+	trigger = {
+		naval_reformer = 3
+		NOT = { has_country_modifier = naval_reformer }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_naval_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			naval_reformer = 4
+		}
+		modifier = {
+			factor = 0.9
+			naval_reformer = 5
+		}
+		modifier = {
+			factor = 0.9
+			naval_reformer = 6
+		}
+		modifier = {
+			factor = 0.9
+			naval_reformer = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4024"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "naval_investment"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = naval_reformer
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4024"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "naval_investment"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = naval_reformer
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_naval_reformer
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Artist
+country_event = {
+	id = 4025
+	title = "EVTNAME4025"
+	desc = "EVTDESC4025"
+	picture = PAINTER_ARTIST_eventPicture
+	
+	trigger = {
+		artist = 3
+		NOT = { has_country_modifier = artist }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_artist }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			artist = 4
+		}
+		modifier = {
+			factor = 0.9
+			artist = 5
+		}
+		modifier = {
+			factor = 0.9
+			artist = 6
+		}
+		modifier = {
+			factor = 0.9
+			artist = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4025"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "reduced_stability_cost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = artist
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4025"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "reduced_stability_cost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = artist
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_artist
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Treasurer
+country_event = {
+	id = 4026
+	title = "EVTNAME4026"
+	desc = "EVTDESC4026"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		treasurer = 3
+		NOT = { has_country_modifier = treasurer }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_treasurer }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+	
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			treasurer = 4
+		}
+		modifier = {
+			factor = 0.9
+			treasurer = 5
+		}
+		modifier = {
+			factor = 0.9
+			treasurer = 6
+		}
+		modifier = {
+			factor = 0.9
+			treasurer = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4026"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "trading_investment"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = treasurer
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4026"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "trading_investment"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = treasurer
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_treasurer
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Theologian
+country_event = {
+	id = 4027
+	title = "EVTNAME4027"
+	desc = "EVTDESC4027"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		theologian = 3
+		NOT = { has_country_modifier = theologian }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_theologian }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			theologian = 4
+		}
+		modifier = {
+			factor = 0.9
+			theologian = 5
+		}
+		modifier = {
+			factor = 0.9
+			theologian = 6
+		}
+		modifier = {
+			factor = 0.9
+			theologian = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4027"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "theology"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = theologian
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4027"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "theology"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = theologian
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_theologian
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Statesman
+country_event = {
+	id = 4028
+	title = "EVTNAME4028"
+	desc = "EVTDESC4028"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		statesman = 3
+		NOT = { has_country_modifier = statesman }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_statesman }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			statesman = 4
+		}
+		modifier = {
+			factor = 0.9
+			statesman = 5
+		}
+		modifier = {
+			factor = 0.9
+			statesman = 6
+		}
+		modifier = {
+			factor = 0.9
+			statesman = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4028"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "government_investment"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = statesman
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4028"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "government_investment"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = statesman
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_statesman
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Colonial Governor
+country_event = {
+	id = 4029
+	title = "EVTNAME4029"
+	desc = "EVTDESC4029"
+	picture = ADVISOR_eventPicture
+	
+	
+	trigger = {
+		colonial_governor = 3
+		NOT = { has_country_modifier = colonial_governor }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_colonial_governor }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			colonial_governor = 4
+		}
+		modifier = {
+			factor = 0.9
+			colonial_governor = 5
+		}
+		modifier = {
+			factor = 0.9
+			colonial_governor = 6
+		}
+		modifier = {
+			factor = 0.9
+			colonial_governor = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4029"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "more_tariffs"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = colonial_governor
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4029"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "more_tariffs"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = colonial_governor
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_colonial_governor
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Spymaster
+country_event = {
+	id = 4030
+	title = "EVTNAME4030"
+	desc = "EVTDESC4030"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		spymaster = 3
+		NOT = { has_country_modifier = spymaster }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_spymaster }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			spymaster = 4
+		}
+		modifier = {
+			factor = 0.9
+			spymaster = 5
+		}
+		modifier = {
+			factor = 0.9
+			spymaster = 6
+		}
+		modifier = {
+			factor = 0.9
+			spymaster = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4030"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "spy"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = spymaster
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}		
+	}
+		
+	option = {
+		name = "EVTOPTB4030"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "spy"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = spymaster
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}	
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_spymaster
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Diplomat
+country_event = {
+	id = 4031
+	title = "EVTNAME4031"
+	desc = "EVTDESC4031"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		diplomat = 3
+		NOT = { has_country_modifier = diplomat }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_diplomat }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			diplomat = 4
+		}
+		modifier = {
+			factor = 0.9
+			diplomat = 5
+		}
+		modifier = {
+			factor = 0.9
+			diplomat = 6
+		}
+		modifier = {
+			factor = 0.9
+			diplomat = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4031"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_dip_power = 50
+		add_country_modifier = {
+			name = diplomat
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4031"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_dip_power = 50
+		add_country_modifier = {
+			name = diplomat
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_diplomat
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+# Trader
+country_event = {
+	id = 4032
+	title = "EVTNAME4032"
+	desc = "EVTDESC4032"
+	picture = ADVISOR_eventPicture
+	
+	
+	trigger = {
+		trader = 3
+		NOT = { has_country_modifier = trader }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_trader }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			trader = 4
+		}
+		modifier = {
+			factor = 0.9
+			trader = 5
+		}
+		modifier = {
+			factor = 0.9
+			trader = 6
+		}
+		modifier = {
+			factor = 0.9
+			trader = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4032"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_dip_power = 25
+		add_country_modifier = {
+			name = philosopher
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4032"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_dip_power = 25
+		add_country_modifier = {
+			name = philosopher
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_trader
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+# Master of Mint
+country_event = {
+	id = 4104
+	title = "EVTNAME4104"
+	desc = "EVTDESC4104"
+	picture = ADVISOR_eventPicture	
+	
+	trigger = {
+		master_of_mint = 3
+		NOT = { has_country_modifier = master_of_mint }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_master_of_mint }	
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			master_of_mint = 4
+		}
+		modifier = {
+			factor = 0.9
+			master_of_mint = 5
+		}
+		modifier = {
+			factor = 0.9
+			master_of_mint = 6
+		}
+		modifier = {
+			factor = 0.9
+			master_of_mint = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4104"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "master_of_mint_boost"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = master_of_mint
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4104"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "master_of_mint_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = master_of_mint
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_master_of_mint
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# navigator
+country_event = {
+	id = 4110
+	title = "EVTNAME4110"
+	desc = "EVTDESC4110"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		navigator = 3
+		NOT = { has_country_modifier = navigator }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_navigator }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			navigator = 4
+		}
+		modifier = {
+			factor = 0.9
+			navigator = 5
+		}
+		modifier = {
+			factor = 0.9
+			navigator = 6
+		}
+		modifier = {
+			factor = 0.9
+			navigator = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4110"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "navigator_boost"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = navigator
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4110"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "navigator_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = navigator
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_navigator
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# grand_captain
+country_event = {
+	id = 4114
+	title = "EVTNAME4114"
+	desc = "EVTDESC4114"
+	picture = ADVISOR_eventPicture	
+	
+	trigger = {
+		grand_captain = 3
+		NOT = { has_country_modifier = grand_captain }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_grand_captain }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			grand_captain = 4
+		}
+		modifier = {
+			factor = 0.9
+			grand_captain = 5
+		}
+		modifier = {
+			factor = 0.9
+			grand_captain = 6
+		}
+		modifier = {
+			factor = 0.9
+			grand_captain = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4114"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "grand_captain_boost"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = grand_captain
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4114"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "grand_captain_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = grand_captain
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_grand_captain
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# army_organiser
+country_event = {
+	id = 4115
+	title = "EVTNAME4115"
+	desc = "EVTDESC4115"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		army_organiser = 3
+		NOT = { has_country_modifier = army_organiser }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_army_organiser }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			army_organiser = 4
+		}
+		modifier = {
+			factor = 0.9
+			army_organiser = 5
+		}
+		modifier = {
+			factor = 0.9
+			army_organiser = 6
+		}
+		modifier = {
+			factor = 0.9
+			army_organiser = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4115"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "army_organiser_boost"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = army_organiser
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4115"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "army_organiser_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = army_organiser
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_army_organiser
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# commandant
+country_event = {
+	id = 4116
+	title = "EVTNAME4116"
+	desc = "EVTDESC4116"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		commandant = 3
+		NOT = { has_country_modifier = commandant }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_commandant }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			commandant = 4
+		}
+		modifier = {
+			factor = 0.9
+			commandant = 5
+		}
+		modifier = {
+			factor = 0.9
+			commandant = 6
+		}
+		modifier = {
+			factor = 0.9
+			commandant = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4116"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "commandant_boost"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = commandant
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4116"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "commandant_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = commandant
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_commandant
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Quartermaster
+country_event = {
+	id = 4117
+	title = "EVTNAME4117"
+	desc = "EVTDESC4117"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		quartermaster = 3
+		NOT = { has_country_modifier = quartermaster }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_army_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			quartermaster = 4
+		}
+		modifier = {
+			factor = 0.9
+			quartermaster = 5
+		}
+		modifier = {
+			factor = 0.9
+			quartermaster = 6
+		}
+		modifier = {
+			factor = 0.9
+			quartermaster = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4117"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "quartermaster_boost"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = quartermaster
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	option = {
+		name = "EVTOPTB4117"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "quartermaster_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = quartermaster
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_quartermaster
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Recruitmaster
+country_event = {
+	id = 4118
+	title = "EVTNAME4118"
+	desc = "EVTDESC4118"
+	picture = ADVISOR_eventPicture	
+	
+	trigger = {
+		recruitmaster = 3
+		NOT = { has_country_modifier = recruitmaster }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_army_reformer }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			recruitmaster = 4
+		}
+		modifier = {
+			factor = 0.9
+			recruitmaster = 5
+		}
+		modifier = {
+			factor = 0.9
+			recruitmaster = 6
+		}
+		modifier = {
+			factor = 0.9
+			recruitmaster = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4118"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "recruitmaster_boost"
+			duration = 2190
+		}		
+		set_country_flag = recruitmaster
+		add_country_modifier = {
+			name = recruitmaster
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4118"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "recruitmaster_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = recruitmaster
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_recruitmaster
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Fortification Expert
+country_event = {
+	id = 4119
+	title = "EVTNAME4119"
+	desc = "EVTDESC4119"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		fortification_expert = 3
+		NOT = { has_country_modifier = fortification_expert }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_fortification_expert }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			fortification_expert = 4
+		}
+		modifier = {
+			factor = 0.9
+			fortification_expert = 5
+		}
+		modifier = {
+			factor = 0.9
+			fortification_expert = 6
+		}
+		modifier = {
+			factor = 0.9
+			fortification_expert = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4119"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "fortification_expert_boost"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = fortification_expert
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4119"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "fortification_expert_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = fortification_expert
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_fortification_expert
+			duration = 3650
+			hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}
+
+
+# Inquisitor
+country_event = {
+	id = 4120
+	title = "EVTNAME4120"
+	desc = "EVTDESC4120"
+	picture = ADVISOR_eventPicture	
+	
+	trigger = {
+		inquisitor = 3
+		NOT = { has_country_modifier = inquisitor }
+
+		# Delay modifier (prevents event from firing for 10 years)
+		NOT = { has_country_modifier = delay_inquisitor }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+
+		# MTTH reduced with increased advisor level
+		modifier = {
+			factor = 0.7
+			inquisitor = 4
+		}
+		modifier = {
+			factor = 0.9
+			inquisitor = 5
+		}
+		modifier = {
+			factor = 0.9
+			inquisitor = 6
+		}
+		modifier = {
+			factor = 0.9
+			inquisitor = 7
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4120"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "inquisitor_boost"
+			duration = 2190
+		}		
+		add_country_modifier = {
+			name = inquisitor
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+		
+	option = {
+		name = "EVTOPTB4120"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_prestige = 50
+		add_country_modifier = {
+			name = "inquisitor_boost"
+			duration = 2190
+		}
+		add_country_modifier = {
+			name = inquisitor
+			duration = 36500
+			hidden = yes
+			desc = ADVISOR_EVENT_COOLDOWN
+		}
+	}
+
+	# Delay Option
+	option = {
+		name = "DELAY_ADVISOR_EVENT_OPTION"
+		ai_chance = {
+			factor = 0
+		}
+		add_country_modifier = {
+			name = delay_inquisitor
+			duration = 3650
+			#hidden = yes
+			desc = DELAY_ADVISOR
+		}
+	}
+}

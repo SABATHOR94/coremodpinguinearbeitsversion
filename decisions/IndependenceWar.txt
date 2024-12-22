@@ -1,0 +1,28 @@
+country_decisions = {
+
+	IndependenceWar = {
+		major = no
+		potential = {
+			tag = MAZ
+			ai = no
+			NOT = { has_country_flag = fought_independence }
+		}
+		provinces_to_highlight = {
+		}
+		allow = {
+			stability = 2
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = independence_warrior
+				duration = 3650
+			}
+			set_country_flag = fought_independence
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 0
+	}
+}

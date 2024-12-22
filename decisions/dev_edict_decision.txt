@@ -1,0 +1,26 @@
+country_decisions = {
+
+	dev_edict_decision = {
+		major = no
+		color =  { 255 0 0 }
+		potential = {
+			NOT = {
+				has_country_modifier = deving_replacement
+			}
+		}
+		allow = {
+			adm_tech = 5
+		}
+		effect = {
+			add_country_modifier = {
+				name = deving_replacement
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+}

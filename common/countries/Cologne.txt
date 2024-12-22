@@ -1,0 +1,66 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 84  124  48 }
+
+revolutionary_colors = { 5 1 0 }
+
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Welschflügel #30" = 40
+	"Welschschnatter #20" = 40
+	"Welschfeder #30" = 40
+	"Welschente #20" = 40
+	"Welschquak #30" = 40
+	"Welschplatsch #20" = 40
+	"Welschreiher #30" = 40
+	"Welschschnabel #20" = 40
+	"Welschwatschel #30" = 40
+	"Welschteich #20" = 40
+
+	"Carina #0" = -1
+	"Diana #0" = -1
+	"Elisa #0" = -1
+}
+
+leader_names = {
+	Levatus
+}
+
+ship_names = {
+	"Erzbischof Brun" "Erbischof Anno" "Bischof Hildebold"
+	"Erzbischof Gunthar" "Erzbischof Gero" "Rainald von Dassel"
+	"Engelbert II" "Konrad Hochstaden" Rhein Erft Agger
+}
+
+army_names = {
+	"Caspar" "Melchior" "Balthasar" 
+}

@@ -1,0 +1,17 @@
+# No previous file for Ts�kaadn
+
+culture = apache
+religion = totemism
+capital = "Ts�kaadn"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+# = APA
+
+
+discovered_by = north_american

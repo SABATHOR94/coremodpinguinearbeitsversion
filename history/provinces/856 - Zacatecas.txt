@@ -1,0 +1,16 @@
+#856 - Zacatecas
+
+owner = AZT
+controller = AZT
+add_core = AZT
+culture = chichimecan 
+religion = animism
+capital = "Zacatecas" 
+trade_goods = gold
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+discovered_by = mesoamerican
+

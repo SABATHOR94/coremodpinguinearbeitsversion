@@ -1,0 +1,17 @@
+#4223 - Hetao
+
+owner = YUA
+controller = YUA
+add_core = YUA
+culture = altaic_new
+religion = vajrayana
+capital = "Otog"
+trade_goods = livestock
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = KHA
+discovered_by = chinese
+discovered_by = nomad_group

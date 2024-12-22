@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = chinese_warlord
+government_rank = 2
+technology_group = chinese
+religion = confucianism
+add_harmonized_religion = vajrayana
+primary_culture = altaic_new
+capital = 700
+
+
+1444.7.19 = {
+	monarch = {
+		name = "Toghon Temür"
+		dynasty = "Borjigin"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

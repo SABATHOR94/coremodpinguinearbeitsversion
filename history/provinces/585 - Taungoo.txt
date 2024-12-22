@@ -1,0 +1,21 @@
+#585 - Toungoo
+
+owner = TAU
+capital = "Toungoo"
+trade_goods = chinaware
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4
+is_city = yes
+
+add_core = TAU
+controller = TAU
+culture = burmese
+religion = buddhism
+
+add_province_triggered_modifier = burma_taungu
+
+
+discovered_by = chinese
+discovered_by = indian

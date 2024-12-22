@@ -1,0 +1,352 @@
+namespace = send_gift
+
+# Gift Event
+country_event = {
+    id = send_gift.1
+
+    title = send_gift.1.t
+
+    desc = {
+        trigger = {
+            event_target:gift_sender = {
+                OR = {
+                    alliance_with = event_target:gift_recipient
+                    is_subject_of = event_target:gift_recipient
+                    event_target:gift_recipient = {
+                        is_subject_of = event_target:gift_sender
+                    }
+                }
+            }
+        }
+        desc = "send_gift.1.d_ally"
+    }
+    desc = {
+        trigger = {
+            event_target:gift_sender = {
+                is_rival = event_target:gift_recipient
+            }
+        }
+        desc = "send_gift.1.d_rival"
+    }
+    desc = {
+        trigger = {
+            NOT = {
+                event_target:gift_sender = {
+                    OR = {
+                        is_rival = event_target:gift_recipient
+                        alliance_with = event_target:gift_recipient
+                        is_subject_of = event_target:gift_recipient
+                        event_target:gift_recipient = {
+                            is_subject_of = event_target:gift_sender
+                        }
+                    }
+                }
+            }
+        }
+        desc = "send_gift.1.d_neutral"
+    }
+
+
+    desc = send_gift.1.d
+    picture = ECONOMY_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    immediate = {
+        hidden_effect = {
+            export_to_variable = {
+                variable_name = treasury
+                value = trigger_value:treasury
+            }
+            set_variable = {
+                which = gift_value
+                value = 0
+            }
+        }
+    }
+
+    option = {
+        name = "SEND_GIFT_100"
+
+        trigger = {
+            check_variable = {
+                which = treasury
+                value = 100
+            }
+        }
+
+        change_variable = {
+            which = gift_value
+            value = 100
+        }
+    }
+
+    option = {
+        name = "SEND_GIFT_500"
+
+        trigger = {
+            check_variable = {
+                which = treasury
+                value = 500
+            }
+        }
+
+        change_variable = {
+            which = gift_value
+            value = 500
+        }
+    }
+
+    option = {
+        name = "SEND_GIFT_1000"
+
+        trigger = {
+            check_variable = {
+                which = treasury
+                value = 1000
+            }
+        }
+
+        change_variable = {
+            which = gift_value
+            value = 1000
+        }
+    }
+
+    option = {
+        name = "SEND_GIFT_5000"
+
+        trigger = {
+            check_variable = {
+                which = treasury
+                value = 5000
+            }
+        }
+
+        change_variable = {
+            which = gift_value
+            value = 5000
+        }
+    }
+
+    option = {
+        name = "SEND_GIFT_10000"
+
+        trigger = {
+            check_variable = {
+                which = treasury
+                value = 10000
+            }
+        }
+
+        change_variable = {
+            which = gift_value
+            value = 10000
+        }
+    }
+
+    option = {
+        name = "SEND_GIFT_20000"
+
+        trigger = {
+            check_variable = {
+                which = treasury
+                value = 20000
+            }
+        }
+
+        change_variable = {
+            which = gift_value
+            value = 20000
+        }
+    }
+    option = {
+        name = "SEND_GIFT_CANCEL"
+    }
+
+
+    after = {
+        if = {
+            limit = {
+                check_variable = {
+                    which = gift_value
+                    value = 50
+                }
+            }
+
+            set_variable = {
+                which = gift_value_recipient
+                which = gift_value
+            }
+            set_variable = {
+                which = gift_value_taxes
+                which = gift_value
+            }
+            
+            if = {
+                limit = {
+                    is_rival = event_target:gift_recipient
+                }
+
+                multiply_variable = {
+                    which = gift_value_recipient
+                    value = 0.6
+                }
+                multiply_variable = {
+                    which = gift_value_taxes
+                    value = 0.4
+                }
+            }
+            else_if = {
+                limit = {
+                    OR = {
+                        alliance_with = event_target:gift_recipient
+                        is_subject_of = event_target:gift_recipient
+                        event_target:gift_recipient = {
+                            is_subject_of = event_target:gift_sender
+                        }
+                    }
+                }
+
+                multiply_variable = {
+                    which = gift_value_recipient
+                    value = 0.8
+                }
+                multiply_variable = {
+                    which = gift_value_taxes
+                    value = 0.2
+                }
+            }
+            else = {
+                multiply_variable = {
+                    which = gift_value_recipient
+                    value = 0.7
+                }
+                multiply_variable = {
+                    which = gift_value_taxes
+                    value = 0.3
+                }
+            }
+
+            change_variable = {
+                which = gifts_sent
+                which = gift_value
+            }
+
+            multiply_variable = {
+                which = gift_value
+                value = -1
+            }
+
+            binary_variable_effect = {
+                effect = add_treasury
+                variable = gift_value 
+            }
+
+            change_variable = {
+                which = gifts_taxes
+                which = gift_value_taxes
+            }
+
+            event_target:gift_recipient = {
+                set_variable = {
+                    which = gift_value_recipient
+                    which = event_target:gift_sender
+                }
+
+                change_variable = {
+                    which = gift_recieved
+                    which = gift_value_recipient
+                }
+
+
+                binary_variable_effect = {
+                    effect = add_treasury
+                    variable = gift_value_recipient 
+                }
+
+
+                if = {
+                    limit = {
+                        NOT = {
+                            has_country_flag = settings_gift_recieved_event_off
+                        }
+                    }
+                    country_event = {
+                        id = send_gift.2
+                        tooltip = SEND_GIFT_RECIPIENT_EVENT_TOOLTIP
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+country_event = {
+    id = send_gift.2
+
+    title = send_gift.2.t
+
+    desc = {
+        trigger = {
+            event_target:gift_sender = {
+                OR = {
+                    alliance_with = event_target:gift_recipient
+                    is_subject_of = event_target:gift_recipient
+                    event_target:gift_recipient = {
+                        is_subject_of = event_target:gift_sender
+                    }
+                }
+            }
+        }
+        desc = "send_gift.2.d_ally"
+    }
+    desc = {
+        trigger = {
+            event_target:gift_sender = {
+                is_rival = event_target:gift_recipient
+            }
+        }
+        desc = "send_gift.2.d_rival"
+    }
+    desc = {
+        trigger = {
+            NOT = {
+                event_target:gift_sender = {
+                    OR = {
+                        is_rival = event_target:gift_recipient
+                        alliance_with = event_target:gift_recipient
+                        is_subject_of = event_target:gift_recipient
+                        event_target:gift_recipient = {
+                            is_subject_of = event_target:gift_sender
+                        }
+                    }
+                }
+            }
+        }
+        desc = "send_gift.2.d_neutral"
+    }
+
+    picture = ECONOMY_eventPicture
+    
+    is_triggered_only = yes
+
+    trigger = {
+
+    }
+
+    option = {
+        name = "RECIEVE_GIFT_CONFIRM"
+    }
+
+    option = {
+        name = "RECIEVE_GIFT_DISABLE_EVENT"
+
+        set_country_flag = settings_gift_recieved_event_off
+    }
+}

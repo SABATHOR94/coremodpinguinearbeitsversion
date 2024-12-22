@@ -1,0 +1,27 @@
+country_decisions = {
+
+	more_condottieri_1 = {
+		major = no
+		color =  { 255 0 0 }
+		potential = {
+			NOT = {
+				has_country_modifier = more_condottieri
+			}
+
+		}
+		allow = {
+			adm_tech = 6
+		}
+		effect = {
+			add_country_modifier = {
+				name = more_condottieri
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+}

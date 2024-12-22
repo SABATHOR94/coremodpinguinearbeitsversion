@@ -1,0 +1,37 @@
+country_decisions = {
+    colonial_venture = {
+		major = no
+		color =  { 255 0 0 }
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			dip_tech = 5
+			treasury = 250
+			OR = {
+				NOT = { has_country_flag = colonial_venture_decision }
+				had_country_flag = {
+					flag = colonial_venture_decision
+					days = 7300
+				}
+			}
+		}
+		effect = {
+			add_treasury = -250
+            add_adm_power = -50
+            add_dip_power = -50
+            add_mil_power = -50
+			create_explorer = { tradition = 50 }
+			create_conquistador = { tradition = 50 }
+			clr_country_flag = colonial_venture_decision
+			set_country_flag = colonial_venture_decision
+			add_country_modifier = {
+				name = "colonial_venture"
+				duration = 7300
+			}
+		}
+	}
+}

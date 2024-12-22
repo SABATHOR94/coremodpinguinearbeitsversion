@@ -1,0 +1,68 @@
+binary_variable_effect = { #effect #variable
+	set_variable = { which = temp which = $variable$ }
+	if = {
+		limit = {
+			check_variable = { which = temp value = 0 }
+		}
+		var_effect_h = { sign = + num = 83886.08 effect = $effect$}
+		var_effect_h = { sign = + num = 41943.04 effect = $effect$}
+		var_effect_h = { sign = + num = 20971.52 effect = $effect$}
+		var_effect_h = { sign = + num = 10485.76 effect = $effect$}
+		var_effect_h = { sign = + num = 5242.88 effect = $effect$}
+		var_effect_h = { sign = + num = 2621.44 effect = $effect$}
+		var_effect_h = { sign = + num = 1310.72 effect = $effect$}
+		var_effect_h = { sign = + num = 655.36 effect = $effect$}
+		var_effect_h = { sign = + num = 327.68 effect = $effect$}
+		var_effect_h = { sign = + num = 163.84 effect = $effect$}
+		var_effect_h = { sign = + num = 81.92 effect = $effect$}
+		var_effect_h = { sign = + num = 40.96 effect = $effect$}
+		var_effect_h = { sign = + num = 20.48 effect = $effect$}
+		var_effect_h = { sign = + num = 10.24 effect = $effect$}
+		var_effect_h = { sign = + num = 5.12 effect = $effect$}
+		var_effect_h = { sign = + num = 2.56 effect = $effect$}
+		var_effect_h = { sign = + num = 1.28 effect = $effect$}
+		var_effect_h = { sign = + num = 0.64 effect = $effect$}
+		var_effect_h = { sign = + num = 0.32 effect = $effect$}
+		var_effect_h = { sign = + num = 0.16 effect = $effect$}
+		var_effect_h = { sign = + num = 0.08 effect = $effect$}
+		var_effect_h = { sign = + num = 0.04 effect = $effect$}
+		var_effect_h = { sign = + num = 0.02 effect = $effect$}
+		var_effect_h = { sign = + num = 0.01 effect = $effect$}
+	}
+	else = {
+		multiply_variable = { which = temp value = -1 }
+		var_effect_h = { sign = - num = 83886.08 effect = $effect$}
+		var_effect_h = { sign = - num = 41943.04 effect = $effect$}
+		var_effect_h = { sign = - num = 20971.52 effect = $effect$}
+		var_effect_h = { sign = - num = 10485.76 effect = $effect$}
+		var_effect_h = { sign = - num = 5242.88 effect = $effect$}
+		var_effect_h = { sign = - num = 2621.44 effect = $effect$}
+		var_effect_h = { sign = - num = 1310.72 effect = $effect$}
+		var_effect_h = { sign = - num = 655.36 effect = $effect$}
+		var_effect_h = { sign = - num = 327.68 effect = $effect$}
+		var_effect_h = { sign = - num = 163.84 effect = $effect$}
+		var_effect_h = { sign = - num = 81.92 effect = $effect$}
+		var_effect_h = { sign = - num = 40.96 effect = $effect$}
+		var_effect_h = { sign = - num = 20.48 effect = $effect$}
+		var_effect_h = { sign = - num = 10.24 effect = $effect$}
+		var_effect_h = { sign = - num = 5.12 effect = $effect$}
+		var_effect_h = { sign = - num = 2.56 effect = $effect$}
+		var_effect_h = { sign = - num = 1.28 effect = $effect$}
+		var_effect_h = { sign = - num = 0.64 effect = $effect$}
+		var_effect_h = { sign = - num = 0.32 effect = $effect$}
+		var_effect_h = { sign = - num = 0.16 effect = $effect$}
+		var_effect_h = { sign = - num = 0.08 effect = $effect$}
+		var_effect_h = { sign = - num = 0.04 effect = $effect$}
+		var_effect_h = { sign = - num = 0.02 effect = $effect$}
+		var_effect_h = { sign = - num = 0.01 effect = $effect$}
+	}
+}
+var_effect_h = {
+	if = {
+		limit = {
+			check_variable = { which = temp value = $num$ }
+		}
+		subtract_variable = { which = temp value = $num$ }
+		$effect$ = $sign$$num$
+	}
+}

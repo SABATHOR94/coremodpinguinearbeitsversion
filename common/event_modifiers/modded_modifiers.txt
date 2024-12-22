@@ -1,0 +1,126 @@
+colonial_venture = {
+	global_colonial_growth = 15
+	colonists = 1
+	range = 5
+}
+
+colonist_venture = {
+	global_colonial_growth = 15
+}
+
+deving_replacement = {
+	development_cost = -0.1
+}
+
+more_condottieri = {
+	possible_condottieri = 0.5
+}
+
+even_more_condottieri = {
+	possible_condottieri = 0.5
+}
+
+maghreb_mod_1 = {
+	global_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.5
+	missionaries = 1
+	development_cost = -0.2
+}
+maghreb_mod_2 = {
+	land_morale = 0.15
+}
+maghreb_mod_3 = {
+	galley_power = 0.25
+}
+maghreb_mod_4 = {
+	colonists = 1
+	global_colonial_growth = 20
+}
+maghreb_mod_5 = {
+	global_autonomy = -0.1
+}
+maghreb_mod_6 = {
+	liberty_desire_from_subject_development = -0.2
+	global_tariffs = 0.25
+}
+maghreb_mod_7 = {
+	local_manpower_modifier = 0.5
+	regiment_recruit_speed = -0.5
+	supply_limit_modifier = 1
+}
+maghreb_mod_8 = {
+	development_cost = -0.2
+}
+maghreb_mod_9 = {
+	global_trade_goods_size_modifier = 0.1
+}
+estate_burghers_hydraulic_rights_mountain = {
+	local_development_cost = -0.3
+}
+estate_burghers_hydraulic_rights_arctic = {
+	local_development_cost = -0.5
+}
+delay_navigator = {}
+delay_grand_captain = {}
+delay_army_organiser = {}
+delay_commandant = {}
+delay_quartermaster = {}
+delay_recruitmaster = {}
+delay_fortification_expert = {}
+delay_inquisitor = {}
+delay_philosopher = {}
+delay_natural_scientist = {}
+delay_army_reformer = {}
+delay_naval_reformer = {}
+delay_artist = {}
+delay_treasurer = {}
+delay_theologian = {}
+delay_statesman = {}
+delay_colonial_governor = {}
+
+spymaster = {}
+diplomat = {}
+trader = {}
+master_of_mint = {}
+navigator = {}
+grand_captain = {}
+army_organiser = {}
+commandant = {}
+quartermaster = {}
+recruitmaster = {}
+fortification_expert = {}
+inquisitor = {}
+philosopher = {}
+natural_scientist = {}
+army_reformer = {}
+naval_reformer = {}
+artist = {}
+treasurer = {}
+theologian = {}
+statesman = {}
+colonial_governor = {}
+
+modded_piety_bav = {
+	land_morale = 0.1
+	global_tax_modifier = 0.2
+}
+
+maghrebs_prospers = {
+	local_development_cost = -0.15
+	local_manpower_modifier = 0.2
+}
+
+independence_warrior = {
+	defensiveness = 0.20
+	stability_cost_modifier = -0.2
+	siege_ability = 0.20
+}
+
+eth_mod_1 = {
+	global_missionary_strength = 0.03
+	missionaries = 1
+}
+
+tau_mod_recov = {
+	reinforce_speed = 0.10
+}
