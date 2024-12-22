@@ -1,0 +1,40 @@
+namespace = karakun_flavor
+
+#Aksum
+country_event = {
+	id = karakun_flavor.1
+	title = karakun_flavor.1.t
+	picture = northamericagfx_CITY_VIEW_eventPicture
+
+	desc = {
+		desc = "karakun_flavor.1.da"
+	}
+
+
+    is_triggered_only = yes
+
+	option = {
+		name = karakun_flavor.1.a
+		add_prestige = 10
+        456 = {
+            add_province_modifier = { 
+                name = kak_people
+                duration = -1  
+                #desc = kak_people_tooltip
+                #hidden = yes
+            }
+        }
+
+	}
+    option = {
+		name = karakun_flavor.1.b
+        set_capital = 454
+        454 = {
+            add_base_production = 4
+            add_base_tax = 4
+            add_base_manpower = 6
+        }
+		add_prestige = 10
+
+	}
+}

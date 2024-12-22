@@ -550,15 +550,15 @@ gc_tunis_4 = {
 			num_of_owned_provinces_with = {
 				value = 10
 				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard
+					has_building = dock
+					has_building = drydock
 				}
 			}
 			338 = { 
 				owned_by = ROOT 
 				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard
+					has_building = dock
+					has_building = drydock
 				}
 			}
 		}

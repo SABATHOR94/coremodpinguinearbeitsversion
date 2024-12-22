@@ -4797,7 +4797,11 @@ estate_burgher_of_bukhara = {
 	influence = 0.1
 	loyalty = 0.1
 	is_valid = {
-		is_or_was_tag = { tag = BUK }
+		OR = {
+			is_or_was_tag = { tag = KAK }
+			is_or_was_tag = { tag = ZZZ }
+		}
+		
 	}
 	on_granted = {
 		custom_tooltip = estate_burghers_enslaving_rights_gt
@@ -4841,6 +4845,15 @@ estate_burgher_of_bukhara = {
 			every_owned_province = {
 				limit = {
 					has_terrain = mountain
+				}
+				add_province_modifier = {
+					name = estate_burghers_hydraulic_rights_mountain
+					duration = -1
+				}
+			}
+			every_owned_province = {
+				limit = {
+					has_terrain = glacial
 				}
 				add_province_modifier = {
 					name = estate_burghers_hydraulic_rights_mountain

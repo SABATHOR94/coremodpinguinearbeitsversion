@@ -3100,7 +3100,7 @@ tur_abu_hanifa_mosque_modifier = {
 }
 
 tur_inefficient_tax_collection = {
-	vassal_forcelimit_bonus = -0.25
+#	vassal_forcelimit_bonus = -0.25
 	vassal_income = -0.5
 }
 
@@ -5063,12 +5063,14 @@ dan_ulfeldt_deposed = {
 
 dan_granting_privileges_to_juniors = {
 	global_tax_modifier = -0.1
-	vassal_forcelimit_bonus = -0.1
+	subject_tax_modifier_25 = yes
+	#vassal_forcelimit_bonus = -0.1
 }
 
 dan_granting_privileges_to_juniors_extra = {
 	global_tax_modifier = -0.25
-	vassal_forcelimit_bonus = -0.2
+	subject_tax_modifier_25 = yes
+	#vassal_forcelimit_bonus = -0.2
 }
 
 dan_granted_privileges_to_nobility = {
@@ -5279,7 +5281,7 @@ vassals_feel_safe = {
 
 firm_hand = {
 	vassal_income = 0.25
-	vassal_forcelimit_bonus = 1
+	#vassal_forcelimit_bonus = 1
 }
 
 emissary_authority = {

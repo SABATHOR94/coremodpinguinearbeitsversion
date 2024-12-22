@@ -5783,7 +5783,7 @@ BOS_ideas = {
 		diplomatic_upkeep = 1
 	}
 	land_of_princes = {
-		vassal_forcelimit_bonus = 1
+		#vassal_forcelimit_bonus = 1
 		vassal_income = 0.25
 	}
 	flexible_diplomacy = {
@@ -11275,7 +11275,7 @@ ASK_ideas = {
 	}
 	
 	ask_reform_shogun_shugo_system = {
-		vassal_forcelimit_bonus = 1
+		#vassal_forcelimit_bonus = 1
 		vassal_income = 0.25
 	}
 }
@@ -15849,7 +15849,8 @@ ADU_ideas = {
 		fire_damage_received = -0.15
 	}
 	adu_taifa_adminstration = {
-		vassal_forcelimit_bonus = 1
+		#vassal_forcelimit_bonus = 1
+		subject_tax_modifier_25 = yes
     }
 	adu_ahl_uhl_dhimma = {
 		tolerance_heathen = 3
@@ -16227,7 +16228,7 @@ LAE_ideas = {
 		republican_tradition = 0.3
 		meritocracy = 1
 		horde_unity = 1
-        vassal_forcelimit_bonus = 1
+        #vassal_forcelimit_bonus = 1
     }
     lae_latin_patriarch = {
         papal_influence = 2
@@ -16887,7 +16888,7 @@ MAJ_ideas = {
 		tag = MAJ
 	}
 	maj_nusantara_tributaries = {
-		vassal_forcelimit_bonus = 1
+		#vassal_forcelimit_bonus = 1
 		reduced_liberty_desire = 10
 	}
 	maj_restore_candi = {
@@ -17424,7 +17425,7 @@ tongan_ideas = { #Credit to James Beaumont
 	}
 	tonga_pulotu = {
 		vassal_income = 0.30
-		vassal_forcelimit_bonus = 0.30
+		#vassal_forcelimit_bonus = 0.30
 	}
 	tonga_maui = {
 		development_cost = -0.15

@@ -1945,7 +1945,7 @@ client_state_act = {
 		full_idea_group = influence_ideas 
 	}
 	
-	vassal_forcelimit_bonus = 0.5
+	#vassal_forcelimit_bonus = 0.5
 	allow_client_states = yes 
 	
 	effect = {}

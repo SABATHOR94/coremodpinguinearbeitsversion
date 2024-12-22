@@ -992,7 +992,8 @@ unified_army_command = {
 		full_idea_group = influence_ideas
 	}	
 	
-	vassal_forcelimit_bonus = 1
+	#vassal_forcelimit_bonus = 1
+	vassal_income = 0.2
 	reduced_liberty_desire = 10
 	
 	effect = {}
@@ -1371,7 +1372,7 @@ kharash_policy = {
 	}
 
 	land_morale = 0.05
-	vassal_forcelimit_bonus = 1.0
+	#vassal_forcelimit_bonus = 1.0
 
 	effect = {}
 	removed_effect = {}

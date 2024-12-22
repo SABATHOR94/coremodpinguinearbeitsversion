@@ -1963,16 +1963,37 @@ on_dismantle_revolution = {
 # province
 on_adm_development = {
 	on_development_effect = { type = adm }
+		# Increments the ADM dev click counter:
+		owner = {
+			change_variable = {
+				which = adm_dev_clicks
+				value = 1
+			}
+		}
 }
 
 # province
 on_dip_development = {
 	on_development_effect = { type = dip }
+	# Increments the DIP dev click counter:
+	owner = {
+		change_variable = {
+			which = dip_dev_clicks
+			value = 1
+		}
+	}
 }
 
 # province
 on_mil_development = {
 	on_development_effect = { type = mil }
+	# Increments the MIL dev click counter:
+	owner = {
+		change_variable = {
+			which = mil_dev_clicks
+			value = 1
+		}
+	}
 }
 
 on_overextension_pulse = {

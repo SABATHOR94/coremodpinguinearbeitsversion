@@ -24,7 +24,7 @@ Esel = {
 	}
 }
 
-Eber = {
+Keiler = {
 	build_cost = -0.15
 	global_tax_modifier = 0.3
 	

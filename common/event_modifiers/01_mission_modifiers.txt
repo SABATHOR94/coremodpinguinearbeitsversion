@@ -581,7 +581,7 @@ rig_tower_defenders = {
 
 rig_the_rigan_orders = {	#Permanent
 	army_tradition = 1
-	vassal_forcelimit_bonus = 0.25
+	#vassal_forcelimit_bonus = 0.25
 }
 
 rig_order_of_riga = {	#Permanent until no longer subject of Riga
@@ -3780,7 +3780,8 @@ spa_milan = {
 
 spa_new_granada = {
 	reduced_liberty_desire = 15
-	vassal_forcelimit_bonus = 0.5
+	subject_tax_modifier_25 = yes
+	#vassal_forcelimit_bonus = 0.5
 }
 
 displaced_moriscos = {
@@ -7821,7 +7822,8 @@ pol_imperial_polish_decrees_modifier = {
 }
 pol_overlordship_in_prussia_modifier = {
 	army_tradition = 0.5 
-	vassal_forcelimit_bonus = 0.2 
+	subject_tax_modifier_25 = yes
+	#vassal_forcelimit_bonus = 0.2 
 }
 pol_developing_port_modifier = {
 	local_development_cost = -0.10 
@@ -9007,7 +9009,7 @@ fra_legacy_of_eleanor_of_aquitaine_modifier = {
 	global_spy_defence = 0.5
 }
 fra_strong_familial_ties_modifier = { 
-	vassal_forcelimit_bonus = 0.5
+	#vassal_forcelimit_bonus = 0.5
 	reduced_liberty_desire = 10 
 }
 fra_conquered_the_capetian_house_of_anjou_modifier = { 
@@ -9648,7 +9650,7 @@ jap_commercialization_of_mineral_resources_modifier = {
 }
 
 jap_bolstered_spirits = {
-	extra_manpower_at_religious_war = yes 
+	global_manpower_modifier = 0.2
 }	
 
 jap_eighteen_arts_modifier = {
@@ -13106,12 +13108,12 @@ hun_religious_tolerance = {
 }
 
 azt_rise_of_montezuma = {
-	vassal_forcelimit_bonus = 0.5
+	#vassal_forcelimit_bonus = 0.5
 	monarch_power_tribute = 1
 }
 
 azt_rise_of_montezuma_2 = {
-	vassal_forcelimit_bonus = 0.5
+	#vassal_forcelimit_bonus = 0.5
 	monarch_power_tribute = 1
 	reduced_liberty_desire = 10
 	yearly_doom_reduction = 0.25
@@ -13119,7 +13121,7 @@ azt_rise_of_montezuma_2 = {
 }
 
 azt_rise_of_montezuma_3 = {
-	vassal_forcelimit_bonus = 1
+	#vassal_forcelimit_bonus = 1
 	vassal_income = 0.2
 	monarch_power_tribute = 1
 	reduced_liberty_desire = 10
@@ -13128,7 +13130,7 @@ azt_rise_of_montezuma_3 = {
 }
 
 azt_rise_of_montezuma_4 = {
-	vassal_forcelimit_bonus = 1
+	#vassal_forcelimit_bonus = 1
 	vassal_income = 0.3
 	monarch_power_tribute = 2
 	reduced_liberty_desire = 25
@@ -13556,7 +13558,7 @@ MAY_american_frontiers = {
 
 MAY_building_up_hegemon_network = {
 	reduced_liberty_desire = 10
-	vassal_forcelimit_bonus = 0.5
+	#vassal_forcelimit_bonus = 0.5
 }
 
 MAY_marriage_and_intimidation = {

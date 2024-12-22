@@ -1,0 +1,514 @@
+mysore_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = KAK
+	}
+	has_country_shield = yes
+	kak_mission_1 = {
+		icon = mission_son_fetishist_alliances
+		position = 3
+		required_missions = {
+
+		}
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			stability = 1
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = kak_mod_1
+				duration = 3650
+			}
+		}
+	}
+
+	kak_mission_2 = {
+		icon = mission_break_the_tatar_yoke
+		position = 4
+		required_missions = {
+			kak_mission_1
+		}
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			OR = {
+				AND = {
+					OR = {
+						is_rival = TIM
+						is_rival = SHY
+						is_rival = NOG
+						is_rival = CHG
+					}
+					OR = {
+						AND = {
+							has_won_war_against = {
+								who = TIM
+								max_years_since = 25
+							}
+							has_won_war_against = {
+								who = NOG
+								max_years_since = 25
+							}
+						}
+						AND = {
+							has_won_war_against = {
+								who = SHY
+								max_years_since = 25
+							}
+							has_won_war_against = {
+								who = CHG
+								max_years_since = 25
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = { exists = TIM }
+					NOT = { exists = NOG }
+					NOT = { exists = SHY }
+					NOT = { exists = CHG }
+				}
+			}
+			
+		}
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						has_won_war_against = {
+							who = SHY
+							max_years_since = 25
+						}
+						has_won_war_against = {
+							who = CHG
+							max_years_since = 25
+						}
+					}
+				}
+				add_casus_belli = {
+					target = SHY
+					type = cb_crusade
+					months = 240
+				}
+				add_casus_belli = {
+					target = CHG
+					type = cb_crusade
+					months = 240
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						has_won_war_against = {
+							who = TIM
+							max_years_since = 25
+						}
+						has_won_war_against = {
+							who = NOG
+							max_years_since = 25
+						}
+					}
+				}
+				add_casus_belli = {
+					target = TIM
+					type = cb_crusade
+					months = 240
+				}
+				add_casus_belli = {
+					target = NOG
+					type = cb_crusade
+					months = 240
+				}
+			}
+			else = {
+				add_adm_power = 100
+			}
+		}
+	}
+
+	kak_mission_3 = {
+		icon = mission_abu_saids_dream
+		position = 5
+		required_missions = {
+			kak_mission_2
+		}
+		provinces_to_highlight = {
+			area = transoxiana_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			transoxiana_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			owns_core_province = 456
+			owns_core_province = 454
+		}
+		effect = {
+			country_event = { 
+				id = karakun_flavor.1
+				days = 3
+				tooltip = kak_event_tooltip
+			}
+		}
+	}
+
+	kak_mission_4 = {
+		icon = mission_kazakh_tribes
+		position = 6
+		required_missions = {
+			kak_mission_3
+		}
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				owned_by = ROOT
+				is_prosperous = yes
+				value = 30
+				custom_tooltip = kak_people_2
+			}
+			stability = 3
+			adm = 6
+			OR = {
+				DIP = 6
+				MIL = 6
+			}
+		}
+		effect = {
+			change_government_reform_progress = 200
+		}
+	}
+}
+
+mysore_slot_2 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = KAK
+	}
+	has_country_shield = yes
+	kak_mission_5 = {
+		icon = mission_fish_markets
+		position = 3
+		required_missions = {
+
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2118
+				province_id = 2352
+				province_id = 439
+				province_id = 461
+				province_id = 2358
+				province_id = 470
+			}
+		}
+		trigger = {
+			2118 = {
+				owned_by = root
+				has_production_building_trigger = yes
+			}
+			2352 = {
+				owned_by = root
+				has_production_building_trigger = yes
+			}
+			439 = {
+				owned_by = root
+				has_production_building_trigger = yes
+			}
+			461 = {
+				has_fort_building_trigger = yes
+				owned_by = ROOT
+			}
+			2358 = {
+				has_fort_building_trigger = yes
+				owned_by = ROOT
+			}
+			470 = {
+				has_fort_building_trigger = yes
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			2118 = {
+				add_province_modifier = {
+					name = kak_mod_2
+					duration = -1
+				}
+			}
+			2352 = {
+				add_province_modifier = {
+					name = kak_mod_2
+					duration = -1
+				}
+			}
+			439 = {
+				add_province_modifier = {
+					name = kak_mod_2
+					duration = -1
+				}
+			}
+			463 = {
+				add_province_modifier = {
+					name = kak_mod_5
+					duration = -1
+				}
+			}
+			2358 = {
+				add_province_modifier = {
+					name = kak_mod_5
+					duration = -1
+				}
+			}
+			470 = {
+				add_province_modifier = {
+					name = kak_mod_5
+					duration = -1
+				}
+			}
+		}
+	}
+	kak_mission_6 = {
+		icon = aq_qoyunlu_dethrone_the_timurids
+		position = 4
+		required_missions = {
+			kak_mission_5
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = tibet_region
+				area = shanshan_area
+				area = kashgaria_area
+				area = tarim_basin_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			NOT = { exists = TIM }
+			num_of_owned_provinces_with = {
+				OR = {
+					region = tibet_region
+					area = shanshan_area
+					area = kashgaria_area
+					area = tarim_basin_area
+				}
+				value = 15
+			}
+			739 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				if = {
+					limit = {
+						ROOT = {
+							NOT = { mil_tech = 14 }
+						}
+					}
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				else_if = {
+					limit = {
+						ROOT = {
+							AND = {
+								mil_tech = 14
+								NOT = { mil_tech = 19 }
+							}
+						}
+					}
+					OR = {
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				else_if = {
+					limit = {
+						ROOT = {
+							AND = {
+								mil_tech = 19
+								NOT = { mil_tech = 24 }
+							}
+						}
+					}
+					OR = {
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+				else_if = {
+					limit = {
+						ROOT = {
+							mil_tech = 24
+						}
+					}
+					has_building = fort_18th
+				}
+			}
+		}
+		effect = {
+			739 = {
+				change_trade_goods = iron
+				add_province_modifier = {
+					name = kak_mod_3
+					duration = -1
+				}
+			}
+		}
+	}
+	kak_mission_7 = {
+		icon = mission_herat
+		position = 5
+		required_missions = {
+			kak_mission_6
+		}
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			reform_level = 10
+		}
+		effect = {
+			add_country_modifier = {
+				name = kak_mod_4
+				duration = -1
+			}
+		}
+	}
+	kak_mission_8 = {
+		icon = per_language_of_poetry
+		position = 6
+		required_missions = {
+			kak_mission_7
+		}
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			capital_scope = {
+				OR = {
+					development = 50
+					has_building = university
+				}
+			}
+		}
+		effect = { #Esel, Eber, Wolf, Pinguin, Stier, Schlange
+			if = {
+				limit = {
+					has_personal_deity = Wolf
+				}
+				add_country_modifier = {
+					name = kak_mod_deity_1
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_personal_deity = Stier
+				}
+				add_country_modifier = {
+					name = kak_mod_deity_2
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_personal_deity = Eber
+				}
+				add_country_modifier = {
+					name = kak_mod_deity_3
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_personal_deity = Pinguin
+				}
+				add_country_modifier = {
+					name = kak_mod_deity_4
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_personal_deity = Esel
+				}
+				add_country_modifier = {
+					name = kak_mod_deity_5
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_personal_deity = Schlange
+				}
+				add_country_modifier = {
+					name = kak_mod_deity_6
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+mysore_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = KAK
+	}
+	has_country_shield = yes
+	kak_mission_9 = {
+		icon = mission_industria_sedera
+		position = 7
+		required_missions = {
+			kak_mission_4
+			kak_mission_8
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2364
+				province_id = 2125
+				province_id = 460
+			}
+		}
+		trigger = {
+			2364 = {
+				owned_by = root
+				has_manufactory_trigger	= yes
+			}
+			2125 = {
+				owned_by = root
+				has_manufactory_trigger	= yes
+			}
+			460 = {
+				owned_by = root
+				has_building = furnace
+			}
+		}
+		effect = {
+			2364 = {
+				change_trade_goods = coal
+				add_base_production = 2
+				add_base_mapower = 1
+			}
+			2125 = {
+				change_trade_goods = coal
+				add_base_production = 2
+				add_base_mapower = 1
+			}
+		}
+	}
+}

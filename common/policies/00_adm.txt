@@ -679,7 +679,8 @@ vassal_obligations_act = {
 	}	
 	
 	diplomatic_upkeep = 1 
-	vassal_forcelimit_bonus = 1
+	#vassal_forcelimit_bonus = 1
+	vassal_income = 0.2
 	
 	effect = {}
 	removed_effect = {}

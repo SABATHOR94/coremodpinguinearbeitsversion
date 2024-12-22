@@ -1667,7 +1667,9 @@ influence_ideas = {
 		liberty_desire_from_subject_development = -0.1
 	}
 	marcher_lords = {
-		vassal_forcelimit_bonus = 1
+		#vassal_forcelimit_bonus = 1
+		subject_tax_modifier_25 = yes
+		allow_client_states = yes 
 	}
 
 	ai_will_do = {
