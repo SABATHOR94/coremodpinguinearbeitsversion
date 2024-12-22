@@ -493,9 +493,12 @@ country_decisions = {
 				religion = hussite
 				religion = anglican
 			}
-			owns_core_province = 41			# Königsberg
-			owns_core_province = 42			# Warmia
-			owns_core_province = 43			# Danzig
+			OR = {
+				owns_core_province = 41			# Königsberg
+				owns_core_province = 42			# Warmia
+				owns_core_province = 43			# Danzig
+			}
+			
 		}
 		effect = {
 			change_tag = PRU

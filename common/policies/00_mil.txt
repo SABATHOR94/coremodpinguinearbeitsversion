@@ -1593,6 +1593,7 @@ universal_serfdom_act = {
 	
 	nobles_loyalty_modifier = 0.1
 	global_manpower_modifier = 0.25
+	development_cost = -0.1
 
 	effect = {}
 	removed_effect = {}

@@ -1777,24 +1777,7 @@ woc_boh_third_branch = {
 		trigger = {
 			army_size = 25
 			prestige = 40
-			custom_trigger_tooltip = {
-				tooltip = boh_most_army_hre
-				NOT = {
-					any_country = {
-						is_part_of_hre = yes
-						army_size = ROOT
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = boh_most_development_hre
-				NOT = {
-					any_country = {
-						is_part_of_hre = yes
-						total_development = ROOT
-					}
-				}
-			}
+			land_forcelimit = 50
 		}
 		
 		provinces_to_highlight = {

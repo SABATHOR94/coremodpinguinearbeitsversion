@@ -124,3 +124,7 @@ eth_mod_1 = {
 tau_mod_recov = {
 	reinforce_speed = 0.10
 }
+
+liberated_ulm = {
+	local_development_cost = -0.3
+}

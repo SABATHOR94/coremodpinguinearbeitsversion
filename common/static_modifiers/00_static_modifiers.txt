@@ -374,6 +374,7 @@ march_bonus = {
 	manpower_recovery_speed = 0.20
 	land_maintenance_modifier = -0.20
 	naval_maintenance_modifier = -0.20
+	can_not_build_buildings = yes
 }
 
 pu_subject_bonus = {

@@ -71,7 +71,7 @@ bavarian_missions_main = {
 		}
 		trigger = {
 			tag = BAV
-			army_size_percentage = 1
+			army_size_percentage = 0.4
 			all_owned_province = {
 				NOT = { unrest = 1 }
 			}
@@ -135,6 +135,9 @@ bavarian_missions_main = {
         }
         trigger = {
             num_of_cities = 10
+			1872 = {
+				owned_by = root
+			}
 			OR = {
 				1757 = { #Oberpfalz
 					country_or_non_sovereign_subject_holds = ROOT
@@ -203,6 +206,12 @@ bavarian_missions_main = {
 					NOT = {  is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
+			}
+			1872 = {
+				add_province_modifier = {
+					name = "liberated_ulm"
+					duration = -1
+				}
 			}
 		}
 		ai_weight = {

@@ -42,21 +42,11 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			OR = {
-				piety = 0.5
-				has_idea_group = religious_ideas
-				AND = {
-					inquisitor = 3
-					is_in_deficit = no
-				}
-			}
 			owns_core_province = 1148 	#Gobir
 			1148 = { 					#Gobir
 				is_state = yes
 			}
-			religion = sunni
-			dominant_religion = sunni
-			#num_of_cities = 50
+			num_of_cities = 40
 		}
 		effect = {
 			1148 = {

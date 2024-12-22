@@ -5971,12 +5971,12 @@ mossi_ideas = {
 
 fulani_jihad_ideas = {
 	start = {
-		recover_army_morale_speed = 0.10
-		manpower_in_true_faith_provinces = 0.10
+		recover_army_morale_speed = 0.15
+		global_manpower_modifier = 0.2
 	}
 	
 	bonus = {
-		army_tradition_from_battle = 0.5
+		army_tradition_from_battle = 1
 	}
 	
 	trigger = {
@@ -5989,11 +5989,12 @@ fulani_jihad_ideas = {
 	free = yes		#will be added at load.
 	
 	wandering_scholars = {
-		global_ship_trade_power = 0.15
+		global_trade_power = 0.2
+		infantry_power = 0.1
 	}
 	
 	unrighteous_kings = { 
-		monarch_admin_power = 1
+		land_forcelimit_modifier = 0.15
 	}
 	
 	fulani_jihads = {
@@ -6001,7 +6002,7 @@ fulani_jihad_ideas = {
 	}
 	
 	imams_and_emirs = { 
-		land_morale = 0.15
+		land_morale = 0.2
 	}
 	
 	islamic_scholarship = {
@@ -6010,7 +6011,7 @@ fulani_jihad_ideas = {
 	
 	community_of_the_faithful = {
 		inflation_reduction = 0.1
-		build_cost = -0.1
+		build_cost = -0.15
 	}
 
 	caliph_in_africa = {
@@ -7052,8 +7053,8 @@ WLS_ideas = {
 
 hausa_ideas = {
 	start = {
-		diplomats = 1
-		global_own_trade_power = 0.1
+		core_creation = -0.15
+		land_morale = 0.1
 	}
 	
 	bonus = {
@@ -7072,7 +7073,7 @@ hausa_ideas = {
 	free = yes		#will be added at load.
 	
 	heirs_of_bayajida = {
-		diplomatic_upkeep = 1
+		years_of_nationalism = -5
 	}
 	
 	regnal_chronicles = { 

@@ -167,4 +167,5 @@ IndependenceWar_title:0 "Freeedom!"
 WELSHNOMEN: "Westphalia"
 WELSHNOMEN_ADJ: "Westphalian"
 BAUERNRUSSIA: "Peasant Confederacy"
-BAUERNRUSSIA_ADJ: "Peasant Confederate"
+BAUERNRUSSIA_ADJ: "Peasant Confederate"^
+liberated_ulm: "Bavarian Ulm"
