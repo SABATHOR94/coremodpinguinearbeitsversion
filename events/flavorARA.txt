@@ -338,7 +338,7 @@ country_event = {
 			name = "Èric" 
 			DIP = 6
 			ADM = 5
-			MIL = 4
+			MIL = 3
 			age = 28
 			
 		}
