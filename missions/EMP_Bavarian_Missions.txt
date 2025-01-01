@@ -80,6 +80,7 @@ emp_bav_prestige_branch = {
 				prestige = 80
 			}
 			legitimacy_equivalent = 95
+			grown_by_development = 75
 		}
 		effect = {
 			add_prestige = 20

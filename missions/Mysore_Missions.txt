@@ -6,11 +6,43 @@ mysore_slot_1 = {
 		tag = MYS
 	}
 	has_country_shield = yes
+	mysore_mission_0 = {
+		icon = mission_subdue_the_afghans
+		position = 2
+		required_missions = {
+
+		}
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+			custom_tooltip = claim_neighbor_province
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_claim = ROOT
+					}
+				}
+			}
+		}
+	}
 	mysore_mission_1 = {
 		icon = mission_secure_the_malabar_coast
 		position = 3
 		required_missions = {
-
+			mysore_mission_0
 		}
 		provinces_to_highlight = {
 			area = malabar_area
