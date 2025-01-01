@@ -539,6 +539,20 @@ gc_tunis_4 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			tafilalt_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sus_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	gc_tun_privateer = {
