@@ -257,7 +257,7 @@ mysore_slot_2 = {
 					duration = -1
 				}
 			}
-			463 = {
+			461 = {
 				add_province_modifier = {
 					name = kak_mod_5
 					duration = -1

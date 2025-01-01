@@ -16887,7 +16887,7 @@ walls_benin = {
 			prestige_from_land = 1
 			global_prov_trade_power_modifier = 0.1
 			nobles_loyalty_modifier = 0.1
-			discipline = 0.0025
+			discipline = 0.025
 		}
 		on_upgraded = {
 		}
@@ -16909,7 +16909,7 @@ walls_benin = {
 			prestige_from_land = 1
 			global_prov_trade_power_modifier = 0.2
 			nobles_loyalty_modifier = 0.15
-			discipline = 0.0025
+			discipline = 0.025
 			fire_damage = 0.05
 		}
 		on_upgraded = {

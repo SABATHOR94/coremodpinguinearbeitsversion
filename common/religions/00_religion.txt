@@ -1469,7 +1469,7 @@ eastern = {
 			advisor_cost = -0.1
 		}
 		country_as_secondary = {
-			development_cost = -0.1
+			development_cost = -0.05
 			diplomats = 1
 		}
 		on_convert = {
@@ -1576,7 +1576,7 @@ eastern = {
 			local_missionary_strength = -0.02
 		}
 		country_as_secondary = {
-			discipline = 0.05
+			discipline = 0.025
 			global_unrest = -1
 		}
 		heretic = { SHUGENDO }
@@ -2402,6 +2402,10 @@ pagan = {
 		country = {
 			cav_to_inf_ratio = 0.25
 			global_regiment_cost = -0.2
+		}
+		country_as_secondary = {
+			shock_damage = 0.1
+			hostile_attrition = 2
 		}
 		can_have_secondary_religion = yes
 		heretic = { OLD_TENGRI }

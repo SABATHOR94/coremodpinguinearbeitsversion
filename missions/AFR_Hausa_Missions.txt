@@ -436,6 +436,9 @@ hau_unification_mission_slot = {
 			country_event = {
 				id = flavor_hau.1
 			}
+			add_adm_tech = 1
+			add_dip_tech = 1
+			add_mil_tech = 1
 			capital_scope = {
 				add_institution_embracement = {
 					which = feudalism
