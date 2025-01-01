@@ -199,13 +199,9 @@ mysore_slot_2 = {
 			}
 		}
 		effect = {
-			add_country_modifier_for_age = {
+			add_country_modifier = {
 				name = mysore_mod_3
-				age = age_of_discovery
-				else = "
-					add_dip_power = 100
-					add_years_of_income = 1
-				"
+				duration = 9125
 			}
 		}
 	}
