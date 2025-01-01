@@ -24,6 +24,25 @@ mysore_slot_1 = {
 				name = kak_mod_1
 				duration = 3650
 			}
+			add_country_modifier = {
+				name = kak_mod_6
+				duration = 9125
+			}
+			capital_scope = {
+				mamluks_infantry = KAK
+			}
+			capital_scope = {
+				mamluks_infantry = KAK
+			}
+			capital_scope = {
+				mamluks_infantry = KAK
+			}
+			capital_scope = {
+				mamluks_infantry = KAK
+			}
+			capital_scope = {
+				mamluks_infantry = KAK
+			}
 		}
 	}
 

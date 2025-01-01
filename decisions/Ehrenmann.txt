@@ -1,0 +1,30 @@
+country_decisions = {
+
+	Ehrenmann = {
+		major = no
+		color =  { 0 191 255 }
+		potential = {
+			NOT = { has_country_flag = ehrenmann_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			tag = ETH
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = ehrenmann_flag
+			add_prestige = 25
+			add_country_modifier = {
+				name = "Ehrenmann"
+				duration = 3650
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

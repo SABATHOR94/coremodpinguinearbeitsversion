@@ -178,6 +178,11 @@ kak_mod_5 = {
 	local_defensiveness = 0.4
 }
 
+kak_mod_6 = {
+	land_forcelimit = 5
+	global_manpower = 5
+}
+
 kak_mod_deity_1 = {
 	enforce_religion_cost = -5
 }
@@ -200,4 +205,8 @@ kak_mod_deity_5 = {
 
 kak_mod_deity_6 = {
 	global_tax_modifier = 0.2
+}
+
+Ehrenmann = {
+	global_tax_income = 24
 }
