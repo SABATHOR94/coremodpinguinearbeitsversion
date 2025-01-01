@@ -1,7 +1,7 @@
 country_decisions = {
     dev_click_display = {
         major = yes
-        color = {75 0 75}
+		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_stats_off }
         }
@@ -36,7 +36,7 @@ country_decisions = {
 
     sent_gift_display = {
         major = yes
-        color = {75 0 75}
+		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_stats_off }
         }
@@ -70,7 +70,7 @@ country_decisions = {
     }
 
     adm_advisor_event_display = {
-        color = {75 256 0}
+		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_qol_event_decision_off }
         }
@@ -115,7 +115,7 @@ country_decisions = {
     }
 
     dip_advisor_event_display = {
-        color = {75 256 0}
+		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_qol_event_decision_off }
         }
@@ -163,7 +163,7 @@ country_decisions = {
     }
 
     mil_advisor_event_display = {
-        color = {75 256 0}
+		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_qol_event_decision_off }
         }
@@ -209,7 +209,7 @@ country_decisions = {
 
     important_events_display = {
         major = yes
-        color = {75 0 75}
+		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_qol_event_decision_off }
         }

@@ -2,6 +2,7 @@ country_decisions = {
 
 	RenameWelsh = {
 		major = yes
+		color =  { 0 191 255 }
 		potential = {
 			normal_or_historical_nations = yes
 			NOT = { has_country_flag = formed_welsh_flag }
