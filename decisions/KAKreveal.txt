@@ -1,0 +1,38 @@
+country_decisions = {
+
+	KAKreveal = {
+		major = no
+		color =  { 0 191 255 }
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = KAK-reveal_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			tag = KAK
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = reveal_flag
+			central_asia_region = {
+				discover_country = KAK
+			}
+			mongolia_region = {
+				discover_country = KAK
+			}
+			ural_region = {
+				discover_country = KAK
+			}
+			west_siberia_region = {
+				discover_country = KAK
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
