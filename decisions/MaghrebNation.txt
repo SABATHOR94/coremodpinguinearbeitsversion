@@ -24,6 +24,10 @@ country_decisions = {
 				}
 			}
 			culture_group = maghrebi
+			OR = {
+				tag = TUN
+				tag = MOR
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
