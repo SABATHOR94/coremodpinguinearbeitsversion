@@ -118,4 +118,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 #623;630;sea;1360;-1;-1;-1;-1;Tulangbewang-Kalapa
 640;659;sea;1361;-1;-1;-1;-1;Sambas-Lingga
 628;639;sea;1358;-1;-1;-1;-1;Surabaya-Banjar #geht
+2455;2986;sea;1302;-1;-1;-1;-1;Tunis-Sardinia
+341;4736;sea;1302;-1;-1;-1;-1;Tunis-Sicily
+1247;115;sea;1298;-1;-1;-1;-1;Pisa-Korsica
 -1;-1;;-1;-1;-1;-1;-1;-1;
