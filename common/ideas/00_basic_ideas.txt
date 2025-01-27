@@ -1495,7 +1495,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		governing_capacity_modifier = 0.2
+		governing_capacity_modifier = 0.33
 		eunuchs_loyalty_modifier = 0.1
 	}
 
@@ -1505,12 +1505,14 @@ administrative_ideas = {
 	local_rule = {
 		advisor_pool = 1
 		num_of_pronoiars = 1
+		ae_impact = -0.1
 	}
 	adaptability = {
 		core_creation = -0.25
 	}
 	cultural_regulations = {
 		promote_culture_cost = -0.3
+		culture_conversion_cost = -0.2
 	}
 	stable_government = {
 		stability_cost_modifier = -0.25 
@@ -1520,7 +1522,6 @@ administrative_ideas = {
 	}
 	civil_servants = {
 		adm_tech_cost_modifier = -0.1
-		ae_impact = -0.1
 	}
 
 	ai_will_do = {
@@ -1834,33 +1835,32 @@ mercenary_ideas = {
 	category = MIL 
 
 	bonus = {
-		mercenary_discipline = 0.05
-		possible_condottieri = 1 
+		shock_damage_received = -0.2
 	}
 
 	organised_mercenary_payment = {
-		mercenary_cost = -0.25
+		land_attrition = -0.15
 	}
 	war_council = {
-		mil_advisor_cost = -0.25
-		merc_independent_from_trade_range = yes
+		reinforce_cost_modifier = -0.1
+		reinforce_speed = 0.1
 	}
 	expanded_contracts = {
-		merc_maintenance_modifier = -0.25
+		leader_land_manuever = 1
+		max_general_maneuver = 1
 	}
 	nation_of_war = {
-		mil_tech_cost_modifier = -0.1
+		regiment_manpower_usage = -0.05
 	}
 	benefits_for_mercenaries = {
-		war_taxes_cost_modifier = -0.5
-		merc_leader_army_tradition = 0.5
+		global_supply_limit_modifier = 0.2
 	}
 	seasoned_veterans = {
-		infantry_power = 0.1
+		recover_army_morale_speed = 0.15
 	}
 	organised_mercenary_recruitment = { 
-		mercenary_manpower = 0.3
-		allow_mercenary_drill = yes
+		artillery_barrage_cost = -0.33
+		movement_speed = 0.1
 	}
 
 	ai_will_do = {

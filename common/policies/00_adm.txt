@@ -2036,8 +2036,8 @@ military_innovation_act = {
 		full_idea_group = innovativeness_ideas 
 	}
 	
-	mil_advisor_cost = -0.33
-	mil_tech_cost_modifier = -0.1
+	mil_advisor_cost = -0.15
+	#mil_tech_cost_modifier = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -2059,8 +2059,8 @@ efficient_war_taxes_act = {
 		full_idea_group = economic_ideas 
 	}
 	
-	global_tax_modifier = 0.15
-	possible_condottieri = 1 
+	build_cost = -0.1
+	land_forcelimit_modifier = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -2126,8 +2126,9 @@ mercenary_registration_act = {
 		full_idea_group = mercenary_ideas 
 	}
 	
-	merc_maintenance_modifier = -0.2
+	#merc_maintenance_modifier = -0.2
 	may_build_supply_depot = yes
+	global_prosperity_growth = 0.1
 
 	ai_will_do = {
 		factor = 1
@@ -2170,5 +2171,28 @@ land_inheritance_act = {
 			factor = 1.5
 			tax_income_percentage = 0.7
 		}
+	}
+}
+
+big_government_act = { 
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = court_ideas
+		has_idea_group = administrative_ideas
+	}
+	
+	allow = {
+		full_idea_group = court_ideas
+		full_idea_group = administrative_ideas 
+	}
+	
+	global_manpower_modifier = 0.1
+	global_tax_modifier = 0.15
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
 	}
 }

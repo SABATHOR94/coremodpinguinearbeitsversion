@@ -166,48 +166,6 @@ horse_artillery = {
 	}
 }
 
-public_road_act = {
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = offensive_ideas
-		has_idea_group = trade_ideas
-	}
-	
-	allow = {
-		full_idea_group = offensive_ideas
-		full_idea_group = trade_ideas
-	}
-	
-	movement_speed = 0.10
-	trade_efficiency = 0.10
-
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.6
-			NOT = { trade_income_percentage = 0.1 }
-		}			
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.5
-		}
-	}
-}
 
 superior_supply_system = {
 	monarch_power = MIL
@@ -1570,7 +1528,8 @@ mercenary_tactical_movement_act = {
 		full_idea_group = mercenary_ideas 
 	}
 	
-	mercenary_discipline = 0.05
+	movement_speed = 0.1
+	max_general_siege = 1
 
 	effect = {}
 	removed_effect = {}
@@ -1640,7 +1599,7 @@ sharp_wits_act = {
 	}
 	
 	power_projection_from_insults = 0.25
-	morale_damage = 0.1
+	morale_damage = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -1663,7 +1622,7 @@ sturdy_argument_act = {
 	}
 	
 	ae_impact = -0.1
-	morale_damage_received = -0.1
+	morale_damage_received = -0.15
 	
 
 	effect = {}
@@ -1755,8 +1714,7 @@ dutiful_mercenaries_act = {
 		full_idea_group = religious_ideas 
 	}
 	
-	land_morale = 0.1
-	global_missionary_strength = 0.02
+	global_manpower_modifier = 0.33
 
 	effect = {}
 	removed_effect = {}
@@ -1779,7 +1737,7 @@ hired_expeditions_act = {
 	}
 	
 	force_march_free = yes 
-	recover_army_morale_speed = 0.15
+	#recover_army_morale_speed = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -1977,6 +1935,7 @@ vassal_taxation_policy = {
 	}
 
 	shock_damage = 0.1
+	discipline = 0.025
 
 	effect = {}
 	removed_effect = {}
@@ -2002,5 +1961,27 @@ vassal_taxation_policy = {
 			factor = 1.5
 			vassal = 5
 		}	
+	}
+}
+
+innovative_payment_techniques_act = { 
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = court_ideas
+		has_idea_group = mercenary_ideas 
+	}
+	
+	allow = {
+		full_idea_group = court_ideas
+		full_idea_group = mercenary_ideas 
+	}
+	
+	land_morale = 0.1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
 	}
 }
