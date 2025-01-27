@@ -3,5 +3,5 @@ tags={
 	"Alternative History"
 	"Gameplay"
 }
-name="pe3penguins"
+name="coremodpinguinearbeitsversion"
 supported_version="v1.37.5.0"
