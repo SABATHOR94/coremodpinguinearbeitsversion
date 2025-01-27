@@ -18404,47 +18404,6 @@ voc_ideas = {
 	}
 }
 
-MGH_ideas = {
-	start = {
-		missionaries = 1
-		global_missionary_strength = 0.03
-	}
-	
-	bonus = {
-		naval_forcelimit_modifier = 0.1
-	}
-	
-	trigger = {
-		tag = MGH
-	}
-	free = yes
-	
-	MGH_1 = {
-		republican_tradition = 0.2
-		advisor_cost = -0.1
-	}
-	MGH_2 = {
-		global_trade_power = 0.2
-	}
-	MGH_3 = {
-		production_efficiency = 0.1
-	}
-	MGH_4 = {
-		innovativeness_gain = 0.5
-		global_allowed_num_of_buildings = 1
-	}
-	MGH_5 = {
-		monthly_piety_accelerator = 0.001
-		development_cost = -0.1
-	}
-	MGH_6 = {
-		discipline = 0.05
-		infantry_power = 0.05
-	}
-	MGH_7 = {
-		own_coast_naval_combat_bonus = 1
-	}
-}
 
 YUE_ideas = {
 	start = {

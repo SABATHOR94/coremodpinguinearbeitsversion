@@ -1,0 +1,44 @@
+MGH_ideas = {
+	start = {
+		land_morale = 0.10
+        galley_power = 0.2
+	}
+	
+	bonus = {
+		naval_forcelimit_modifier = 0.33
+	}
+	
+	trigger = {
+		tag = MGH
+	}
+	free = yes
+	
+	MGH_1 = {
+		republican_tradition = 0.25
+		advisor_cost = -0.15
+	}
+	MGH_2 = {
+		global_trade_power = 0.2
+        light_ship_cost = -0.33
+	}
+	MGH_3 = {
+		manpower_in_culture_group_provinces = 0.2
+		global_autonomy = -0.05
+	}
+	MGH_6 = {
+		infantry_power = 0.1
+		infantry_shock = 0.1
+	}
+	MGH_5 = {
+		monthly_piety_accelerator = 0.001
+		development_cost = -0.1
+	}
+	MGH_4 = {
+		tolerance_heathen = 3
+		global_allowed_num_of_buildings = 1
+	}
+	MGH_7 = {
+		global_tax_modifier = 0.1
+		production_efficiency = 0.1
+	}
+}

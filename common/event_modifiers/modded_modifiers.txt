@@ -210,3 +210,8 @@ kak_mod_deity_6 = {
 Ehrenmann = {
 	global_tax_income = 24
 }
+
+pe3_maghreb_conversion = {
+	global_missionary_strength = 0.03
+	missionaries = 2
+}
