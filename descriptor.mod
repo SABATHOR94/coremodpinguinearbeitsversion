@@ -1,8 +1,7 @@
-version="1.0"
+version="1"
 tags={
-	"Balance"
+	"Alternative History"
+	"Gameplay"
 }
-name="Core Mod Pinguine Arbeitsversion"
-replace_path="gfx/loadingscreens"
+name="pe3penguins"
 supported_version="v1.37.5.0"
-remote_file_id="3345962225"
