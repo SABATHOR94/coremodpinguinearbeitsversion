@@ -413,6 +413,27 @@ gc_tunis_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			western_sicily_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sicily_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			corsica_sardinia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	gc_tun_med_islands = {
@@ -800,6 +821,239 @@ gc_tunis_5 = {
 			add_country_modifier = {
 				name = maghreb_mod_6
 				duration = -1
+			}
+		}
+	}
+}
+
+pe3_tunis_2_branch = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = TUN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	pe3_tun_2_mission = {
+		icon = mission_unite_home_region
+		required_missions = {  }
+		position = 5
+		
+		provinces_to_highlight = {
+			OR = {
+				area = corsica_sardinia_area
+			}
+		}
+		
+		trigger = {	
+			corsica_sardinia_area = { 
+				owns_or_non_sovereign_subject_of = ROOT 
+				type = all 
+			}
+		}
+		effect = {
+			tuscany_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			2986 = {
+				add_center_of_trade_level = 1
+			}
+			add_mil_power = 50
+		}
+	}
+	pe3_tun_5_mission = {
+		icon = mission_war_chest
+		required_missions = { pe3_tun_2_mission }
+		position = 6
+		
+		provinces_to_highlight = {
+			OR = {
+				area = tuscany_area
+			}
+		}
+		
+		trigger = {	
+			tuscany_area = {
+				owns_or_non_sovereign_subject_of = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = pe3_tunis_conquest_of_toskana
+				duration = 18250
+			}
+		}
+	}
+}
+
+pe3_tunis_3_branch = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = TUN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	pe3_tun_4_mission = {
+		icon = kok_mam_holy_cities
+		required_missions = { pe3_tun_1_mission pe3_tun_2_mission }
+		position = 6
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {	
+			stability = 3
+			is_at_war = no
+		}
+		effect = {
+			country_event = {
+				id = pe3_tun_event.1
+			}
+		}
+	}
+	pe3_tun_6_mission = {
+		icon = mission_gharbianss
+		required_missions = { pe3_tun_3_mission }
+		position = 7
+		
+		provinces_to_highlight = {
+			OR = {
+				area = lazio_area
+			}
+		}
+		
+		trigger = {	
+			lazio_area = {
+				owns_or_non_sovereign_subject_of = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = pe3_tunis_conquest_of_rome
+				duration = -1
+			}
+			add_power_projection = {
+				type = zim_african_great_power
+				amount = 25
+			}
+			custom_tooltip = zim_amongst_the_great_powers_tt
+			set_religion_papacy_active = {
+				religion = catholic
+				active = no
+			}
+		}
+	}
+}
+
+pe3_tunis_4_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = TUN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	pe3_tun_1_mission = {
+		icon = mission_persian_soldiers
+		required_missions = {  }
+		position = 1
+		
+		provinces_to_highlight = {
+			OR = {
+				area = western_sicily_area
+				area = sicily_area
+			}
+		}
+		
+		trigger = {	
+			western_sicily_area = { 
+				owns_or_non_sovereign_subject_of = ROOT 
+				type = all
+			}
+			sicily_area = { 
+				owns_or_non_sovereign_subject_of = ROOT 
+				type = all
+			}
+		}
+		effect = {
+			calabria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			apulia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			naples_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_mil_power = 50
+		}
+	}
+
+	pe3_tun_3_mission = {
+		icon = king_of_naples
+		required_missions = { pe3_tun_1_mission }
+		position = 6
+		
+		provinces_to_highlight = {
+			OR = {
+				area = naples_area
+				area = apulia_area
+				area = calabria_area
+			}
+		}
+		
+		trigger = {	
+			calabria_area = { 
+				owns_or_non_sovereign_subject_of = ROOT 
+				type = all
+			}
+			apulia_area = { 
+				owns_or_non_sovereign_subject_of = ROOT 
+				type = all
+			}
+			naples_area = { 
+				owns_or_non_sovereign_subject_of = ROOT 
+				type = all
+			}
+		}
+		effect = {
+			lazio_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			central_italy_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
