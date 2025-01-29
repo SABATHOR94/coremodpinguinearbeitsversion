@@ -76,6 +76,38 @@ country_decisions = {
 			change_unit_type = muslim
 			change_religion = ibadi
 			if = {
+				limit = { NOT = { accepted_culture = moroccan } }
+				add_accepted_culture_or_dip_power = {
+					culture = moroccan
+					dip_reward = yes
+					free = yes
+				}
+			}
+			if = {
+				limit = { NOT = { accepted_culture = tunisian } }
+				add_accepted_culture_or_dip_power = {
+					culture = tunisian
+					dip_reward = yes
+					free = yes
+				}
+			}
+			if = {
+				limit = { NOT = { accepted_culture = algerian } }
+				add_accepted_culture_or_dip_power = {
+					culture = algerian
+					dip_reward = yes
+					free = yes
+				}
+			}
+			if = {
+				limit = { NOT = { accepted_culture = berber } }
+				add_accepted_culture_or_dip_power = {
+					culture = berber
+					dip_reward = yes
+					free = yes
+				}
+			}
+			if = {
 				limit = { 
 					has_custom_ideas = no
 					NOT = { has_idea_group = MGH_ideas }

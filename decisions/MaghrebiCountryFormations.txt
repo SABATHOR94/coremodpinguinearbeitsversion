@@ -318,10 +318,7 @@ country_decisions = {
 				ai = no
 			}
 			tag = TLC
-			OR = {
-				primary_culture = tunisian
-				primary_culture = berber
-			}
+			culture_group = maghrebi
 			OR = {
 				ai = no
 				AND = {
