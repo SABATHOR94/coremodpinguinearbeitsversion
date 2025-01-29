@@ -102,6 +102,7 @@ city = {
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
 	allowed_num_of_manufactories = 1
+	local_development_cost = -0.1
 }
 
 port = {

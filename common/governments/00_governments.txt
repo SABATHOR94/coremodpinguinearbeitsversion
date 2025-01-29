@@ -664,7 +664,9 @@ republic = {
 				egyptian_government_reform
 				city_alliance_reform
 				turkoman_ottoman_institutions
+				#mod
 				KAK_republic_reform
+				pe3_tunis_caliphate_republic_reform
 			}
 		}
 		republican_virtues = {
@@ -1265,6 +1267,8 @@ theocracy = {
 				egyptian_government_reform
 				blood_theocracy_reform
 				turkoman_ottoman_institutions
+				#mod
+				pe3_tunis_caliphate_theocracy_reform
 			}
 		}
 		internal_vs_external_mission = {

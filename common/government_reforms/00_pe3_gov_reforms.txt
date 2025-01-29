@@ -1,0 +1,59 @@
+pe3_tunis_caliphate_republic_reform = {
+	icon = "caliphate"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+            has_reform = pe3_tunis_caliphate_republic_reform
+            have_had_reform = pe3_tunis_caliphate_republic_reform
+        }
+	}
+    trigger = {
+		religion_group = muslim
+	}
+
+	modifiers = {
+        manpower_recovery_speed = 0.15
+        all_estate_loyalty_equilibrium = 0.05
+        warscore_cost_vs_other_religion = -0.1
+		governing_capacity = 100
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
+	duration = 4
+}
+
+pe3_tunis_caliphate_theocracy_reform = {
+	icon = "caliphate"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+            has_reform = pe3_tunis_caliphate_theocracy_reform
+            have_had_reform = pe3_tunis_caliphate_theocracy_reform
+        }
+	}
+    trigger = {
+		religion_group = muslim
+	}
+
+	modifiers = {
+        devotion = 1
+        shock_damage = 0.2
+        all_estate_loyalty_equilibrium = 0.05
+        warscore_cost_vs_other_religion = -0.1
+		governing_capacity = 100
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
+}

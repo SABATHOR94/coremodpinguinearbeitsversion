@@ -210,3 +210,17 @@ kak_mod_deity_6 = {
 Ehrenmann = {
 	global_tax_income = 24
 }
+
+pe3_maghreb_conversion = {
+	global_missionary_strength = 0.03
+	missionaries = 2
+}
+
+pe3_tunis_conquest_of_rome = {
+	land_morale = 0.1
+	morale_damage = 0.15
+}
+
+pe3_tunis_conquest_of_toskana = {
+	development_cost = -0.1
+}

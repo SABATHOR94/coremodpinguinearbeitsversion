@@ -1,0 +1,45 @@
+namespace = pe3_tun_event
+
+country_event = {
+	id = pe3_tun_event.1
+	title = pe3_tun_event.1.t
+	picture = muslimgfx_BATTLE_eventPicture
+
+	desc = {
+		desc = "pe3_tun_event.1.d"
+	}
+    is_triggered_only = yes
+
+    immediate = {
+		hidden_effect = {
+            override_country_name = pe3_tunis_caliphate
+        }
+	}
+
+	option = {
+		name = pe3_tun_event.1.a
+        if = {
+			limit = { 
+				NOT = { government = republic }
+				is_revolutionary = no
+			}
+			change_government = republic
+		}
+        add_government_reform = pe3_tunis_caliphate_republic_reform
+        prestige = 50
+        add_republican_tradition = 50
+	}
+    option = {
+		name = pe3_tun_event.1.b
+        if = {
+			limit = { 
+				NOT = { government = theocracy }
+				is_revolutionary = no
+			}
+			change_government = theocracy
+		}
+        add_government_reform = pe3_tunis_caliphate_theocracy_reform
+        prestige = 50
+        add_devotion = 50
+	}
+}

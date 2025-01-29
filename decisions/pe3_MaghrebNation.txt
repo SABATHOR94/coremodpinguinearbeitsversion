@@ -15,9 +15,6 @@ country_decisions = {
 				ai = no
 			}
 			NOT = { exists = MGH }
-			owns_core_province = 341 	#Tunis
-				341 = {						#Tunis				
-			}
 			NOT = { has_reform = celestial_empire }
 			OR = {
 				ai = no
@@ -25,6 +22,11 @@ country_decisions = {
 					ai = yes
 					num_of_cities = 5
 				}
+			}
+			culture_group = maghrebi
+			OR = {
+				tag = TUN
+				tag = MOR
 			}
 		}
 		provinces_to_highlight = {
@@ -79,6 +81,10 @@ country_decisions = {
 					NOT = { has_idea_group = MGH_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = pe3_maghreb_conversion
+				duration = 9125
 			}
 		}
 
