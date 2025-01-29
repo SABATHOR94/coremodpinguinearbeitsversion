@@ -15853,11 +15853,12 @@ ADU_ideas = {
 		morale_damage_received = -0.25
     }
 	adu_ahl_uhl_dhimma = {
-		tolerance_heathen = 3
+		heavy_ship_power = 0.1
+		naval_forcelimit_modifier = 0.25
     }
 	adu_legacy_of_ibn_arabi = {
 		idea_cost = -0.1
-		monthly_piety = -0.001
+		tolerance_heathen = 3
 	}
 	adu_jund_settlements = {
 		global_manpower_modifier = 0.20
