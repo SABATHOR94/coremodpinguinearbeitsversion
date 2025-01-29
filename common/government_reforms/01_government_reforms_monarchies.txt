@@ -2263,6 +2263,10 @@ al_andalusia_government = {
 		idea_cost = -0.1
 		tolerance_of_heathens_capacity = 2
 		tolerance_heathen = 1
+		has_tercio = yes
+		allowed_tercio_fraction = 0.25
+		has_galleon = yes
+		allowed_galleon_fraction = 0.2
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
