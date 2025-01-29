@@ -3720,7 +3720,7 @@ mor_el_badi_palace = {
 }
 
 mor_black_guard = {
-	discipline = 0.025
+	discipline = 0.05 #was 0.025
 }
 
 mor_conquest_of_kanem = {
