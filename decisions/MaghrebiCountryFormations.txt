@@ -19,10 +19,7 @@ country_decisions = {
 			NOT = { tag = TUN }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
-			OR = {
-				primary_culture = moroccan
-				primary_culture = berber
-			}
+			tag = TLC
 			OR = {
 				ai = no
 				AND = {
@@ -320,10 +317,7 @@ country_decisions = {
 				is_free_or_tributary_trigger = yes
 				ai = no
 			}
-			NOT = { tag = MOR }
-			NOT = { tag = TUN }
-			NOT = { tag = PAP }
-			NOT = { tag = HLR }
+			tag = TLC
 			OR = {
 				primary_culture = tunisian
 				primary_culture = berber
