@@ -8,3 +8,7 @@ Andalusien ideen ggf. anpassen
 Feudal Theocracy anpassen auf Maghreb
 
 Holy Orders einfügen
+
+Tercios für Andalusien, damage sponge
+
+Black Guard auf 5% erhöhen
