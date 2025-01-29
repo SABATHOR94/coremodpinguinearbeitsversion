@@ -70,6 +70,7 @@ country_decisions = {
     }
 
     adm_advisor_event_display = {
+        major = yes
 		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_qol_event_decision_off }
@@ -115,6 +116,7 @@ country_decisions = {
     }
 
     dip_advisor_event_display = {
+        major = yes
 		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_qol_event_decision_off }
@@ -163,6 +165,7 @@ country_decisions = {
     }
 
     mil_advisor_event_display = {
+        major = yes
 		color =  { 25 25 112 }
         potential = {
             NOT = { has_country_flag = settings_show_qol_event_decision_off }
