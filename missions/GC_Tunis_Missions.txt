@@ -939,7 +939,7 @@ pe3_tunis_3_branch = {
 			num_of_owned_provinces_with = {
 				continent = europe
 				owned_by = root
-				value = 10
+				value = 30
 			}
 		}
 		effect = {
