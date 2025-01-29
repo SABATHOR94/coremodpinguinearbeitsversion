@@ -848,7 +848,7 @@ pe3_tunis_2_branch = {
 		
 		trigger = {	
 			corsica_sardinia_area = { 
-				owns_or_non_sovereign_subject_of = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 				type = all 
 			}
 		}
@@ -879,7 +879,7 @@ pe3_tunis_2_branch = {
 		
 		trigger = {	
 			tuscany_area = {
-				owns_or_non_sovereign_subject_of = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				type = all
 			}
 		}
@@ -933,8 +933,13 @@ pe3_tunis_3_branch = {
 		
 		trigger = {	
 			lazio_area = {
-				owns_or_non_sovereign_subject_of = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 				type = all
+			}
+			num_of_owned_provinces_with = {
+				continent = europe
+				owned_by = root
+				value = 10
 			}
 		}
 		effect = {
@@ -979,11 +984,11 @@ pe3_tunis_4_branch = {
 		
 		trigger = {	
 			western_sicily_area = { 
-				owns_or_non_sovereign_subject_of = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 				type = all
 			}
 			sicily_area = { 
-				owns_or_non_sovereign_subject_of = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 				type = all
 			}
 		}
@@ -1028,15 +1033,15 @@ pe3_tunis_4_branch = {
 		
 		trigger = {	
 			calabria_area = { 
-				owns_or_non_sovereign_subject_of = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 				type = all
 			}
 			apulia_area = { 
-				owns_or_non_sovereign_subject_of = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 				type = all
 			}
 			naples_area = { 
-				owns_or_non_sovereign_subject_of = ROOT 
+				country_or_non_sovereign_subject_holds = ROOT 
 				type = all
 			}
 		}

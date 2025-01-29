@@ -1431,7 +1431,8 @@ muslim = {
 			shiite
 		}
 		country = {
-			heir_chance = 1.0
+			#heir_chance = 1.0
+			monarch_lifespan = 0.25
 			global_trade_goods_size_modifier = 0.1
 		}
 		country_as_secondary = {

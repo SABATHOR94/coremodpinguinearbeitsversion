@@ -21,7 +21,7 @@ even_more_condottieri = {
 }
 
 maghreb_mod_1 = {
-	global_missionary_strength = 0.03
+	global_heretic_missionary_strength = 0.05
 	missionary_maintenance_cost = -0.5
 	missionaries = 1
 	development_cost = -0.2
