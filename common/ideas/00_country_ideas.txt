@@ -15848,9 +15848,9 @@ ADU_ideas = {
 	adu_stand_against_the_reconquista = {
 		fire_damage_received = -0.15
 	}
-	adu_taifa_adminstration = {
-		is_tercio_modifier = yes
+	adu_taifa_adminstration_pinguin_mod = {
 		morale_damage_received = -0.25
+		is_tercio_modifier = yes
     }
 	adu_ahl_uhl_dhimma = {
 		heavy_ship_power = 0.1
