@@ -13,6 +13,7 @@ mutapa_vassal_missions_slot = {
 			tag = GZI
 			tag = RZI
 			tag = ZIM
+			tag = RZW
 		}
 	}
 	has_country_shield = yes
@@ -169,6 +170,7 @@ mutapa_conquer_africa_missions_slot = {
 			tag = GZI
 			tag = RZI
 			tag = ZIM
+			tag = RZW
 		}
 	}
 	has_country_shield = yes
@@ -284,8 +286,9 @@ mutapa_conquer_africa_missions_slot = {
 					province = 1177
 				}
 			}
-			add_temporary_colonist = {
+			add_country_modifier = {
 				duration = 36500
+				name = pe3_african_frontiers
 			}
 		}
 		ai_weight = {
@@ -351,6 +354,7 @@ mutapa_restore_zimbabwe_missions_slot = {
 			tag = GZI
 			tag = RZI
 			tag = ZIM
+			tag = RZW
 		}
 	}
 	has_country_shield = yes
@@ -369,16 +373,19 @@ mutapa_restore_zimbabwe_missions_slot = {
 		}
 		trigger = {
 			owns_core_province = 1184
-			if = {
-				limit = {
-					tag = ZIM
-				}
-				custom_trigger_tooltip = {
-					tooltip = zim_decline_of_zimbabwe_tt
-					has_global_flag = zim_zimbabwe_mass_movement
-				}
-			}
 			stability = 1
+			OR = {
+				if = {
+					limit = {
+						tag = ZIM
+					}
+					custom_trigger_tooltip = {
+						tooltip = zim_decline_of_zimbabwe_tt
+						has_global_flag = zim_zimbabwe_mass_movement
+					}
+				}
+				NOT = { exists = ZIM }
+			}
 		}
 		effect = {
 			enable_development_on_buildings_built = yes
@@ -423,6 +430,12 @@ mutapa_restore_zimbabwe_missions_slot = {
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
+			}
+			capital_scope = {
+				add_institution_embracement = {
+					which = feudalism
+					value = 100
+				}
 			}
 		}
 		ai_weight = {
@@ -580,6 +593,7 @@ mutapa_trade_missions_slot = {
 			tag = GZI
 			tag = RZI
 			tag = ZIM
+			tag = RZW
 		}
 	}
 	has_country_shield = yes
@@ -923,6 +937,7 @@ mutapa_modernize_missions_slot = {
 			tag = GZI
 			tag = RZI
 			tag = ZIM
+			tag = RZW
 		}
 	}
 	has_country_shield = yes

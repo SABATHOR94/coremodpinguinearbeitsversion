@@ -224,3 +224,8 @@ pe3_tunis_conquest_of_rome = {
 pe3_tunis_conquest_of_toskana = {
 	development_cost = -0.1
 }
+
+pe3_african_frontiers = {
+	colonists = 1
+	global_colonial_growth = 50
+}

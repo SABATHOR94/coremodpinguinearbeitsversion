@@ -4435,51 +4435,6 @@ KNI_ideas = {
 }
 
 
-KON_ideas = {
-	start = {
-		trade_efficiency = 0.1
-		land_attrition = -0.20
-	}
-
-	bonus = {
-		improve_relation_modifier = 0.3
-	}
-
-	trigger = {	
-		OR = {
-			tag = KON
-			tag = LOA
-			tag = NDO
-		}
-	}
-	free = yes		#will be added at load.
-	
-	kongolese_tax_exchange = {
-		global_tax_modifier = 0.1
-	}
-	election_of_manikongos = {
-		heir_chance = 0.5
-	}
-	imported_european_weaponry = {
-		mil_tech_cost_modifier  = -0.1
-	}
-	diplomacy_with_european_monarchs = {
-		diplomatic_reputation = 1
-		envoy_travel_time = -0.25
-	}
-	triangle_trade = {
-		global_prov_trade_power_modifier = 0.1
-		infantry_power = 0.05
-	}
-	foreign_demand_for_slaves = {
-		production_efficiency = 0.10
-	}
-	defend_against_the_colonists = {
-		discipline = 0.05
-	}
-}
-
-
 MAL_ideas = {
 	start = {
 		land_attrition = -0.10
