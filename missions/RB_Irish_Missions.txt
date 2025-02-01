@@ -1,0 +1,1001 @@
+ire_conquest_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Rule Britannia"
+	}
+	potential = {
+		has_dlc = "Rule Britannia"
+		OR = {
+			tag = ULS
+			tag = TRY
+			tag = TYR
+			tag = MTH
+			tag = SLN
+			tag = FLY
+			tag = KID
+			tag = CNN
+			tag = MNS
+			tag = ORD
+			tag = LEI
+			tag = DMS
+			tag = MCM
+			tag = IRE
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	ire_conquer_ulster = {
+		icon = mission_rb_conquer_ulster
+		required_missions = { }
+		provinces_to_highlight = {
+			area = ulster_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			ulster_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			connacht_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+			4379 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = ROOT
+				}
+			}
+			4120 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = ROOT
+				}
+			}
+			374 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = ROOT
+				}
+			}
+		}
+	}
+}
+
+ire_conquest_main = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Rule Britannia"
+	}
+	potential = {
+		has_dlc = "Rule Britannia"
+		OR = {
+			tag = ULS
+			tag = TRY
+			tag = TYR
+			tag = MTH
+			tag = SLN
+			tag = FLY
+			tag = KID
+			tag = CNN
+			tag = MNS
+			tag = ORD
+			tag = LEI
+			tag = DMS
+			tag = MCM
+			tag = IRE
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ire_conquer_munster = {
+		icon = mission_rb_conquer_munster
+		required_missions = { }
+		provinces_to_highlight = {
+			area = munster_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			munster_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			connacht_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+			4379 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = ROOT
+				}
+			}
+			4120 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = ROOT
+				}
+			}
+			374 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = ROOT
+				}
+			}
+			add_country_modifier = {
+				name = modded_irish_1
+				duration = 7300
+			}
+			add_manpower = 10
+		}
+	}
+	
+	unite_the_clans_ire = {
+		icon = mission_rb_unite_the_clans
+		required_missions = { ire_conquer_munster ire_conquer_leinster ire_conquer_ulster ire_conquer_connacht }
+		provinces_to_highlight = {
+			OR = {
+				area = ulster_area
+				area = connacht_area
+				area = munster_area
+				province_id = 4379
+				province_id = 4120
+				province_id = 374
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			munster_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			connacht_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ulster_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4379 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4120 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			374 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "high_king_of_ireland"
+				duration = 7300
+			}
+			373 = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = ROOT
+							is_core = ROOT
+						}
+					}
+					add_core = ROOT
+				}
+			}
+		}
+	}
+	beyond_the_pale = {
+		icon = mission_rb_beyond_the_pale
+		required_missions = { unite_the_clans_ire }
+		provinces_to_highlight = {
+			province_id = 373
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			373 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "beyond_the_pale_modifier"
+				duration = 7300
+			}
+			wales_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			kingdom_of_the_isles_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			highlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			lowlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_wales = {
+		icon = mission_rb_conquer_wales
+		required_missions = { beyond_the_pale }
+		provinces_to_highlight = {
+			area = wales_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			wales_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			west_midlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			wessex_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	conquer_west_england = {
+		icon = mission_rb_invade_england
+		required_missions = { conquer_wales }
+		provinces_to_highlight = {
+			OR = {
+				area = west_midlands_area
+				area = wessex_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			west_midlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			wessex_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_army_tradition = 10
+			home_counties_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_anglia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = { tag = IRE }
+				normandy_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+				}
+				brittany_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+				}
+				picardy_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+				}
+				else = { }
+			}
+		}
+	}
+}
+
+ire_conquest_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Rule Britannia"
+	}
+	potential = {
+		has_dlc = "Rule Britannia"
+		OR = {
+			tag = ULS
+			tag = TRY
+			tag = TYR
+			tag = MTH
+			tag = SLN
+			tag = FLY
+			tag = KID
+			tag = CNN
+			tag = MNS
+			tag = ORD
+			tag = LEI
+			tag = DMS
+			tag = MCM
+			tag = IRE
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ire_conquer_connacht = {
+		icon = mission_rb_conquer_connacth
+		required_missions = { }
+		provinces_to_highlight = {
+			area = connacht_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			connacht_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			munster_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+			ulster_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+		}
+	}
+	ire_conquer_isles = {
+		icon = mission_rb_conquer_the_highlands
+		position = 4
+		required_missions = { beyond_the_pale }
+		provinces_to_highlight = {
+			OR = {
+				area = kingdom_of_the_isles_area
+				area = highlands_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 2
+				area = kingdom_of_the_isles_area
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 4
+				area = highlands_area
+			}
+		}
+		effect = {
+			highlands_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "ire_recruiting_from_clans"
+					duration = 7300
+				}
+			}
+			kingdom_of_the_isles_area = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = {
+					name = "ire_recruiting_from_clans"
+					duration = 7300
+				}
+			}
+			lowlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	ire_conquer_scotland = {
+		icon = mission_rb_conquer_scotland
+		required_missions = { ire_conquer_isles }
+		provinces_to_highlight = {
+			area = lowlands_area
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			lowlands_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_army_tradition = 10
+			scottish_marches_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			east_midlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yorkshire_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+}
+
+ire_conquest_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Rule Britannia"
+	}
+	potential = {
+		has_dlc = "Rule Britannia"
+		OR = {
+			tag = ULS
+			tag = TRY
+			tag = TYR
+			tag = MTH
+			tag = SLN
+			tag = FLY
+			tag = KID
+			tag = CNN
+			tag = MNS
+			tag = ORD
+			tag = LEI
+			tag = DMS
+			tag = MCM
+			tag = IRE
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ire_conquer_leinster = {
+		icon = mission_rb_conquer_leinster
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4379
+				province_id = 4120
+				province_id = 374
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			4379 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4120 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			374 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			munster_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+			connacht_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_core = ROOT
+			}
+		}
+	}
+	trinity_college_ire = {
+		icon = mission_rb_trinity_college_dublin
+		required_missions = { beyond_the_pale }
+		position = 4
+		trigger = {
+			373 = {
+				has_building = university
+			}
+			university = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = "trinity_college"
+				duration = 7300
+			}
+		}
+	}
+}
+ire_colonial_missions = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Rule Britannia"
+	}
+	potential = {
+		has_dlc = "Rule Britannia"
+		is_random_new_world = no
+		OR = {
+			tag = ULS
+			tag = TRY
+			tag = TYR
+			tag = MTH
+			tag = SLN
+			tag = FLY
+			tag = KID
+			tag = CNN
+			tag = MNS
+			tag = ORD
+			tag = LEI
+			tag = DMS
+			tag = MCM
+			tag = IRE
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	irish_america = {
+		icon = mission_rb_irish_america
+		required_missions = { }
+		position = 2
+		provinces_to_highlight = {
+			colonial_region = colonial_eastern_america
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_eastern_america
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "irish_new_world"
+				duration = 7300
+			}
+		}
+	}
+	ire_import_potatoes = {
+		icon = mission_rb_import_potatoes
+		required_missions = { irish_america }
+		provinces_to_highlight = {
+			OR = {
+				continent = new_world
+				continent = north_america
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			has_discovered = ROOT
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				OR = {
+					continent = new_world
+					continent = north_america
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "irish_potatoes"
+				duration = 7300
+			}
+			capital_scope = {
+				add_base_production = 2
+				add_base_manpower = 1
+			}
+		}
+	}
+}
+
+ire_slot_1 ={
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		is_random_new_world = no
+		tag = IRE
+	}
+	has_country_shield = yes
+
+	irish_developement = {
+		icon = mission_rb_rein_in_the_highland_clans
+		required_missions = { }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = munster_area
+				area = connacht_area
+				area = leinster_area
+				area = ulster_area
+			}
+			NOT = { owned_by = ROOT }
+			OR = {
+				culture = irish
+				any_province = {
+					is_capital_of = root
+					NOT = { higher_development_than = prev }
+				}
+			}
+		}
+		trigger = {
+			primary_culture = irish
+			development_in_provinces = {
+				value = 200
+				culture = irish
+			}
+			capital_scope = {
+				is_strongest_trade_power = root
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = Ire_navy_construction
+				duration = -1
+			}
+		}
+	}
+	irish_navy_start = {
+		icon = mission_coromandel_expansion
+		required_missions = { irish_developement }
+		trigger = {  
+			navy_size_percentage = 1
+			navy_size = 40
+			num_of_heavy_ship = 10
+		}
+		effect = {
+			add_country_modifier = {
+				name = Ire_navy_establishment
+				duration = 5475
+			}
+		}
+	}
+	irish_navy_suprimacy = {
+		icon = mission_rb_grow_the_channel
+		required_missions = { irish_navy_start }
+		trigger = {
+			navy_tradition = 75
+			is_great_power = yes
+			NOT = { any_other_great_power = { num_of_light_ship = root } }
+		}
+		effect = {
+			add_country_modifier = {
+				name = Ire_naval_supremacy
+				duration = -1
+			}
+		}
+	}
+
+	ire_rule_britannia = {
+		icon = mission_rb_rule_britannia_irish_version
+		required_missions = { irish_navy_suprimacy }
+		provinces_to_highlight = {
+			region = british_isles_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			british_isles_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 25
+			add_country_modifier = {
+				name = "rule_britannia"
+				duration = 14600
+			}
+		}
+	}
+}
+ire_slot_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		is_random_new_world = no
+		tag = IRE
+	}
+	has_country_shield = yes
+
+	Ire_new_capital = {
+		icon = develop_our_capital
+		required_missions = { conquer_west_england ire_conquer_scotland }
+		position = 6
+		provinces_to_highlight = {
+			province_id = 236
+		}
+		trigger = {
+			236 = {
+				is_capital = yes
+			}
+			custom_trigger_tooltip  = {
+				tooltip = irish_london_cap
+				capital_scope = {
+					is_strongest_trade_power = root
+					culture = irish
+					british_isles_region = {
+						type = all
+						OR = {
+							owned_by = ROOT
+							NOT = { higher_development_than = prev }
+						}
+					}
+					france_region = {
+						type = all
+						OR = {
+							owned_by = ROOT
+							NOT = { higher_development_than = prev }
+						}
+					}
+					iberia_region = {
+						type = all
+						OR = {
+							owned_by = ROOT
+							NOT = { higher_development_than = prev }
+						}
+					}
+					scandinavia_region = {
+						type = all
+						OR = {
+							owned_by = ROOT
+							NOT = { higher_development_than = prev }
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_estate_loyalty = {
+			    estate = all
+    			loyalty = 10
+			}
+			change_ruler_stat = {
+				type = dip
+				amount = 1
+			}
+			change_ruler_stat = {
+				type = mil
+				amount = 1
+			}
+			add_country_modifier = {
+				name = Ire_happy_people
+				duration = 1095
+			}
+			add_country_modifier = {
+				name = Ire_happy_people_2
+				duration = -1
+			}
+		}
+	}
+}
+ire_slot_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		is_random_new_world = no
+		tag = IRE
+	}
+	has_country_shield = yes
+
+	Ire_expansion = {
+		icon = mission_hundred_years_war
+		required_missions = { conquer_west_england }
+		Position = 6
+		provinces_to_highlight = {
+			region = france_region
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 10
+				region = france_region
+			}
+		}
+		effect = {
+			france_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			add_country_modifier = {
+				name = Ire_Prestigous_conquest
+				duration = 7300
+			}
+		}
+	}
+	Ire_english_dream = {
+		icon = mission_the_french_menace
+		required_missions = { Ire_expansion}
+		Position = 7
+		provinces_to_highlight = {
+			province_id = 183
+		}
+		trigger = {
+			owns_core_province = 183
+			is_at_war = no
+			manpower_percentage = 0.9
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = Ire_No_enemys
+				duration = -1
+			}
+		}
+	}
+}
+ire_slot_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		is_random_new_world = no
+		tag = IRE
+	}
+	has_country_shield = yes
+
+	ire_coal_mine = {
+		icon = mission_rb_prospect_for_coal
+		required_missions = { trinity_college_ire }
+		position = 5
+		provinces_to_highlight = {
+			province_id = 4119
+		}
+		trigger = {
+			4119 = {
+				development = 35
+			}
+			crown_land_share = 50
+			natural_scientist = 4
+			dip = 5
+		}
+		effect = {
+			4119 = {
+				change_trade_goods = coal
+				add_building = furnace
+			}
+		}
+	}
+}

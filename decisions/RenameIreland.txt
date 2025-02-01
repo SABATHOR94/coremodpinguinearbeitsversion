@@ -1,0 +1,30 @@
+country_decisions = {
+
+	RenameIreland = {
+		major = yes
+		color =  { 0 191 255 }
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_renamedIreland_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			tag = IRE
+		}
+		allow = {
+			is_at_war = no
+			total_development = 1000
+		}
+		effect = {
+			set_country_flag = formed_renamedIreland_flag
+			add_prestige = 25
+			override_country_name = KAISERREICHIRLAND
+			change_country_color = { color = { 179 238 58 } }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

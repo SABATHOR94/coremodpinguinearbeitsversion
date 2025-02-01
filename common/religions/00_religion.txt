@@ -2381,8 +2381,8 @@ pagan = {
 		icon = 21
 		color = { 191 191 191 }
 		country = {
-			land_forcelimit_modifier = 0.10
-			naval_forcelimit_modifier = 0.10
+			land_morale = 0.1
+			development_cost = -0.05
 		}
 		country_as_secondary = {
 			merc_maintenance_modifier = -0.1
