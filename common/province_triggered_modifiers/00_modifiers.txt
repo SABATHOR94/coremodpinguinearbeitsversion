@@ -2431,3 +2431,14 @@ ITA_flowering_of_renaissance_no_dlc = {
     }
     
 }
+
+copper_of_ireland = {
+	potential = {
+	}
+	
+	trigger = {
+		culture = irish
+	}
+	
+	trade_goods_size = 1.5
+}

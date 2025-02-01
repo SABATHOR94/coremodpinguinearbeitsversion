@@ -319,3 +319,13 @@ Ire_Prestigous_conquest = {
 modded_irish_1 = {
 	land_forcelimit = 8
 }
+
+ire_legi_rule = {
+	province_warscore_cost = -0.1
+	core_creation = -0.05
+}
+
+irish_whiskey_production = {
+	global_unrest = -2
+	production_efficiency = 0.15
+}
