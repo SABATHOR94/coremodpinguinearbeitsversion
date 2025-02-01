@@ -7,7 +7,7 @@
 norse_ideas = {
 	start = {
 		land_morale = 0.15	
-		may_perform_slave_raid_on_same_religion = yes
+		global_allowed_num_of_buildings = 1
 	}
 	
 	bonus = {
@@ -610,6 +610,7 @@ SCA_ideas = {
 	
 	trigger = {
 		tag = SCA
+		NOT = { has_country_flag = accepted_norse_ideas_flag_pinguin }
 	}
 	free = yes
 	
