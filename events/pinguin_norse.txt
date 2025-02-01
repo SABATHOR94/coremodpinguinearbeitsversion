@@ -130,10 +130,6 @@ country_event = {
 	desc = {
 		desc = "pinguin_norse.4.da"
 	}
-
-
-    is_triggered_only = yes
-
 	option = {
 		name = pinguin_norse.4.a
         ai_chance = { factor = 0 }
@@ -147,5 +143,108 @@ country_event = {
 		name = pinguin_norse.4.b
         ai_chance = { factor = 100 }
         add_adm_power = 100
+	}
+}
+
+#Norse Religion Cycle Events
+country_event = {
+	id = pinguin_norse.5
+	title = pinguin_norse.5.t
+	picture = FETISHIST_FIRE_eventPicture
+    hidden = no
+    major = no
+    is_triggered_only = yes
+	desc = {
+		desc = "pinguin_norse.5.da"
+	}
+	option = {
+		name = pinguin_norse.5.a
+        ai_chance = { factor = 20 }
+        add_country_modifier = {
+            name = odin_modifier
+            duration = 5475
+        }
+        if = {
+            limit = {
+                has_personal_deity = odin
+            }
+            add_adm_power = 40
+        }
+	}
+    option = {
+		name = pinguin_norse.5.b
+        ai_chance = { factor = 20 }
+        add_country_modifier = {
+            name = tor_modifier
+            duration = 5475
+        }
+        if = {
+            limit = {
+                has_personal_deity = tor
+            }
+            add_prestige_or_monarch_power = {
+				amount = 20
+			}
+        }
+	}
+    option = {
+		name = pinguin_norse.5.c
+        ai_chance = { factor = 20 }
+        add_country_modifier = {
+            name = freya_modifier
+            duration = 5475
+        }
+        if = {
+            limit = {
+                has_personal_deity = freya
+            }
+            add_years_of_income = 0.2
+            add_country_modifier = {
+                name = freya_modifier_2
+                duration = 5475
+            }
+        }
+	}
+    option = {
+		name = pinguin_norse.5.d
+        ai_chance = { factor = 20 }
+        add_country_modifier = {
+            name = tyr_modifier
+            duration = 5475
+        }
+        if = {
+            limit = {
+                has_personal_deity = tyr
+            }
+            add_manpower = 15
+        }
+	}
+    option = {
+		name = pinguin_norse.5.e
+        ai_chance = { factor = 20 }
+        add_country_modifier = {
+            name = njord_modifier
+            duration = 5475
+        }
+        if = {
+            limit = {
+                has_personal_deity = njord
+            }
+            add_sailors = 10000
+        }
+	}
+    option = {
+		name = pinguin_norse.5.f
+        ai_chance = { factor = 20 }
+        add_country_modifier = {
+            name = snotra_modifier
+            duration = 5475
+        }
+        if = {
+            limit = {
+                has_personal_deity = snotra
+            }
+            add_dip_power = 40
+        }
 	}
 }

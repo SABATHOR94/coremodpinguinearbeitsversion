@@ -1,0 +1,29 @@
+country_decisions = {
+
+	trigger_norse_festival = {
+		major = yes
+		color =  { 0 191 255 }
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			religion = norse_pagan_reformed
+		}
+		allow = {
+			NOT = { has_country_modifier = norse_festival_trigger_modifier }
+		}
+		effect = {
+			add_country_modifier = {
+				name = norse_festival_trigger_modifier
+				duration = 366
+			}
+			country_event = { id = pinguin_norse.5 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

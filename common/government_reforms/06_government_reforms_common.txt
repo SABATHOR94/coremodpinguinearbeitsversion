@@ -1154,10 +1154,11 @@ embedded_norse_government_reform = {
 		religion = norse_pagan_reformed
 	}
 	modifiers = {
-		may_perform_slave_raid = yes
+		#may_perform_slave_raid = yes
 		church_influence_modifier = 0.1
 		army_tradition_from_battle = 0.5
 		naval_tradition_from_battle = 0.5
+		allowed_marine_fraction = 0.1
 	}
 	custom_attributes = {
 		winning_war_increases_legitimacy = yes
