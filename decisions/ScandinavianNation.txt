@@ -316,7 +316,7 @@ country_decisions = {
 			if = {
 				limit = {
 					has_custom_ideas = no
-					NOT = { has_country_flag = accepted_norse_ideas_flag_pinguin }
+					has_country_flag = accepted_norse_ideas_flag_pinguin
 					NOT = { has_idea_group = SCA_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas

@@ -10,6 +10,7 @@ country_event = {
     major = yes
     trigger = {
         tag = SWE
+        NOT = { religion = norse_pagan_reformed }
     }
     mean_time_to_happen = {
         months = 36
@@ -29,7 +30,7 @@ country_event = {
         set_country_flag = accepted_norse_ideas_flag
         DAN = { country_event = { id = pinguin_norse.3 } }
         add_country_modifier = {
-            name = conversion_zeal
+            name = conversion_zeal_norse
             duration = 3650
         }
 	}
@@ -40,6 +41,7 @@ country_event = {
 	}
 }
 
+#Norse Ideas
 country_event = {
 	id = pinguin_norse.2
 	title = pinguin_norse.2.t
@@ -53,6 +55,7 @@ country_event = {
             tag = DAN
         }
         religion = norse_pagan_reformed
+        NOT = { has_country_flag = adopted_norse_ideas }
     }
     mean_time_to_happen = {
         months = 24
@@ -69,6 +72,7 @@ country_event = {
 		name = pinguin_norse.2.a
         ai_chance = { factor = 0 }
         swap_free_idea_group = yes
+        set_country_flag = adopted_norse_ideas
 	}
     option = {
 		name = pinguin_norse.2.b
@@ -77,6 +81,7 @@ country_event = {
 	}
 }
 
+#Convert Denmark
 country_event = {
 	id = pinguin_norse.3
 	title = pinguin_norse.3.t
@@ -99,7 +104,7 @@ country_event = {
         set_country_flag = accepted_norse_ideas_flag
         set_country_flag = accepted_norse_ideas_flag_pinguin
         add_country_modifier = {
-            name = conversion_zeal
+            name = conversion_zeal_norse
             duration = 3650
         }
         SWE = {
@@ -108,6 +113,38 @@ country_event = {
 	}
     option = {
 		name = pinguin_norse.3.b
+        ai_chance = { factor = 100 }
+        add_adm_power = 100
+	}
+}
+
+#Convert Ireland
+country_event = {
+	id = pinguin_norse.4
+	title = pinguin_norse.4.t
+	picture = NORSE_TEMPLE_eventPicture
+    fire_only_once = yes
+    hidden = no
+    major = yes
+    is_triggered_only = yes
+	desc = {
+		desc = "pinguin_norse.4.da"
+	}
+
+
+    is_triggered_only = yes
+
+	option = {
+		name = pinguin_norse.4.a
+        ai_chance = { factor = 0 }
+        change_religion = norse_pagan_reformed
+        add_country_modifier = {
+            name = conversion_zeal_norse
+            duration = 3650
+        }
+	}
+    option = {
+		name = pinguin_norse.4.b
         ai_chance = { factor = 100 }
         add_adm_power = 100
 	}
