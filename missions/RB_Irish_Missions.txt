@@ -729,7 +729,7 @@ ire_colonial_missions = {
 		}
 	}
 	irish_whiskey = {
-		icon = che_botanical_exports
+		icon = mission_che_botanical_exports
 		required_missions = { rye_whisky }
 		trigger = {
 			num_of_owned_provinces_with = {
