@@ -42,3 +42,92 @@ MGH_ideas = {
 		production_efficiency = 0.1
 	}
 }
+
+KON_ideas = {
+	start = {
+		trade_efficiency = 0.1
+		land_attrition = -0.20
+	}
+
+	bonus = {
+		manpower_recovery_speed = 0.2
+	}
+
+	trigger = {	
+		OR = {
+			tag = KON
+			tag = LOA
+			tag = NDO
+		}
+	}
+	free = yes		#will be added at load.
+	
+	kongolese_tax_exchange = {
+		global_tax_modifier = 0.25
+	}
+	election_of_manikongos = {
+		monarch_lifespan = 0.25
+	}
+	imported_european_weaponry = {
+		mil_tech_cost_modifier  = -0.1
+		monarch_military_power = 1
+	}
+	diplomacy_with_european_monarchs = {
+		diplomatic_reputation = 1
+		envoy_travel_time = -0.5
+	}
+	triangle_trade = {
+		global_prov_trade_power_modifier = 0.1
+		infantry_power = 0.10
+	}
+	foreign_demand_for_slaves = {
+		production_efficiency = 0.10
+		num_accepted_cultures = 2
+	}
+	defend_against_the_colonists = {
+		discipline = 0.05
+	}
+}
+
+AFR_ideas = {
+	start = {
+		hostile_attrition = 1.5
+		prestige = 1
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.2
+		land_forcelimit_modifier = 0.2
+	}	
+
+	trigger = {
+		tag = AFR
+	}
+	free = yes
+	
+	AFR_NI_1 = {
+		movement_speed = 0.2
+		may_explore = yes
+	}
+	AFR_NI_2 = {
+		leader_land_shock = 2
+	}
+	AFR_NI_3 = {
+		production_efficiency = 0.1
+		build_cost = -0.1
+	}
+	AFR_NI_4 = {
+		discipline = 0.05
+		global_manpower_modifier = 0.2
+	}
+	AFR_NI_5 = {
+		backrow_artillery_damage = 0.2
+	}
+	AFR_NI_6 = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	AFR_NI_7 = {
+		reinforce_speed = 0.25
+		global_supply_limit_modifier = 0.25
+	}
+}

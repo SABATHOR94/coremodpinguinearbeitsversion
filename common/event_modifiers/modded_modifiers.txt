@@ -328,4 +328,8 @@ ire_legi_rule = {
 irish_whiskey_production = {
 	global_unrest = -2
 	production_efficiency = 0.15
+
+pe3_african_frontiers = {
+	colonists = 1
+	global_colonial_growth = 50
 }

@@ -1107,3 +1107,4 @@ ISR = "countries/Israel.txt"
 #Forgotten Realms
 MGH = "countries/Maghreb.txt"
 KAK = "countries/Kara-Kun.txt"
+AFR = "countries/Toto.txt"
