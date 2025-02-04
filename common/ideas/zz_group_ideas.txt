@@ -805,7 +805,7 @@ BAV_ideas = {
 		prestige = 1
 	}
 	bavarian_state_orchestra = {
-		culture_conversion_cost = -0.2
+		culture_conversion_cost = -0.3
 		culture_conversion_time = -0.33
 	}
 	geistlicher_rat = {
@@ -814,6 +814,7 @@ BAV_ideas = {
 	}
 	brewmaster_general = {
 		global_tax_modifier = 0.2
+		years_of_nationalism = -10
 	}
 	professional_army = {
 		discipline = 0.05

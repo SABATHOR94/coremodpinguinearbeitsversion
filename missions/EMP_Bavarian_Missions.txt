@@ -616,7 +616,7 @@ emp_bav_cultural_dominance_branch = {
 		trigger = {
 			primary_culture = bavarian
 			development_in_provinces = {
-				value = 1000
+				value = 700
 				culture = bavarian
 			}
 			capital_scope = {
