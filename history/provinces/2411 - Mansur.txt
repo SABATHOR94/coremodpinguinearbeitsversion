@@ -1,18 +1,17 @@
-#283 - Zaporozhia
+#2411 - Mansur
 
 owner = FEO
 controller = FEO
 culture = goths
 religion = orthodox
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 3 
+base_production = 3
 trade_goods = livestock
 base_manpower = 2
-capital = "Sich"
+capital = "Mansur"
 is_city = yes
 add_core = FEO
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

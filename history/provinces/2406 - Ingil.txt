@@ -1,4 +1,4 @@
-#283 - Zaporozhia
+#2406 - Ingil
 
 owner = FEO
 controller = FEO
@@ -7,11 +7,14 @@ religion = orthodox
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = livestock
-base_manpower = 2
-capital = "Sich"
+trade_goods = wine
+base_manpower = 1
+capital = "Kyzy-Kermen"
 is_city = yes
+add_local_autonomy = 25
 add_core = FEO
+
+
 
 discovered_by = western
 discovered_by = eastern
