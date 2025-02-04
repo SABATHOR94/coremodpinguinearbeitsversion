@@ -70,10 +70,20 @@ vassal = {
 	end_date = 1808.1.1
 }
 
+#Modded
 #Kurdish Principalities generally autonomous under Qara Qoyunlu
 vassal = {
-	first = QAR
+	first = HSN
 	second = BTL
+	start_date = 1435.1.1
+	end_date = 1469.2.4
+}
+
+#Modded
+#Kurdish Principalities generally autonomous under Qara Qoyunlu
+vassal = {
+	first = HSN
+	second = FAD
 	start_date = 1435.1.1
 	end_date = 1469.2.4
 }
