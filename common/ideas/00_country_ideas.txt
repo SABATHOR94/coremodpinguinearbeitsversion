@@ -5963,6 +5963,7 @@ fulani_jihad_ideas = {
 	
 	islamic_scholarship = {
 		gold_depletion_chance_modifier = -0.15
+		culture_conversion_cost = -0.2
 	}
 	
 	community_of_the_faithful = {
@@ -13698,7 +13699,6 @@ CSK_ideas = {
 	}
 	csk_god_of_arts = {
 		prestige = 1
-		culture_conversion_cost = -0.2
 	}
 	csk_active_support_of_temples = {
 		tolerance_own = 2
@@ -18365,7 +18365,7 @@ voc_ideas = {
 
 YUE_ideas = {
 	start = {
-		land_morale = 0.2
+		land_morale = 0.1
 		core_creation = -0.2
 	}
 	bonus = {
@@ -18396,7 +18396,7 @@ YUE_ideas = {
 		envoy_travel_time = -0.33
 	}
 	YUE_6 = {
-		fire_damage_received = -0.1
+		fire_damage_received = -0.05
 	}
 	YUE_7 = {
 		ship_durability = 0.15
