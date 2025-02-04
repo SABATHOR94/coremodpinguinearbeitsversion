@@ -13698,6 +13698,7 @@ CSK_ideas = {
 	}
 	csk_god_of_arts = {
 		prestige = 1
+		culture_conversion_cost = -0.2
 	}
 	csk_active_support_of_temples = {
 		tolerance_own = 2
