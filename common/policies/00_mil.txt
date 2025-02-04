@@ -1793,7 +1793,7 @@ plutocratic_rule_act = {
 	}
 }
 
-land_inheritance_act = {
+cultural_recognition_act = {
 	monarch_power = MIL
 
 	potential = {

@@ -3691,6 +3691,7 @@ TAU_ideas = {
 	}
 	the_hluttaw = {
 		global_unrest = -2
+		development_cost = -0.1
 	}
 	tau_organized_campaigns = {
 		land_attrition = -0.15
