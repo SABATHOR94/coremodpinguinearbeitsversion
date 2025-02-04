@@ -1846,7 +1846,7 @@ calvinist_republic_government = {
 	modifiers = {
 		monthly_fervor_increase = 0.1
 		tolerance_own = 1 
-		own_territory_dice_roll_bonus = 1
+		#own_territory_dice_roll_bonus = 1
 	}
 
 	custom_attributes = {

@@ -7926,7 +7926,7 @@ fin_abundant_food_modifier = {
 	build_time = -0.25
 }
 fin_viipurin_linna_modifier = {
-	local_defender_dice_roll_bonus = 2 
+	#local_defender_dice_roll_bonus = 2 
 	max_attrition = 3
 	local_hostile_attrition = 3
 }
@@ -8036,7 +8036,7 @@ hsa_republican_modus_operandi_modifier = {
 }
 hsa_holstentor_burgtor_modifier = {
 	defensiveness = 0.25 
-	local_defender_dice_roll_bonus = 1 
+	#local_defender_dice_roll_bonus = 1 
 }
 hsa_theory_of_mercantilism_modifier = {
 	mercantilism_cost = -0.1 
@@ -8809,7 +8809,7 @@ mjz_eight_banners_modifier = {
 }
 
 mch_seven_grievances_declaration_modifier = {
-	global_attacker_dice_roll_bonus = 1 
+	#global_attacker_dice_roll_bonus = 1 
 	siege_ability = 0.2
 }
 
@@ -9807,7 +9807,8 @@ pru_thunderous_advance_modifier = {
 }
 
 pru_oblique_order_modifier = {
-	global_defender_dice_roll_bonus = 1 
+	#global_defender_dice_roll_bonus = 1 
+	movement_speed = 0.1
 }
 
 pru_rewrite_military_manual_modifier = {
@@ -10818,7 +10819,7 @@ BYZ_hexamilion_wall_1 = {
 BYZ_hexamilion_wall_2 = {
 	local_defensiveness = 0.25
 	local_garrison_size = 0.25
-	local_defender_dice_roll_bonus = 1
+	#local_defender_dice_roll_bonus = 1
 }
 
 BYZ_theodosian_wall_1 = {
@@ -11907,7 +11908,7 @@ hsn_legacy_saladin = {
 }
 
 hsn_rock_fortress = {
-	local_defender_dice_roll_bonus = 1
+	#local_defender_dice_roll_bonus = 1
 	local_fort_maintenance_modifier = -0.5
 }
 
@@ -12096,7 +12097,7 @@ orm_reclamantion_of_persian_lands = {
 
 orm_bam_citadel = {
     local_fort_maintenance_modifier = -0.8
-    local_defender_dice_roll_bonus = 1
+    #local_defender_dice_roll_bonus = 1
 }
 
 orm_end_of_the_timurids = {
@@ -12127,7 +12128,7 @@ orm_propogation_of_the_islamic_faith = {
 
 orm_fortifying_hormuz_island = {
     local_fort_maintenance_modifier = -0.75
-    local_defender_dice_roll_bonus = 1
+    #local_defender_dice_roll_bonus = 1
     blockade_force_required = 1
 }
 
@@ -12775,7 +12776,7 @@ ned_man_o_war_modifier = {
 }
 
 ned_the_bock = {
-	local_defender_dice_roll_bonus = 1
+	#local_defender_dice_roll_bonus = 1
 	allowed_num_of_manufactories = 1
 }
 
@@ -13097,7 +13098,7 @@ hun_peasants_compensated = {
 
 hun_buda_fortified = {
 	local_defensiveness = 0.25
-	local_defender_dice_roll_bonus = 1
+	#local_defender_dice_roll_bonus = 1
 }
 
 hun_convert_the_saxons = {
@@ -14107,7 +14108,7 @@ tre_perateia_colonies = {
 
 tre_bolstered_the_defences = {
 	local_defensiveness = 0.25
-	local_defender_dice_roll_bonus = 1
+	#local_defender_dice_roll_bonus = 1
 }
 
 tre_metropolitan_of_trebizond = {

@@ -2487,26 +2487,26 @@ country_event = { #Expanding the Quarter Army
 		}
 	}
 	
-	option = { 
-		name = flavor_pol.27.c 
-		
-		trigger = { 
-			OR = { 
-				has_global_modifier_value = {
-					which = infantry_power 
-					value = 0.30 
-				}
-				has_global_modifier_value = {
-					which = discipline  
-					value = 0.25
-				}
-			}
-		}
-		add_country_modifier = { 
-			name = modernized_fire_ranks_modifier
-			duration = -1 
-		}
-	}
+#	option = { 
+#		name = flavor_pol.27.c 
+#		
+#		trigger = { 
+#			OR = { 
+#				has_global_modifier_value = {
+#					which = infantry_power 
+#					value = 0.30 
+#				}
+#				has_global_modifier_value = {
+#					which = discipline  
+#					value = 0.25
+#				}
+#			}
+#		}
+#		add_country_modifier = { 
+#			name = modernized_fire_ranks_modifier
+#			duration = -1 
+#		}
+#	}
 	
 	option = { 
 		name = flavor_pol.27.dee
