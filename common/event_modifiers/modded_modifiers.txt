@@ -318,6 +318,7 @@ Ire_Prestigous_conquest = {
 
 modded_irish_1 = {
 	land_forcelimit = 8
+	war_exhaustion = -0.1
 }
 
 ire_legi_rule = {

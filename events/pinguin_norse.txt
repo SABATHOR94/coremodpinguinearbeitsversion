@@ -56,6 +56,7 @@ country_event = {
         }
         religion = norse_pagan_reformed
         NOT = { has_country_flag = adopted_norse_ideas }
+        NOT = { has_country_flag = not_adopted_norse_ideas }
     }
     mean_time_to_happen = {
         months = 24
@@ -78,6 +79,7 @@ country_event = {
 		name = pinguin_norse.2.b
         ai_chance = { factor = 100 }
         add_adm_power = 100
+        set_country_flag = not_adopted_norse_ideas
 	}
 }
 
