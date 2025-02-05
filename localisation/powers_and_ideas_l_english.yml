@@ -7058,7 +7058,7 @@
 
  ### No need for the rest of loc since it's using stuff 
  ### from the old ideas etc, hence why some entries are missing here
- mercenary_ideas:0 "Logistics"
+ mercenary_ideas:0 "Logistics Ideas"
  mercenary_ideas_bonus:0 "Full Logistics"
  war_council:0 "War Council"
  war_council_desc:0 "Establish a council dedicated to the matters of war, in order to refine and improve our military capabilities."
