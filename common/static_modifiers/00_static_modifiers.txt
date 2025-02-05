@@ -842,6 +842,7 @@ mercantilism = {
 	burghers_loyalty_modifier = 0.1
 	vaisyas_loyalty_modifier = 0.1
 	embargo_efficiency = 1
+	max_absolutism = 15
 }
 
 army_tradition = {
