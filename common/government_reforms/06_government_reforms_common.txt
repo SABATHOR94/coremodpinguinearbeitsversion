@@ -4663,7 +4663,7 @@ ayyubid_high_command = {
 		}
 	}
 	modifiers = {
-		max_general_shock = 2
+		max_general_shock = 1
 		general_cost = -0.1
 		free_land_leader_pool = 2
 	}
