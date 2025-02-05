@@ -74,3 +74,7 @@ NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.3334
 -- Tordesillas change
 NDefines.NCountry.COLONIAL_CLAIM_VIOLATION = -10
 NDefines.NCountry.COLONY_VIOLAION_PAPAL_INFLUENCE_COST  = -0
+
+-- Dice Roll Begrenzung
+NDefines.NMilitary.COMBAT_DICE_SIDE = 6
+NDefines.NMilitary.DAYS_PER_PHASE = 2

@@ -2596,9 +2596,12 @@ subutais_strategies_reform = {
 	potential = {
 		has_dlc = "Domination"
 		OR = {
-			culture_group = altaic
-			culture_group = tartar
-			primary_culture = altaic_new
+			was_tag = KAK
+			OR = {
+				culture_group = altaic
+				culture_group = tartar
+				primary_culture = altaic_new
+			}
 		}
 	}
 	trigger = {
@@ -2611,8 +2614,8 @@ subutais_strategies_reform = {
 		}
 	}
 	modifiers = {
-		leader_siege = 1
-		artillery_cost = -0.1
+		land_forcelimit_modifier = 0.2
+		global_manpower_modifier = 0.15
 	}
 	
 	ai = {
