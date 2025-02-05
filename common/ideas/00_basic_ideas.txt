@@ -545,6 +545,7 @@ diplomatic_ideas = {
 	}
 	flexible_negotiation = {
 		max_absolutism = 10
+		mercantilism_cost = -0.4
 	}
 	diplomatic_corps = {
 		production_efficiency = 0.2
