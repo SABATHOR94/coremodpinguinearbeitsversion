@@ -1195,7 +1195,8 @@ dan_sca_heathen_tolerance = {	#Permanent
 }
 
 dan_sca_balticum_dominance_mod = {	#Permanent
-	own_coast_naval_combat_bonus = 1
+	#own_coast_naval_combat_bonus = 1
+	naval_morale = 0.1
 	merchants = 1
 }
 
@@ -8182,7 +8183,8 @@ hsa_center_of_mineral_trade = {
 }
 hsa_maritime_hegemon_modifier = {
 	naval_forcelimit_modifier = 0.2
-	own_coast_naval_combat_bonus = 1
+	#own_coast_naval_combat_bonus = 1
+	naval_morale = 0.1
 	navy_tradition = 1
 }
 capital_expansion_modifier = {
@@ -9941,7 +9943,8 @@ ara_a_new_power_modifier = {
 ara_masters_med_modifier = {
 	allowed_caravel_fraction = 0.2
 	has_caravel = yes
-	own_coast_naval_combat_bonus = 1
+	naval_morale = 0.1
+	#own_coast_naval_combat_bonus = 1
 }
 
 ara_governmental_restructuring_modifier = {
@@ -10505,8 +10508,8 @@ turkoman_naval_routes = {
 }
 
 turkoman_naval_hegemony = {
-	ship_durability = 0.05
-	own_coast_naval_combat_bonus = 1
+	ship_durability = 0.1
+	#own_coast_naval_combat_bonus = 1
 }
 
 turkoman_army_traditions = {
@@ -12006,7 +12009,7 @@ hsn_trading_network = {
 
 hsn_safeguard_gulf_entrance = {
 	local_defensiveness = 0.2
-	local_own_coast_naval_combat_bonus = 1
+	#local_own_coast_naval_combat_bonus = 1
 }
 
 hsn_subjugate_eranshahr = {

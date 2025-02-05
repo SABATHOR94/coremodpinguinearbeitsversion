@@ -151,7 +151,8 @@ barbary_pirate_ideas = {
 		galley_cost = -0.2
 	}
 	vengeful_refugees = {
-		own_coast_naval_combat_bonus = 1
+		#own_coast_naval_combat_bonus = 1
+		naval_morale = 0.1
 	}
 	mazmorras = {
 		diplomatic_reputation = 1
@@ -211,7 +212,8 @@ pirate_ideas = {
 		naval_morale = 0.1
 	}
 	pirate_bays = {
-		own_coast_naval_combat_bonus = 1
+		#own_coast_naval_combat_bonus = 1
+		naval_morale = 0.1
 	}
 	pirate_life_of_liberty = {
 		rebel_support_efficiency = 0.25

@@ -1000,6 +1000,10 @@ ire_slot_3 = {
 			is_at_war = no
 			manpower_percentage = 0.9
 			army_size_percentage = 1
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 30
+				region = france_region
+			}
 		}
 		effect = {
 			add_country_modifier = {

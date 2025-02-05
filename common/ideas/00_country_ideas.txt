@@ -25,7 +25,7 @@ norse_ideas = {
 		war_exhaustion = -0.03
 	}
 	norse_ideas_norse_seamen = {
-		own_coast_naval_combat_bonus = 1
+		#own_coast_naval_combat_bonus = 1
 		naval_morale = 0.15	
 	}
 	norse_ideas_a_wall_of_shields_for_the_king = {
@@ -16598,7 +16598,8 @@ EOR_ideas = {
 		global_sailors_modifier = 0.1
 	}
 	EOR_sacred = {
-		own_coast_naval_combat_bonus = 1
+		#own_coast_naval_combat_bonus = 1
+		naval_morale = 0.15	
 	}
 	EOR_pemulwuy = {
 		land_morale = 0.15
@@ -17080,8 +17081,8 @@ MSA_ideas = {
 		development_cost = -0.15
 	}
 	msa_chart_the_seas = {
-		own_coast_naval_combat_bonus = 1
-		naval_morale = 0.15
+		#own_coast_naval_combat_bonus = 1
+		naval_morale = 0.2
 	}
 	msa_in_every_port = {
 		merchants = 1

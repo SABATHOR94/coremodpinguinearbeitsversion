@@ -576,13 +576,13 @@ country_event = {
 				set_consort_culture = norse
 			}
 		}
-		if = {
-			limit = { 
-				NOT = { has_idea_group = norse_ideas }
-				NOT = { has_country_flag = adopted_norse_ideas }
-			}
-			country_event = { id = ideagroups.0 } #Swap Ideas
-		}
+		#if = {
+		#	limit = { 
+		#		NOT = { has_idea_group = norse_ideas }
+		#		NOT = { has_country_flag = adopted_norse_ideas }
+		#	}
+		#	country_event = { id = ideagroups.0 } #Swap Ideas
+		#}
 		ai_chance = {
 			factor = 1
 		}
