@@ -567,8 +567,7 @@ policy_of_calculate_delay = {
 		full_idea_group = diplomatic_ideas
 	}
 	
-	religious_unity = 0.25
-	global_missionary_strength = 0.01
+	build_cost = -0.1
  
 
 	effect = {}
@@ -1052,8 +1051,7 @@ the_dissolution_act = {
 		full_idea_group = economic_ideas
 	}
 	
-	global_tax_modifier = 0.15
-	global_autonomy = -0.05
+	production_efficiency = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -1278,7 +1276,7 @@ the_citrus_statute = {
 }
 
 diplomatic_cooperation_act = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 
 	potential = {
@@ -1292,8 +1290,7 @@ diplomatic_cooperation_act = {
 	}
 
 
-	advisor_cost = -0.15
-	diplomatic_reputation = 1
+	build_time = -0.1
 
 
 	effect = {}

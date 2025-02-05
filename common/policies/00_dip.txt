@@ -593,8 +593,7 @@ commercial_embassies = {
 		full_idea_group = expansion_ideas
 	}
 	
-	global_trade_power = 0.1
-	diplomatic_reputation = 1
+	global_colonial_growth = 30
 
 	effect = {}
 	removed_effect = {}
@@ -644,28 +643,7 @@ mandatory_service = {
 }
 
 
-professional_diplomatic_corps = {
-	monarch_power = DIP
-	potential = {
-		has_idea_group = diplomatic_ideas
-		has_idea_group = quality_ideas
-	}
-	
-	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = quality_ideas
-	}
-	
-	diplomatic_reputation = 1
-	war_exhaustion = -0.05
 
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.7
-	}
-
-}
 
 
 
@@ -740,8 +718,8 @@ multilingual_diplomats = {
 		full_idea_group = diplomatic_ideas
 	}	
 	
-	num_accepted_cultures = 1
-	improve_relation_modifier = 0.2
+	tolerance_heathen = 1
+	tolerance_heretic = 1
 	
 	effect = {}
 	removed_effect = {}
@@ -1007,8 +985,8 @@ record_keeping_act = {
 		full_idea_group = diplomatic_ideas
 	}
 
-	diplomats = 1
-	global_autonomy = -0.05
+	max_absolutism = 5
+	yearly_absolutism = 1
 
 	effect = {}
 	removed_effect = {}
@@ -1176,8 +1154,7 @@ diplomatic_defence_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	diplomats = 1
-	improve_relation_modifier = 0.2
+	embargo_efficiency = 0.3
 	
 	effect = {}
 	removed_effect = {}
@@ -1665,8 +1642,7 @@ the_smooth_integration_act = {
 		full_idea_group = diplomatic_ideas 
 	}
 	
-	diplomatic_reputation = 1 
-	years_to_integrate_personal_union = -10
+	trade_goods_size_modifier = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -1831,7 +1807,8 @@ diplomatic_arms_act = {
 		full_idea_group = diplomatic_ideas 
 	}
 	
-	diplomatic_upkeep = 2
+	movement_speed = 0.1
+	land_maintenance_modifier = -0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -2045,5 +2022,49 @@ public_road_act = {
 			factor = 1.5
 			trade_income_percentage = 0.5
 		}
+	}
+}
+
+the_tenures_abolition_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = aristocracy_ideas
+	}
+	
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = aristocracy_ideas
+	}
+
+	cavalry_cost = -0.1
+	production_efficiency = -0.1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
+	}	
+}
+
+underhanded_diplomacy_act = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = offensive_ideas
+	}
+	
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = offensive_ideas
+	}
+	
+	mercantilism_cost = -0.2
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.6
 	}
 }

@@ -369,8 +369,8 @@ pen_rely_on_sword_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	diplomatic_reputation = 1
-	land_forcelimit_modifier = 0.1
+	trade_goods_size_modifier = 0.1
+	production_efficiency = 0.1
 
 	
 	effect = {}
@@ -422,28 +422,6 @@ local_army_organisation = {
 	}
 }
 
-underhanded_diplomacy_act = {
-	monarch_power = MIL
-	potential = {
-		has_idea_group = diplomatic_ideas
-		has_idea_group = offensive_ideas
-	}
-	
-	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = offensive_ideas
-	}
-	
-	spy_offence = 0.33
-	diplomatic_reputation = 1
-
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-	}
-}
-
 
 hired_adventurers_act = {
 	monarch_power = MIL
@@ -473,28 +451,6 @@ hired_adventurers_act = {
 }	
 	
 		
-the_tenures_abolition_act = {
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = diplomatic_ideas
-		has_idea_group = aristocracy_ideas
-	}
-	
-	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = aristocracy_ideas
-	}
-
-	army_tradition = 0.5
-	diplomats = 1
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 0.6
-	}	
-}
 
 colonial_garrisons = {
 	monarch_power = MIL
@@ -1984,4 +1940,26 @@ innovative_payment_techniques_act = {
 	ai_will_do = {
 		factor = 1
 	}
+}
+
+professional_diplomatic_corps = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = quality_ideas
+	}
+	
+	land_attrition = -0.2
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.7
+	}
+
 }
