@@ -3685,13 +3685,13 @@ TAU_ideas = {
 	nat_worship = {
 		global_tax_modifier = 0.3
 	}
-	chakravartin = {
-		discipline = 0.025
-		global_regiment_cost = -0.1
-	}
 	the_hluttaw = {
 		global_unrest = -2
 		development_cost = -0.1
+	}
+	chakravartin = {
+		discipline = 0.025
+		global_regiment_cost = -0.1
 	}
 	tau_organized_campaigns = {
 		land_attrition = -0.15
