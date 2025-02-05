@@ -524,30 +524,30 @@ spy_ideas = {
 diplomatic_ideas = {
 	category = DIP
 	bonus = {
-		reduced_stab_impacts = yes
+		embargo_efficiency = 0.5
 	}
 	
 	grand_banquets = {
-		diplomats = 1
+		production_efficiency = 0.2
 	}
 	foreign_embassies = {
 		dip_advisor_cost = -0.25
 	}
 	cabinet = {
-		diplomatic_upkeep = 1
+		global_own_trade_power = 0.2
 	}
 	benign_diplomats = {
-		improve_relation_modifier = 0.25
-		diplomats = 1
+		build_cost = -0.1
 	}
 	experienced_diplomats  = {
-		diplomatic_reputation = 2
+		free_dip_policy = 1
+		possible_dip_policy = 1
 	}
 	flexible_negotiation = {
-		province_warscore_cost = -0.2
+		max_absolutism = 10
 	}
 	diplomatic_corps = {
-		dip_tech_cost_modifier = -0.1
+		production_efficiency = 0.2
 	}
 
 	ai_will_do = {
