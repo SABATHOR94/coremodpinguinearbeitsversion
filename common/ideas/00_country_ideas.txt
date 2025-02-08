@@ -3687,7 +3687,7 @@ TAU_ideas = {
 	}
 	the_hluttaw = {
 		global_unrest = -2
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	chakravartin = {
 		discipline = 0.025
