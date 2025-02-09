@@ -1,0 +1,17 @@
+pe3_100_pp_kill = {
+	power = 100
+	yearly_decay = 5
+	max = 100
+}
+
+pe3_50_pp_kill = {
+	power = 50
+	yearly_decay = 5
+	max = 50
+}
+
+pe3_25_pp_kill = {
+	power = 25
+	yearly_decay = 5
+	max = 25
+}

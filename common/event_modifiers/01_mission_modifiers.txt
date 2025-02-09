@@ -11159,7 +11159,7 @@ ARB_following_teachings_of_old = {
 }
 
 ARB_support_of_local_sheikhs = {
-	reinforce_speed = 0.15
+	reinforce_speed = 0.33
 }
 
 ABR_train_horsemanship_modifier_upgraded = {

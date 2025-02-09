@@ -338,3 +338,52 @@ pe3_african_frontiers = {
 
 trade_hub_created = {}
 trade_hub_created_in_province = {}
+
+pe3_my_arrakis = {
+	trade_goods_size = 2
+}
+
+pe3_arabia_monarch_development = {
+	development_cost = -0.10
+	build_cost = -0.10
+}
+
+pe3_arabia_monarch_money = {
+	global_tax_modifier = 0.33
+	production_efficiency = 0.20
+	trade_efficiency = 0.20
+	global_trade_goods_size_modifier = 0.1
+}
+
+pe3_three_headed_negative_morale = {
+	land_morale = -0.1
+}
+pe3_three_headed_negative_morale_dmg = {
+	morale_damage_received = 0.1
+}
+pe3_three_headed_negative_discipline = {
+	discipline = -0.025
+}
+pe3_three_headed_positive_dmg = {
+	shock_damage = 0.1
+	fire_damage = 0.1
+}
+pe3_three_headed_positive_morale = {
+	land_morale = 0.2
+}
+pe3_three_headed_positive_morale_dmg = {
+	morale_damage = 0.2
+}
+pe3_three_headed_positive_discipline = {
+	discipline = 0.05
+}
+pe3_three_headed_positive_flat_shock = {
+	infantry_shock = 0.2
+	cavalry_shock = 0.2
+}
+pe3_three_headed_positive_arty_fire = {
+	artillery_fire = 0.5
+}
+pe3_three_headed_positive_power_cost = {
+	all_power_cost = -0.05
+}

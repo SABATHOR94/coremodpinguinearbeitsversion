@@ -131,3 +131,48 @@ AFR_ideas = {
 		global_supply_limit_modifier = 0.25
 	}
 }
+
+ARB_ideas = {
+	start = {
+		land_morale = 0.2
+		leader_siege = 2
+	}
+
+	bonus = {
+		siege_ability = 0.25
+		max_general_siege = 2
+	}
+
+	trigger = {
+		tag = ARB
+	}
+	free = yes
+
+	ARB_arabian_pincers = {
+		cav_to_inf_ratio = 0.5
+		cavalry_power = 0.25
+		cavalry_flanking = 0.5
+	}
+	ARB_pact_of_umar = {
+		dhimmi_loyalty_modifier = 0.1
+		global_tax_modifier = 0.33
+	}
+	ARB_engage_in_indian_ocean_trade = {
+		trade_steering = 0.25
+		caravan_power = 0.25
+	}
+	ARB_conversion = {
+		assault_fort_ability = 0.25
+		artillery_barrage_cost = -0.5
+	}
+	ARB_jihad = {
+		cb_on_religious_enemies = yes
+		missionaries = 2
+	}
+	ARB_new_caliphate_rising = {
+		movement_speed = 0.2
+	}
+	ARB_mubarizun = {
+		army_tradition_decay = -0.01
+	}
+}
