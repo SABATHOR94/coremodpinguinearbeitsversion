@@ -19,10 +19,16 @@ pe3_tunis_caliphate_republic_reform = {
 		missionaries = 1
 		global_missionary_strength = 0.02
 	}
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
 			feudal_theocracy_mechanic
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
 		}
 	}
 	duration = 4
@@ -50,10 +56,16 @@ pe3_tunis_caliphate_theocracy_reform = {
 		missionaries = 1
 		global_missionary_strength = 0.02
 	}
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
 			feudal_theocracy_mechanic
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
 		}
 	}
 }
@@ -78,12 +90,19 @@ pe3_arab_caliphate_reform = {
 		land_forcelimit_modifier = 0.25
 		prestige_per_development_from_conversion = 0.25
 		land_attrition = -0.25
-		
 	}
+
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
+
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
 			pe3_three_headed_mechanic
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
 		}
 	}
 }
