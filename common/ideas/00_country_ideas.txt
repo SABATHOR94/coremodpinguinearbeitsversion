@@ -3687,7 +3687,7 @@ TAU_ideas = {
 	}
 	the_hluttaw = {
 		global_unrest = -2
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	chakravartin = {
 		discipline = 0.025
@@ -18077,46 +18077,6 @@ ARM1_ideas = {
 	end_of_armenian_diaspora1 = {
 		production_efficiency = 0.1
 		manpower_in_own_culture_provinces = 0.2
-	}
-}
-
-ARB_ideas = {
-	start = {
-		tolerance_own = 2
-		years_of_nationalism = -10
-	}
-
-	bonus = {
-		siege_ability = 0.15
-	}
-
-	trigger = {
-		tag = ARB
-	}
-	free = yes
-
-	ARB_arabian_pincers = {
-		cav_to_inf_ratio = 0.25
-		cavalry_power = 0.25
-	}
-	ARB_pact_of_umar = {
-		dhimmi_loyalty_modifier = 0.1
-		global_tax_modifier = 0.2
-	}
-	ARB_engage_in_indian_ocean_trade = {
-		trade_steering = 0.2	
-	}
-	ARB_conversion = {
-		global_missionary_strength = 0.03
-	}
-	ARB_jihad = {
-		warscore_cost_vs_other_religion = -0.1
-	}
-	ARB_new_caliphate_rising = {
-		missionaries = 2
-	}
-	ARB_mubarizun = {
-		army_tradition_decay = -0.01
 	}
 }
 

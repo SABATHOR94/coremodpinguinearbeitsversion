@@ -1,0 +1,330 @@
+pe3_three_headed_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 4
+	available = {
+	}
+	
+	interactions = {
+		pe3_one_to_be_murderer = {
+			icon = GFX_seize_clerical_holdings_button
+			trigger = {
+				adm_power_cost = 100
+			}
+			effect = {
+				adm_power_cost = 100
+                custom_tooltip = pe3_arabia_one_to_murder_tt
+                hidden_effect = {
+                    random_list = {
+                    10 = { #
+                        random_neighbor_country  = { 
+                            kill_ruler = yes
+                        }
+                        add_power_projection = { 
+                            type = pe3_100_pp_kill
+                            amount = 100 
+                        }
+                    }
+                    15 = { #
+                        random_neighbor_country  = { 
+                            kill_heir = {} 
+                        }
+                        add_power_projection = { 
+                            type = pe3_50_pp_kill
+                            amount = 50 
+                        }
+                    }
+                    25 = { #
+                        random_neighbor_country  = { 
+                            kill_leader = {
+                                type = random
+                            }
+                        }
+                        add_power_projection = { 
+                            type = pe3_25_pp_kill
+                            amount = 25
+                        }
+                    }
+                    25 = { #
+                        kill_leader = {
+                            type = random
+                        }
+                        create_general = {
+                            tradition = 100
+                        }
+                    }
+                    25 = { #
+                        kill_advisor = random
+                    }
+                }
+                } 
+			}
+			cooldown_years = 10
+			ai_chance = {
+				factor = 1
+				modifier = {
+					factor = 0
+					is_at_war = yes
+				}
+			}
+		}
+		pe3_one_to_be_monarch = {
+			icon = GFX_invite_minorities_button
+			trigger = { 
+				dip_power_cost = 100
+			}
+			effect = { 
+				dip_power_cost = 100
+                custom_tooltip = pe3_arabia_one_to_be_monarch_tt
+                hidden_effect = {
+                    random_list = {
+                        10 = { #dev 20x
+                            custom_tooltip = pe3_arabia_distribute_20_dev_tt
+                            for = {
+                                amount = 20
+                                effect = "
+                                    random_owned_province = {
+                                        add_random_development = 1
+                                    }
+                                "
+                            }
+                        }
+                        10 = { #dev cost / build cost
+                            add_country_modifier = {
+                                name = "pe3_arabia_monarch_development"
+                                duration = 3650
+                            }
+                        }
+                        10 = { #money modifier
+                            add_country_modifier = {
+                                name = "pe3_arabia_monarch_money"
+                                duration = 3650
+                            }
+                        }
+                        10 = { #bilige advisor
+                            random_province = {
+                                limit = {
+                                    religion = ROOT
+                                }
+                                ROOT = {
+                                    define_advisor = {
+                                        type = natural_scientist
+                                        skill = 3
+                                        cost_multiplier = 0.25
+                                        culture = PREV
+                                        religion = PREV
+                                    }
+                                }
+                            }
+                            random_province = {
+                                limit = {
+                                    religion = ROOT
+                                }
+                                ROOT = {
+                                    define_advisor = {
+                                        type = trader
+                                        skill = 3
+                                        cost_multiplier = 0.25
+                                        culture = PREV
+                                        religion = PREV
+                                    }
+                                }
+                            }
+                            random_province = {
+                                limit = {
+                                    religion = ROOT
+                                }
+                                ROOT = {
+                                    define_advisor = {
+                                        type = army_reformer
+                                        skill = 3
+                                        cost_multiplier = 0.25
+                                        culture = PREV
+                                        religion = PREV
+                                    }
+                                }
+                            }
+                        }
+                        10 = { #250 mana each
+                            add_adm_power = 200
+                            add_dip_power = 200
+                            add_mil_power = 200
+                        }
+                        10 = { #3 stab
+                            add_stability_or_adm_power = yes
+                            add_stability_or_adm_power = yes
+                            add_stability_or_adm_power = yes
+                        }
+                        10 = { #100 reform progress
+                            change_government_reform_progress = 100
+                        }
+                        10 = { #2.5 jahreseinkommen
+                            add_years_of_income = 2.5
+                        }
+                        10 = { #200 prestige
+                            add_prestige = 200
+                        }
+                        10 = { #15 crownland
+                            change_estate_land_share = {
+                                estate = all
+                                share = -15
+                            }
+                        }
+                    }
+                }
+			}
+			cooldown_years = 10
+			ai_chance = {
+				factor = 1
+				modifier = {
+					factor = 20
+					capital_scope = {
+						NOT = { current_institution = 90 }
+					}
+				}
+			}
+		}
+		pe3_one_to_change_history = {
+			icon = GFX_sanction_holy_war_button
+			trigger = {
+				mil_power_cost = 100
+			}
+			effect = { 
+				mil_power_cost = 100
+                custom_tooltip = pe3_arabia_one_to_change_history_tt
+                custom_tooltip = pe3_arabia_one_to_change_history_2_tt
+                hidden_effect = { 
+                    random_list = {
+                        10 = { #Ruler stirbt
+                            kill_ruler = yes
+                        }
+                        10 = { #Erbe stirbt
+                            kill_heir = {}
+                        }
+                        10 = { #-3 Stab
+                            add_stability = -3 
+                        }
+                        10 = { #-50 all power
+                            add_adm_power = -50
+                            add_dip_power = -50
+                            add_mil_power = -50
+                        }
+                        10 = { #-100 Prestige
+                            add_prestige = -100
+                        }
+                        10 = { #-Morale
+                            add_country_modifier = {
+                                name = "pe3_three_headed_negative_morale"
+                                duration = 3650
+                            }
+                        }
+                        10 = { #+Morale damage received
+                            add_country_modifier = {
+                                name = "pe3_three_headed_negative_morale_dmg"
+                                duration = 3650
+                            }
+                        }
+                        10 = { #-discipline
+                            add_country_modifier = {
+                                name = "pe3_three_headed_negative_discipline"
+                                duration = 3650
+                            }
+                        }
+                        10 = { #Berater sterben
+                            remove_advisor_by_category = ADM
+                            remove_advisor_by_category = DIP
+                            remove_advisor_by_category = MIL
+                        }
+                        10 = { #Military disaster
+                            kill_leader = {
+                                type = general
+                            }
+                            kill_leader = {
+                                type = random
+                            }
+                            add_army_professionalism = -0.10
+                        }
+                    }
+                    random_list = {
+                        10 = { # Ruler stats
+                            change_adm = 1
+                            change_dip = 1
+                            change_mil = 1
+                        }
+                        10 = { # Heir stats
+                            change_heir_adm = 1
+                            change_heir_dip = 1
+                            change_heir_mil = 1
+                        }
+                        10 = { # shock / fire dmg
+                            add_country_modifier = {
+                                name = "pe3_three_headed_positive_dmg"
+                                duration = 3650
+                            }
+                        }
+                        10 = { # moral
+                            add_country_modifier = {
+                                name = "pe3_three_headed_positive_morale"
+                                duration = 3650
+                            }
+                        }
+                        10 = { # morale dmg
+                            add_country_modifier = {
+                                name = "pe3_three_headed_positive_morale_dmg"
+                                duration = 3650
+                            }
+                        }
+                        10 = { # discipline
+                            add_country_modifier = {
+                                name = "pe3_three_headed_positive_discipline"
+                                duration = 3650
+                            }
+                        }
+                        10 = { # 5 years of manpower
+                            add_yearly_manpower = 5
+                        }
+                        10 = { # inf / cav flat shock
+                            add_country_modifier = {
+                                name = "pe3_three_headed_positive_flat_shock"
+                                duration = 3650
+                            }                            
+                        }
+                        10 = { # arty flat fire
+                            add_country_modifier = {
+                                name = "pe3_three_headed_positive_arty_fire"
+                                duration = 3650
+                            }
+                        }
+                        5 = { # all power cost
+                            add_country_modifier = {
+                                name = "pe3_three_headed_positive_power_cost"
+                                duration = 3650
+                            }
+                        }
+                        5 = { # 6/6/6 erbe
+                            define_heir = {
+                                dynasty = ROOT
+                                age = 13
+                                adm = 6
+                                dip = 6
+                                mil = 6
+                                claim = 100
+                                male = yes
+                                religion = ROOT
+                                culture = ROOT
+                            }
+                        }
+                    }
+                } #End of hidden effect
+			}
+			cooldown_years = 10
+			ai_chance = {
+				factor = 10
+				modifier = {
+					factor = 0
+					NOT = { mil_power_cost = 650 }
+					NOT = { monthly_mil = 10 }
+				}
+			}
+		}
+	}
+}

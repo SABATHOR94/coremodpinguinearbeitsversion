@@ -113,14 +113,36 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 235;87;sea;1271;-1;-1;-1;-1;Kent-Calais #geht
 4374;169;sea;1272;-1;-1;-1;-1;Dorset-Arvor #geht
 251;24;sea;1975;-1;-1;-1;-1;Aberdeen-Stavanger #geht
-4183;2745;sea;1376;-1;-1;-1;-1;Iwami-Gyeounju #geht
-4192;1850;sea:1387;-1;-1;-1;-1;Ugo-Yaran #geht
-#623;630;sea;1360;-1;-1;-1;-1;Tulangbewang-Kalapa
-640;659;sea;1361;-1;-1;-1;-1;Sambas-Lingga
-628;639;sea;1358;-1;-1;-1;-1;Surabaya-Banjar #geht
+629;639;sea;1358;-1;-1;-1;-1;Demak-Banjar #geht nicht
 2455;2986;sea;1302;-1;-1;-1;-1;Tunis-Sardinia
 341;4736;sea;1302;-1;-1;-1;-1;Tunis-Sicily
 1247;115;sea;1298;-1;-1;-1;-1;Pisa-Korsica
 4049;4020;sea;1449;-1;-1;-1;-1;Ibo-Comoros
 4020;4022;sea;1449;-1;-1;-1;-1;Comoros-Iboina
+1017;4651;sea;1376;-1;-1;-1;-1;Suo-Tshushima
+2745;4651;sea;1376;-1;-1;-1;-1;Gyeounju-Tshushima
+1031;1033;sea;1386;-1;-1;-1;-1;Kamikawa-Enchiw
+2741;4228;sea;1389;-1;-1;-1;-1;Jeju-Naju
+1032;1034;sea;1441;-1;-1;-1;-1;Kurils-Kamchatka
+2684;4811;sea;1350;-1;-1;-1;-1;Nias-Barus
+2683;4817;sea;1351;-1;-1;-1;-1;Mentawi-Padang
+2678;2679;sea;1360;-1;-1;-1;-1;Bangka-Belitung
+4802;2679;sea;1360;-1;-1;-1;-1;Pontianak-Enchiw
+632;634;sea;1355;-1;-1;-1;-1;Sumba-Sumbawa
+634;635;sea;1356;-1;-1;-1;-1;Sumba-WestTimor
+633;641;sea;1357;-1;-1;-1;-1;Flores-Makassar
+4799;2714;sea;1359;-1;-1;-1;-1;Sangkulirang-Palu
+637;655;sea;1368;-1;-1;-1;-1;ApiApi-Palawan
+2703;651;sea;1398;-1;-1;-1;-1;LehadDatu-Sulu 
+651;4354;sea;1398;-1;-1;-1;-1;Sulu-Zamboanga
+4350;656;sea;1395;-1;-1;-1;-1;Mindoro-Manila
+643;2717;sea;1399;-1;-1;-1;-1;Poso-Sula 
+2717;645;sea;1399;-1;-1;-1;-1;Sula-Buru
+645;647;sea;1401;-1;-1;-1;-1;Buru-Ceram
+650;647;sea;1400;-1;-1;-1;-1;Ceram-Tidore
+623;624;sea;1386;-1;-1;-1;-1;Banten-Tulangbewang
+647;1245;sea;1400;-1;-1;-1;-1;Ceram-Manokwari
+2695;2696;sea;1401;-1;-1;-1;-1;EastTimor-Yamdena
+2696;2725;sea;1409;-1;-1;-1;-1;Yamdena-Aru 
+2725;2724;sea;1409;-1;-1;-1;-1;Aru-Asmat
 -1;-1;;-1;-1;-1;-1;-1;-1;

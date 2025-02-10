@@ -1269,6 +1269,7 @@ theocracy = {
 				turkoman_ottoman_institutions
 				#mod
 				pe3_tunis_caliphate_theocracy_reform
+				pe3_arab_caliphate_reform
 			}
 		}
 		internal_vs_external_mission = {
