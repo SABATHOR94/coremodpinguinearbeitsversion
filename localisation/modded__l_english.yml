@@ -452,3 +452,6 @@ pe3_three_headed_positive_power_cost_desc:0"§RWho's ideas will change history§
 pe3_100_pp_kill:0 "Killed enemy ruler"
 pe3_50_pp_kill:0 "Killed enemy heir"
 pe3_25_pp_kill:0 "Killed enemy leader"
+
+rampart_warning_title: "TOO MANY RAMPARTS"
+rampart_warning_desc: "You may only own three provinces with ramparts. Delete obsolete ramparts or your enemies may do that for you during war!"

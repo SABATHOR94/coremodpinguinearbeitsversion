@@ -2598,32 +2598,6 @@ ramparts = {
 		local_defender_dice_roll_bonus = 1
 	}
 
-	build_trigger = {
-		NOT = {
-			region_for_scope_province = {
-				owner = {
-					tag = ROOT
-				}
-				OR = {
-					has_building = ramparts
-					has_construction = ramparts
-				}
-			}
-		}
-	}
-	keep_trigger = {
-		NOT = {
-			region_for_scope_province = {
-				owner = {
-					tag = ROOT
-				}
-				OR = {
-					has_building = ramparts
-					has_construction = ramparts
-				}
-			}
-		}
-	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 	

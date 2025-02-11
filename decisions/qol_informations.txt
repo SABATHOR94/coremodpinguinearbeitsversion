@@ -236,4 +236,19 @@ country_decisions = {
 
         }
     }
+
+    rampart_warning = {
+        major = yes
+		color =  { 255 255 0 }
+        potential = {
+            num_of_owned_provinces_with = {
+                value = 4
+                has_building = ramparts
+            }
+        }
+        allow = {
+            always = false
+
+        }
+    }
 }
