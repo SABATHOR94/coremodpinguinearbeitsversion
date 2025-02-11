@@ -2655,43 +2655,43 @@ grant_manpower_from_besieging_fort = {
 		}
 		if = {
 			limit = { FROM = { fort_level = 1 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 2 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 3 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 4 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 5 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 6 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 7 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 8 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 9 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 		if = {
 			limit = { FROM = { fort_level = 10 } }
-			ROOT = { add_yearly_manpower = 0.02 }
+			ROOT = { add_yearly_manpower = 0.05 }
 		}
 	}
 }

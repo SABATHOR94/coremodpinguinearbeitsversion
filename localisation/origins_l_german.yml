@@ -771,7 +771,7 @@
  enable_scholar_cost_tt:0 "Das Einladen eines Gelehrten kostet erneut §YAdministrative Macht§!."
  disable_baseline_invite_scholar_tt:0 "Das Einladen eines Gelehrten kostet erneut eine diplomatische Beziehung."
  enable_baseline_invite_scholar_tt:0 "Der Gelehrte einer religiösen Schule Eurer Wahl wird ein Einwohner von [Root.GetName], wodurch die diplomatische Beziehung, die für die Einladung eines Gelehrten erforderlich ist, aufgehoben wird.\nAktiviert eine Entscheidung, die es Euch erlaubt, den Gelehrten alle §Y20§! Jahre durch den Gelehrten einer anderen Schule zu ersetzen."
- enable_capital_slave_raid_tt:0 "[Root.GetName] erhält Rekrutenreserve in Höhe von §G0.1 Jahren§! für die Besetzung einer feindlichen Festung.\nDie Menge an Rekruten skaliert mit der Festungsstufe (+0.1 Jahre Rekrutenreserve pro Festungsstufe).\n\nDieser Effekt kann nur alle §Y5 Jahre§! pro Festung auftreten."
+ enable_capital_slave_raid_tt:0 "[Root.GetName] erhält Rekrutenreserve in Höhe von §G0.05 Jahren§! für die Besetzung einer feindlichen Festung.\nDie Menge an Rekruten skaliert mit der Festungsstufe (+0.05 Jahre Rekrutenreserve pro Festungsstufe).\n\nDieser Effekt kann nur alle §Y5 Jahre§! pro Festung auftreten."
  disable_capital_slave_raid_tt:0 "Das Besetzen von Festungen gibt [Root.GetName] nicht länger Rekrutenreserve."
  enable_slave_raid_pillage_tt:0 "Das Plündern von Hauptstädten gibt außerdem Rekrutenreserve in Höhe von §G1 Jahr§! für [Root.GetName]."
  disable_slave_raid_pillage_tt:0 "Das Plündern von Hauptstädten gibt keine Rekrutenreserve mehr."

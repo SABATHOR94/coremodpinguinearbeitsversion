@@ -771,7 +771,7 @@
  enable_scholar_cost_tt:0 "Inviting a Scholar costs §YAdministrative Power§! again."
  disable_baseline_invite_scholar_tt:0 "Inviting Scholars requires diplomatic relations again."
  enable_baseline_invite_scholar_tt:0 "A Scholar of a Religious School of choice becomes a permanent resident of [Root.GetName], removing the diplomatic relation required to invite the scholar.\nEnables a decision that allows you to change the scholar with one from another school every §Y20§! years."
- enable_capital_slave_raid_tt:0 "[Root.GetName] gains §G0.1 years§! worth of Manpower for occupying a hostile fort.\nThe amount of manpower scales with the fort level (+0.1 years worth of Manpower per fort level).\n\nThis effect can only happen every §Y5 years§! per fort."
+ enable_capital_slave_raid_tt:0 "[Root.GetName] gains §G0.05 years§! worth of Manpower for occupying a hostile fort.\nThe amount of manpower scales with the fort level (+0.05 years worth of Manpower per fort level).\n\nThis effect can only happen every §Y5 years§! per fort."
  disable_capital_slave_raid_tt:0 "Occupying forts will no longer give manpower to [Root.GetName]."
  enable_slave_raid_pillage_tt:0 "Pillaging Capitals will also give §G1 year§! worth of Manpower for [Root.GetName]."
  disable_slave_raid_pillage_tt:0 "Pillaging Capitals will no longer give any Manpower."
