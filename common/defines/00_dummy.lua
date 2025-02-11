@@ -67,9 +67,9 @@ NDefines.NMilitary.BATTLE_DAILY_MORALE_DAMAGE = 0.0 -- 0.01
 NDefines.NMilitary.REVANCHISM_DEVASTATION_IMPACT = -0.04            -- 100 revanschism is -2 a year.
 
 -- Fort-changes
-NDefines.NMilitary.GARRISON_SIZE = 3000
-NDefines.NMilitary.FORTRESS_COST = 0.1667
-NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.3334
+NDefines.NMilitary.GARRISON_SIZE = 2000
+NDefines.NMilitary.FORTRESS_COST = 0.25
+NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 0.5
 
 -- Tordesillas change
 NDefines.NCountry.COLONIAL_CLAIM_VIOLATION = -10
