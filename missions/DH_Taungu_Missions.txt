@@ -435,7 +435,8 @@ tau_slot_2 = {
 				limit = {
 					NOT = { any_country = { has_country_flag = is_burma } }
 				}
-				override_country_name = BURMA
+				#override_country_name = BURMA
+				override_country_name = TAUNGUEMPIRE
 				set_country_flag = is_burma
 			}
 			northern_thai_area = {

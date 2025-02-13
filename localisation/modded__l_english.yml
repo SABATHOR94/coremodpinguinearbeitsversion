@@ -457,3 +457,5 @@ rampart_warning_title: "TOO MANY RAMPARTS"
 rampart_warning_desc: "You may only own three provinces with ramparts. Delete obsolete ramparts or your enemies may do that for you during war!"
 
 flavor_mor.12.e: "There is no need for that."
+TAUNGUEMPIRE: "Taungu Empire"
+TAUNGUEMPIRE_ADJ: "Taungu"
