@@ -495,7 +495,7 @@ gc_morocco_2 = {
 	}
 	gc_mor_black_guard = {
 		icon = mission_establish_the_black_guard
-		required_missions = { gc_mor_palace gc_mor_timbuktu }
+		required_missions = { gc_mor_timbuktu }
 		
 		provinces_to_highlight = {
 			province_id = 1132
@@ -603,7 +603,7 @@ gc_morocco_3 = {
 					tooltip = gc_mor_wattasid_tt
 					has_country_flag = wattasid_resolution
 				}
-				is_year = 1500
+				is_year = 1475
 			}
 		}
 		effect = {
