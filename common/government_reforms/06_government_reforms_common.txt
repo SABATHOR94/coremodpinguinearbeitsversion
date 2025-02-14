@@ -1951,29 +1951,27 @@ mercenary_leadership_reform = {
 	}
 }
 
-#doppelsoldner_reform = {
-#	icon = "mercenaries"
-#	allow_normal_conversion = yes
-#	potential = {
-#		has_dlc = "Domination"
-#		NOT = { primary_culture = swiss }
-#	}
-#	trigger = {
-#		full_idea_group = mercenary_ideas
-#		if = {
-#			limit = { has_modifier_locking_military_tier = yes }
-#			OR = {
-#				has_reform = doppelsoldner_reform
-#				has_not_modifier_locking_military_tier = yes
-#			}
-#		}
-#	}
-#	modifiers = {
-#		mercenary_cost = -0.15
-#		mercenary_discipline = 0.05
-#		possible_condottieri = 0.5
-#		merc_leader_army_tradition = 0.25
-#	}
+doppelsoldner_reform = {
+	icon = "mercenaries"
+	allow_normal_conversion = yes
+	potential = {
+		has_dlc = "Domination"
+		NOT = { primary_culture = swiss }
+	}
+	trigger = {
+		full_idea_group = mercenary_ideas
+		if = {
+			limit = { has_modifier_locking_military_tier = yes }
+			OR = {
+				has_reform = doppelsoldner_reform
+				has_not_modifier_locking_military_tier = yes
+			}
+		}
+	}
+	modifiers = {
+		artillery_power = 0.05
+		land_forcelimit_modifier = 0.1
+	}
 #	conditional = {
 #		allow = { has_dlc = "Domination" }
 #		government_abilities = {
@@ -1983,11 +1981,11 @@ mercenary_leadership_reform = {
 #	custom_attributes = {
 #		mercs_do_not_cost_army_professionalism = yes
 #	}
-#	
-#	ai = {
-#		factor = 1
-#	}
-#}
+	
+	ai = {
+		factor = 1
+	}
+}
 
 maritime_military_reform = {
 	icon = "war_ship"
