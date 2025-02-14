@@ -459,3 +459,7 @@ rampart_warning_desc: "You may only own three provinces with ramparts. Delete ob
 flavor_mor.12.e: "There is no need for that."
 TAUNGUEMPIRE: "Taungu Empire"
 TAUNGUEMPIRE_ADJ: "Taungu"
+
+MGH_ideas: "Maghrebi Ideas"
+MGH_ideas_start: "Maghrebi Traditions"
+MGH_ideas_bonus: "Maghrebi Ambition"
