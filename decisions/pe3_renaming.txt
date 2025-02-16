@@ -1,0 +1,110 @@
+country_decisions = {
+
+	RenameBavaria = {
+		major = yes
+		color =  { 0 191 255 }
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_bayern_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			tag = BAV
+		}
+		allow = {
+			is_at_war = no
+			total_development = 1000
+		}
+		effect = {
+			set_country_flag = formed_bayern_flag
+			add_prestige = 25
+			override_country_name = GROSSBAYERN
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	RenameIreland = {
+		major = yes
+		color =  { 0 191 255 }
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_renamedIreland_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			tag = IRE
+		}
+		allow = {
+			is_at_war = no
+			total_development = 1000
+		}
+		effect = {
+			set_country_flag = formed_renamedIreland_flag
+			add_prestige = 25
+			override_country_name = KAISERREICHIRLAND
+			change_country_color = { color = { 179 238 58 } }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	RenameRussia = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = renamed_russia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			was_tag = BLO
+			tag = RUS
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = renamed_russia_flag
+			add_prestige = 25
+			override_country_name = BAUERNRUSSIA
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	RenameWelsh = {
+		major = yes
+		color =  { 0 191 255 }
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_welsh_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			was_tag = KOL
+			tag = WES
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = formed_welsh_flag
+			add_prestige = 25
+			override_country_name = WELSHNOMEN
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
