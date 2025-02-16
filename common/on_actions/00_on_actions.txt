@@ -37,10 +37,10 @@ on_startup = {
 	if = {
 		limit = {
 			NOT = {
-				has_country_flag = pe3_one_time_init
+				has_global_flag = pe3_one_time_init
 			}
 		}
-		set_country_flag = pe3_one_time_init
+		has_global_flag = pe3_one_time_init
 
 		central_asia_region = {
 			discover_country = KAK
