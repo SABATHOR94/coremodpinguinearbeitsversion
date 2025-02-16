@@ -216,3 +216,138 @@ OMA_ideas = {
 		merchants = 1
 	}
 }
+
+BOH3_ideas = {
+	start = {
+		manpower_in_accepted_culture_provinces = 0.2
+		advisor_cost = -0.1
+	}
+	
+	bonus = {
+		leader_land_fire = 1
+	}
+	
+	trigger = {
+		tag = BOH
+		has_country_flag = pe3_elbian_federation_flag
+	}
+	free = yes
+	
+	compacta_of_prague = {
+		tolerance_heretic = 3
+	}
+	boh_elective_monarchy = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
+	}
+	wagenburg = {
+		infantry_power = 0.10
+		discipline = 0.05
+	}
+	letter_of_majesty = {
+		global_unrest = -1
+	}
+	hussite_legacy = {
+		technology_cost = -0.1
+	}
+	kutnohorian_deal = {
+		stability_cost_modifier = -0.10
+	}
+	czech_nationalism2 = {
+		same_culture_advisor_cost = -0.25
+		development_cost_modifier = -0.1
+	}
+}
+
+BOH2_ideas = {
+	start = {
+		imperial_authority = 0.10
+		advisor_cost = -0.1
+	}
+	
+	bonus = {
+		leader_land_fire = 1
+	}
+	
+	trigger = {
+		tag = BOH
+		has_country_flag = boh_empowered_ni
+	}
+	free = yes
+	
+	compacta_of_prague = {
+		tolerance_heretic = 3
+	}
+	boh_elective_monarchy = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
+	}
+	wagenburg = {
+		infantry_power = 0.10
+		shock_damage_received = -0.05
+	}
+	letter_of_majesty = {
+		global_unrest = -1
+	}
+	hussite_legacy = {
+		technology_cost = -0.1
+	}
+	kutnohorian_deal = {
+		stability_cost_modifier = -0.10
+	}
+	czech_nationalism2 = {
+		same_culture_advisor_cost = -0.25
+		development_cost_in_primary_culture = -0.05
+	}
+}
+
+BOH_ideas = {
+	start = {
+		idea_cost = -0.1
+		advisor_cost = -0.1
+	}
+	
+	bonus = {
+		land_maintenance_modifier = -0.15
+	}
+	
+	trigger = {
+		tag = BOH
+	}
+	free = yes
+	
+	compacta_of_prague = {
+		tolerance_heretic = 3
+	}
+	boh_elective_monarchy = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
+		culture_conversion_cost = -0.25
+	}
+	wagenburg = {
+		infantry_power = 0.10
+		shock_damage_received = -0.1
+	}
+	letter_of_majesty = {
+		global_unrest = -1
+	}
+	hussite_legacy = {
+		technology_cost = -0.1
+	}
+	kutnohorian_deal = {
+		stability_cost_modifier = -0.10
+		fire_damage_received = -0.1
+	}
+	czech_nationalism = {
+		same_culture_advisor_cost = -0.25
+	}
+}

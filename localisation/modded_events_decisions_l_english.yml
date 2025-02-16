@@ -106,3 +106,19 @@
  pe3_mad_pos_effect_9: "Bigger cannons!"
  pe3_mad_pos_effect_10: "Blessed by Allah!"
  pe3_mad_pos_effect_11: "A new heir!"
+
+ #West Rome
+ PE3_WEST_ROME: "West Rome"
+ PE3_WEST_ROME_ADJ: "West Roman"
+ pe3_formed_west_rome: "Restored West Roman glory"
+ pe3_restore_west_rome_decision_title: "Restore West Rome"
+ pe3_restore_west_rome_decision_desc: "Claim the heritage and glory of West Rome!"
+
+ #Elbian Federation
+ PE3_ELBIAN_FEDERATION: "Elbian Federation"
+ PE3_ELBIAN_FEDERATION_ADJ: "Elbian"
+ pe3_establish_elbian_federation_title: "Form the Elbian Federation"
+ pe3_establish_elbian_federation_desc: "We will unite the germans and the czechs under one banner."
+ BOH3_ideas: "Elbian Ideas"
+ BOH3_ideas_start: "Elbian Tradition"
+ BOH3_ideas_bonus: "Elbian Ambition"

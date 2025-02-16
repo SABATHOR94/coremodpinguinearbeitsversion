@@ -1,0 +1,113 @@
+country_decisions = {
+    pe3_restore_west_rome_decision = {
+		major = yes
+        color =  { 142 0 28 }
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_global_flag = pe3_west_rome_restored }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = PAP }
+            NOT = { tag = BYZ }
+			NOT = { exists = ROM }
+			OR = {
+				religion_group = christian
+				religion_group = pagan
+			}
+            capital_scope = { continent = europe }
+		}
+        provinces_to_highlight = {
+			pe3_west_roman_empire_decision_trigger = yes
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			num_of_owned_provinces_with = {
+				custom_trigger_tooltip = {
+					tooltip = BYZ_highlighted_by_decision
+					pe3_west_roman_empire_decision_trigger = yes
+				}
+				value = 150
+			}
+            is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			118 = {
+				is_state = yes
+                owned_by = ROOT
+			}
+            capital_scope = { continent = europe }
+		}
+		effect = {
+			change_country_color = { color = { 142 0 28 } }
+            override_country_name = PE3_WEST_ROME
+            add_prestige = 100
+            remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+            add_country_modifier = {
+                name = pe3_formed_west_rome
+                duration = -1
+            }
+            set_global_flag = pe3_west_rome_restored
+			hidden_effect = {
+                every_province = {
+                    limit = {
+                        culture_group = ROOT
+                    }
+                    change_culture = roman
+                }
+				every_country = {
+					limit = {
+						primary_culture = ROOT
+					}
+					change_primary_culture = roman
+					set_ruler_culture = roman
+					if = {
+						limit = {
+							has_heir = yes
+						}
+						set_heir_culture = roman
+					}
+					if = {
+						limit = {
+							has_consort = yes
+							consort_culture = roman
+						}
+						set_consort_culture = roman
+					}
+				}
+            }
+            change_primary_culture = roman
+			set_ruler_culture = roman
+			if = {
+				limit = {
+					has_heir = yes
+				}
+				set_heir_culture = roman
+			}
+			if = {
+				limit = {
+					has_consort = yes
+					consort_culture = roman
+				}
+				set_consort_culture = roman
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}
