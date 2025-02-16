@@ -8,6 +8,32 @@
  custom_merc_artillery_1:0 "Artillery Merc Company 1"
  custom_merc_cavalry_1:0 "Cavalry Merc Company 1"
 
+# QOL Information
+ ADVISOR_EVENT_COOLDOWN:0 "Advisor Event Cooldown Modifier"
+ PHILOSOPHER_AVAILABLE:0 "Philosopher ()"
+ NATURAL_SCIENTIST_AVAILABLE:0 "Natural Scientist (10% ADM tech cost)"
+ ARMY_REFORMER_AVAILABLE:0 "Army Reformer (10% MIL tech cost)"
+ NAVAL_REFORMER_AVAILABLE:0 "Naval Reformer (10% DIP tech cost)"
+ ARTIST_AVAILABLE:0 "Artist (20% stability cost)"
+ TREASURER_AVAILABLE:0 "Treasurer (10% DIP tech cost)"
+ THEOLOGIAN_AVAILABLE:0 "Theologian (2% missionary strength)"
+ STATESMAN_AVAILABLE:0 "Statesman (10% ADM tech cost)"
+ COLONIAL_GOVERNOR_AVAILABLE:0 "Colonial Governor (10% global tarrifs)"
+ SPYMASTER_AVAILABLE:0 "Spymaster (15% spy detection; 15% spy network)"
+ DIPLOMAT_AVAILABLE:0 "Diplomat (50 DIP)"
+ TRADER_AVAILABLE:0 "Trader (25 DIP)"
+ MASTER_OF_MINT_AVAILABLE:0 "Master of Mint (-0.1% inflation reduction)"
+ NAVIGATOR_AVAILABLE:0 "Navigator (10% colonial range)"
+ GRAND_CAPTAIN_AVAILABLE:0 "Grand Captain (20% Moral)"
+ ARMY_ORGANISER_AVAILABLE:0 "Army Organizer (10% land forcelimit)"
+ COMMANDANT_AVAILABLE:0 "Commandant (10% discipline)"
+ QUARTERMASTER_AVAILABLE:0 "Quartermaster (15% reinforcement speed)"
+ RECRUITMASTER_AVAILABLE:0 "Master Recruiter (10% national manpower modifier)"
+ FORTIFICATION_EXPERT_AVAILABLE:0 "Fortification Expert (20% fort defence; -25% fort maintenance)"
+ INQUISITOR_AVAILABLE:0 "Inquisitor (10% foreign spy detection)"
+
+ RADICAL_REFORMS_AVAILABLE:0 "Radical Reforms (Master of Mint + Trader)"
+
 # Decisions
  maghreb_nation_title:0 "Unite the Maghreb"
  maghreb_nation_desc:0 "We have united the Maghreb and shall now make it a Great Republic!"
