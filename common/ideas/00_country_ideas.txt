@@ -2900,47 +2900,6 @@ AYU_ideas = {
 	}
 }
 
-OMA_ideas = {
-	start = {
-		naval_morale = 0.15
-		naval_maintenance_modifier = -0.2
-	}
-	
-	bonus = {
-		blockade_efficiency = 0.33
-	}
-	
-	trigger = {
-		tag = OMA
-	}
-	free = yes
-	
-	local_merchant_preference = {
-		trade_steering = 0.33
-	}
-	secured_timber_supplies = {
-		global_ship_recruit_speed = -0.1
-	}
-	association_with_unbelievers = {
-		tolerance_heathen = 2
-		global_sailors_modifier = 0.10
-	}
-	port_security_improvement = {
-		trade_efficiency = 0.1
-	}
-	end_of_shipbuilding_guilds = {
-		light_ship_cost = -0.15
-		sailor_maintenance_modifer = -0.05
-	}
-	skilled_captains = {
-		leader_naval_manuever = 1
-	}
-	expansion_of_trade_contacts = {
-		merchants = 1
-	}
-}
-
-
 KOR_ideas = {
 	start = {
 		build_cost = -0.1
