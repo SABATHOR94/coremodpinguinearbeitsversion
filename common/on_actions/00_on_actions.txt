@@ -33,6 +33,62 @@ on_startup = {
 	on_startup_effect = yes
 	on_startup_dlc_cleanup_effect = yes
 	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
+
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = pe3_one_time_init
+			}
+		}
+		set_country_flag = pe3_one_time_init
+
+		central_asia_region = {
+			discover_country = KAK
+		}
+		mongolia_region = {
+			discover_country = KAK
+		}
+		ural_region = {
+			discover_country = KAK
+		}
+		west_siberia_region = {
+			discover_country = KAK
+		}
+	}
+
+	every_country = {
+		limit = {
+			NOT = {
+				has_country_flag = counter_variables_initialized
+			}
+		}
+		set_variable = {
+			which = adm_dev_clicks
+			value = 0
+		}
+		set_variable = {
+			which = dip_dev_clicks
+			value = 0
+		}
+		set_variable = {
+			which = mil_dev_clicks
+			value = 0
+		}
+		set_variable = {
+			which = gifts_recieved
+			value = 0
+		}
+		set_variable = {
+			which = gifts_sent
+			value = 0
+		}
+		set_variable = {
+			which = gifts_taxes
+			value = 0
+		}
+
+		set_country_flag = counter_variables_initialized
+	}
 }
 
 # country
