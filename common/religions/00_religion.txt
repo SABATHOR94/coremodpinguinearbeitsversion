@@ -17,6 +17,7 @@ christian = {
 	
 	
 	catholic = {
+		declare_war_in_regency = yes
 		color = { 204 204 0 }
 		icon = 1
 		allowed_conversion = {
@@ -25,6 +26,7 @@ christian = {
 		}
 		country = {
 			tolerance_own = 1
+			global_heathen_missionary_strength = 0.01
 			global_heathen_missionary_strength = 0.01
 		}
 		
@@ -314,6 +316,7 @@ christian = {
 	}
 
 	anglican = {
+		declare_war_in_regency = yes
 		color = { 135 77 255 }
 		icon = 28
 		allow_female_defenders_of_the_faith = yes
@@ -352,6 +355,7 @@ christian = {
 	}
 	
 	hussite = {
+		declare_war_in_regency = yes
 		color = { 244 55 9 }
 		icon = 22
 
@@ -388,6 +392,7 @@ christian = {
 	}
 	
 	protestant = {
+		declare_war_in_regency = yes
 		color = { 0 0 178 }
 		icon = 2
 
@@ -530,6 +535,7 @@ christian = {
 	}
 
 	reformed = {
+		declare_war_in_regency = yes
 		color = { 76 76 229 }
 		icon = 3
 		allowed_conversion = {
@@ -649,6 +655,7 @@ christian = {
 	}
 
 	orthodox = {
+		declare_war_in_regency = yes
 		color = { 178 127 0 }
 		icon = 4
 		country = {
@@ -808,6 +815,7 @@ christian = {
 	}
 	
 	coptic = {
+		declare_war_in_regency = yes
 	
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
@@ -1376,6 +1384,7 @@ muslim = {
 	}
 	
 	sunni = {
+		declare_war_in_regency = yes
 		color = { 0 153 0 }
 		icon = 5
 		allowed_center_conversion = {
@@ -1400,6 +1409,7 @@ muslim = {
 	}
 
 	shiite = {
+		declare_war_in_regency = yes
 		color = { 0 204 0 }
 		icon = 6	
 		allowed_center_conversion = {
@@ -1424,6 +1434,7 @@ muslim = {
 	}
 	
 	ibadi = {
+		declare_war_in_regency = yes
 		color = { 0 102 0 }
 		icon = 16	
 		allowed_center_conversion = {
@@ -1459,6 +1470,7 @@ eastern = {
 	flag_emblem_index_range = { 58 80 }
 
 	buddhism = { #Theravada
+		declare_war_in_regency = yes
 		color = { 204 76 0 }
 		icon = 24
 		allowed_conversion = {
@@ -1490,6 +1502,7 @@ eastern = {
 	}
 	
 	vajrayana = {
+		declare_war_in_regency = yes
 		color = { 204 76 76 }
 		icon = 25
 		allowed_conversion = {
@@ -1521,6 +1534,7 @@ eastern = {
 	}
 	
 	mahayana = {
+		declare_war_in_regency = yes
 		color = { 204 76 127 }
 		icon = 23
 		allowed_conversion = {
@@ -1552,6 +1566,7 @@ eastern = {
 	}
 
 	confucianism = {
+		declare_war_in_regency = yes
 		color = { 214 229 140 }
 		icon = 9
 		country = {
@@ -1567,6 +1582,7 @@ eastern = {
 	}
 
 	shinto = {
+		declare_war_in_regency = yes
 		color = { 204 0 0 }
 		icon = 10
 		country = {
@@ -1597,6 +1613,7 @@ dharmic = {
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 
 	hinduism = {
+		declare_war_in_regency = yes
 		color = { 0 204 204 }
 		icon = 8
 		allowed_conversion = {
@@ -1628,6 +1645,7 @@ dharmic = {
 	}
 
 	sikhism = {
+		declare_war_in_regency = yes
 		color = { 0 153 153 }
 		icon = 15
 		allowed_conversion = {
@@ -2322,6 +2340,7 @@ pagan = {
 		}
 		
 		authority = yes
+		declare_war_in_regency = yes
 		religious_reforms = yes
 		require_reformed_for_institution_development = yes
 		reform_tooltip = INTI_REFORM_TOOLTIP
@@ -2371,6 +2390,7 @@ pagan = {
 		}
 		
 		require_reformed_for_institution_development = yes
+		declare_war_in_regency = yes
 		religious_reforms = yes
 		reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
 		
@@ -2393,6 +2413,7 @@ pagan = {
 		}
 		
 		personal_deity = yes
+		declare_war_in_regency = yes
 		
 		heretic = { OLD_NORSE }	
 	}
@@ -2409,6 +2430,7 @@ pagan = {
 			hostile_attrition = 2
 		}
 		can_have_secondary_religion = yes
+		declare_war_in_regency = yes
 		heretic = { OLD_TENGRI }
 	}
 	
@@ -2425,10 +2447,12 @@ pagan = {
 		}
 		
 		fetishist_cult = yes
+		declare_war_in_regency = yes
 		heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
 	}
 	
 	crusade_name = CRUSADE
+		declare_war_in_regency = yes
 	harmonized_modifier = harmonized_pagan
 }
 
@@ -2438,6 +2462,7 @@ jewish_group = {
 	defender_of_faith = yes
 
 	jewish = {
+		declare_war_in_regency = yes
 		icon = 20
 		color = { 0 156 231 }
 		country = {
@@ -2567,6 +2592,7 @@ zoroastrian_group = {
 	flag_emblem_index_range = { 110 110 }
 	defender_of_faith = yes
 	zoroastrian = {
+		declare_war_in_regency = yes
 		icon = 26
 		color = { 127 178 51 }
 		province = {
