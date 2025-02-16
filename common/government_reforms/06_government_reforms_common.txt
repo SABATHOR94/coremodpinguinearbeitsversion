@@ -1952,7 +1952,7 @@ mercenary_leadership_reform = {
 }
 
 doppelsoldner_reform = {
-	icon = "mercenaries"
+	icon = "soldiers_6"
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Domination"
