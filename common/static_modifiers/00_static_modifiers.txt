@@ -59,6 +59,8 @@ difficulty_easy_ai = {
 }
 
 difficulty_normal_ai = {
+	yearly_corruption = -1.0
+	global_autonomy = -0.05
 }
 
 difficulty_hard_ai = {
@@ -68,7 +70,8 @@ difficulty_hard_ai = {
 	interest = -1
 	ae_impact = -0.33
 	missionary_maintenance_cost = -0.15
-
+	yearly_corruption = -1.0
+	global_autonomy = -0.05
 }
 
 difficulty_very_hard_ai = {
@@ -89,6 +92,8 @@ difficulty_very_hard_ai = {
 	build_cost = -0.25
 	ae_impact = -0.33
 	missionary_maintenance_cost = -0.3
+	yearly_corruption = -1.0
+	global_autonomy = -0.05
 }
 
 
