@@ -1,11 +1,11 @@
 colonial_venture = {
-	global_colonial_growth = 15
+	global_colonial_growth = 30
 	colonists = 1
 	range = 5
 }
 
 colonist_venture = {
-	global_colonial_growth = 15
+	global_colonial_growth = 25
 }
 
 deving_replacement = {

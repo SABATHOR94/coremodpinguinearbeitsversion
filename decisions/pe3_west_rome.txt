@@ -23,6 +23,13 @@ country_decisions = {
 				religion_group = pagan
 			}
             capital_scope = { continent = europe }
+			num_of_owned_provinces_with = {
+				custom_trigger_tooltip = {
+					tooltip = BYZ_highlighted_by_decision
+					pe3_west_roman_empire_decision_trigger = yes
+				}
+				value = 75
+			}
 		}
         provinces_to_highlight = {
 			pe3_west_roman_empire_decision_trigger = yes
