@@ -1642,7 +1642,7 @@ the_smooth_integration_act = {
 		full_idea_group = diplomatic_ideas 
 	}
 	
-	trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -2082,7 +2082,7 @@ pen_rely_on_sword_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.1
 	production_efficiency = 0.1
 
 	
