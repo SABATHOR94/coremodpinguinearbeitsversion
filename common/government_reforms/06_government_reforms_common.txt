@@ -3573,7 +3573,7 @@ lessons_of_the_hussite_wars_reform = {
 		}
 	}
 	modifiers = {
-		infantry_fire = 0.01
+		infantry_fire = 0.1
 	}
 	
 	ai = {
