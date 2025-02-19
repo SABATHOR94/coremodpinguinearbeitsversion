@@ -538,6 +538,7 @@ diplomatic_ideas = {
 	}
 	benign_diplomats = {
 		build_cost = -0.1
+		global_tax_modifier = 0.25
 	}
 	experienced_diplomats  = {
 		free_dip_policy = 1
@@ -548,7 +549,7 @@ diplomatic_ideas = {
 		mercantilism_cost = -0.4
 	}
 	diplomatic_corps = {
-		production_efficiency = 0.2
+		global_trade_goods_size_modifier = 0.15
 	}
 
 	ai_will_do = {
@@ -1840,7 +1841,7 @@ mercenary_ideas = {
 	}
 
 	organised_mercenary_payment = {
-		land_attrition = -0.15
+		land_attrition = -0.33
 	}
 	war_council = {
 		reinforce_cost_modifier = -0.1
