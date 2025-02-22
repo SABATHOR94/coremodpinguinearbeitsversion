@@ -17,8 +17,8 @@
  faithful_defender.2.t: "Defender of the Faith questioned"
  faithful_defender.2.da: "We are no longer the uncontested defender of the faith. Oh well, we will prevail anyway!"
  faithful_defender.2.a: "Factus sit..."
- pe3_defender_gained_tt: "This modifier will be lost if we are no longer the §YDefender of the Faith§! or until we no longer run full §YReligious Ideas§!"
- pe3_defender_lost_tt: "We have lost the §GFaithful Defender Modifier§!"
+ pe3_defender_gained_tt: "This modifier will be lost if we are no longer the §YDefender of the Faith§! or if we no longer run full §YReligious Ideas§!"
+ pe3_defender_lost_tt: "We have lost the §GFaithful Defender Modifier§!."
 
 
 
