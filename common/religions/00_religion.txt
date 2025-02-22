@@ -2452,7 +2452,6 @@ pagan = {
 	}
 	
 	crusade_name = CRUSADE
-		declare_war_in_regency = yes
 	harmonized_modifier = harmonized_pagan
 }
 

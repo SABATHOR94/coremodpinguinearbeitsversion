@@ -30,6 +30,7 @@ country_event = {
             duration = -1
         }
         set_country_flag = faithful_defender_flag
+        custom_tooltip = pe3_defender_gained_tt
 	}
 }
 
@@ -65,5 +66,6 @@ country_event = {
 	option = {
 		name = faithful_defender.2.a
         ai_chance = { factor = 100 }
+        custom_tooltip = pe3_defender_lost_tt
 	}
 }
