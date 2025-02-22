@@ -1,8 +1,8 @@
 #
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = TNG
+controller = TNG
+add_core = TNG
 add_core = QIN
 culture = zhongyuan
 religion = confucianism

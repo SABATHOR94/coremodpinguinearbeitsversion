@@ -1,8 +1,8 @@
 # 2170 - Tianshui
 
-owner = YUA
-controller = YUA
-add_core = YUA
+owner = CSH
+controller = CSH
+add_core = CSH
 culture = altaic_new
 religion = confucianism
 capital = "Tianshui"
@@ -12,7 +12,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = CSH
+
 
 
 

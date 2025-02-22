@@ -1,8 +1,8 @@
 #700 - Shaanxi
 
-owner = YUA
-controller = YUA
-add_core = YUA
+owner = CSH
+controller = CSH
+add_core = CSH
 culture = altaic_new
 religion = confucianism
 capital = "Xi'an"
@@ -12,8 +12,6 @@ base_tax = 7
 base_production = 7
 base_manpower = 3
 is_city = yes
-add_core = CSH
-add_core = QIN
 fort_15th = yes #More than 1 Weisuo
 discovered_by = chinese
 discovered_by = nomad_group

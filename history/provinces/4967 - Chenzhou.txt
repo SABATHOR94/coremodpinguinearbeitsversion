@@ -1,8 +1,8 @@
 #4967 - Chenzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CMI
+controller = CMI
+add_core = CMI
 culture = xiang
 religion = animism
 capital = "Chenzhou"
@@ -13,7 +13,7 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_core = CHC
-add_core = CMI
+
 
 
 

@@ -1,8 +1,8 @@
 #
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CMI
+controller = CMI
+add_core = CMI
 culture = xiang
 religion = confucianism
 capital = "Yiyang"

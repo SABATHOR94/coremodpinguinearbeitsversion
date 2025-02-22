@@ -1,0 +1,24 @@
+# 2154 - Kelang
+
+owner = MIN
+controller = MIN
+add_core = MIN
+culture = chimin
+religion = confucianism
+capital = "Kelang"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+
+
+
+
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+
+1521.1.1 = { discovered_by = SPA }

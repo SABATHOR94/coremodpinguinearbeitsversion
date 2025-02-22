@@ -5,7 +5,14 @@ Advisor in kategorie kaufen
 
 
 
-
+China:
+Jin Iron Mountains modifier
+Wuu Silk River modifier
+Miao Tea Valley
+Tang Gem Mountain Modifier
+Festungen in China
+Alle Slots ca gleichstark
+Alle im krieg gegen Ming starten lassen
 
 
 
@@ -17,7 +24,7 @@ Advisor in kategorie kaufen
 Ideen und Vorschläge für neue Runde:
 - Standard mpr zu 200 erhöhen
 - Transporter bauzeit auf 30 tage reduzieren
-- China vergrößern (Foffy china oder https://steamcommunity.com/sharedfiles/filedetails/?id=2100777181)
+
 - Indonesien zweiter slot
 - Kaukasus slot
 - Jerusalem statt Hisn Kayfa slot

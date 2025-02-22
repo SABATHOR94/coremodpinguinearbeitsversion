@@ -1,8 +1,8 @@
 #689 - Hanzhong
 
-owner = YUA
-controller = YUA
-add_core = YUA
+owner = CSH
+controller = CSH
+add_core = CSH
 culture = altaic_new
 religion = confucianism
 capital = "Hanzhong"
@@ -12,8 +12,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = CSH
-add_core = QIN
+
 
 
 

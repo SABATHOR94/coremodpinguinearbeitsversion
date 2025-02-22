@@ -261,3 +261,9 @@
  pe3_100_pp_kill:0 "Killed enemy ruler"
  pe3_50_pp_kill:0 "Killed enemy heir"
  pe3_25_pp_kill:0 "Killed enemy leader"
+
+ #China
+ pe3_chengdu_valley:0 "Chengdu Valley"
+ pe3_chengdu_valley_desc:0 "The Chengdu Valley has rich soil."
+ pe3_liangzhou:0 "Start of the Silk Road"
+ pe3_liangzhou_desc:0 "The Silk road provides wealth."

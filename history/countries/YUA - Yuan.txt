@@ -5,7 +5,7 @@ technology_group = chinese
 religion = confucianism
 add_harmonized_religion = vajrayana
 primary_culture = altaic_new
-capital = 700
+capital = 2182
 
 
 1444.7.19 = {

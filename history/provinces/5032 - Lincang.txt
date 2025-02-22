@@ -1,8 +1,7 @@
 #
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CDL
+controller = CDL
 add_core = CDL
 culture = bai
 religion = buddhism

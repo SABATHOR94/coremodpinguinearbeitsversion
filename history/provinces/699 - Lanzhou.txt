@@ -1,8 +1,8 @@
 #699 - Lanzhou
 
-owner = YUA
-controller = YUA
-add_core = YUA
+owner = CSH
+controller = CSH
+add_core = CSH
 culture = altaic_new
 religion = confucianism
 capital = "Lanzhou"
@@ -12,7 +12,6 @@ base_tax = 6
 base_production = 6
 base_manpower = 3
 is_city = yes
-add_core = CSH
 
 
 

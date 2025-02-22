@@ -1,8 +1,8 @@
 #4964 - Shaoyang
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = CMI
+controller = CMI
+add_core = CMI
 culture = miao
 religion = animism
 capital = "Shaoyang"
@@ -13,7 +13,6 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_core = CHC
-add_core = CMI
 
 
 

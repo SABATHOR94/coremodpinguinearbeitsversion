@@ -1,9 +1,7 @@
 #
 
-owner = MNG
-controller = MNG
-add_core = MNG
-add_core = QIN
+owner = CSH
+controller = CSH
 add_core = CSH
 culture = xibei
 religion = confucianism
