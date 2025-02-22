@@ -1983,7 +1983,7 @@ plutocratic_ethos_act = {
 }
 
 public_road_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = offensive_ideas

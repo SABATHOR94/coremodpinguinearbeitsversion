@@ -11,7 +11,12 @@
  pe3_tun_event.1.b:"Let Faith Lead Us; Establish a Theocratic Caliphate"
  pe3_tun_event.1.a:"The Balance of Faith and Representation Shall Remain; Keep the Caliphate a republic."
  flavor_mor.12.e: "There is no need for that."
-
+ faithful_defender.1.t: "Faithful Defender"
+ faithful_defender.1.da: "We are truly a pious defender of the faithful and the faith. With great responsibility comes great power!"
+ faithful_defender.1.a: "Fiat!"
+ faithful_defender.2.t: "Defender of the Faith questioned"
+ faithful_defender.2.da: "We are no longer the uncontested defender of the faith. Oh well, we will prevail anyway!"
+ faithful_defender.2.a: "Factus sit..."
 
 
 

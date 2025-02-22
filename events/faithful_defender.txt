@@ -1,0 +1,69 @@
+namespace = faithful_defender
+
+#Is Defender of the Faith
+country_event = {
+	id = faithful_defender.1
+	title = faithful_defender.1.t
+	picture = WESTERNISATION_eventPicture
+    hidden = no
+    major = no
+    trigger = {
+        NOT = { has_country_flag = faithful_defender_flag }
+        full_idea_group = religious_ideas
+        is_defender_of_faith = yes
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+	desc = {
+		desc = "faithful_defender.1.da"
+	}
+
+
+    #is_triggered_only = yes
+
+	option = {
+		name = faithful_defender.1.a
+        ai_chance = { factor = 100 }
+        add_country_modifier = {
+            name = pe3_faithful_defender_modifier
+            duration = -1
+        }
+        set_country_flag = faithful_defender_flag
+	}
+}
+
+#Lost Defender of the Faith
+country_event = {
+	id = faithful_defender.2
+	title = faithful_defender.2.t
+	picture = BANKRUPTCY_eventPicture
+    major = no
+    trigger = {
+        OR = {
+            NOT = { full_idea_group = religious_ideas }
+            is_defender_of_faith = no
+        }
+        has_country_modifier = pe3_faithful_defender_modifier
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+	desc = {
+		desc = "faithful_defender.2.da"
+	}
+
+
+    #is_triggered_only = yes
+
+    immediate = {
+        hidden_effect = {
+            clr_country_flag = faithful_defender_flag
+            remove_country_modifier = pe3_faithful_defender_modifier
+        }
+    }
+	option = {
+		name = faithful_defender.2.a
+        ai_chance = { factor = 100 }
+	}
+}

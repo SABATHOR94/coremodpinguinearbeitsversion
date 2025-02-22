@@ -394,3 +394,8 @@ pe3_formed_west_rome = {
 	manpower_in_accepted_culture_provinces = 0.25
 	num_accepted_cultures = 3
 }
+
+pe3_faithful_defender_modifier = {
+	land_morale = 0.05
+	manpower_in_true_faith_provinces = 0.05
+}
