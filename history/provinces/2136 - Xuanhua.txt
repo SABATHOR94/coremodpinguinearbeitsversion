@@ -1,18 +1,19 @@
-#4958 - Meichow
+# 2136 - Xuanhua
 
 owner = MNG
 controller = MNG
 add_core = MNG
-culture = hakka
+culture = jin
 religion = confucianism
-capital = "Meichow"
+capital = "Xuanhua"
 trade_goods = grain
 hre = no
-base_tax = 5
-base_production = 5
-base_manpower = 1
+base_tax = 3 
+base_production = 3
+base_manpower = 2
 is_city = yes
-add_core = MIN
+#fort_15th = yes #the Nine Garrisons
+add_core = JIN
 
 
 

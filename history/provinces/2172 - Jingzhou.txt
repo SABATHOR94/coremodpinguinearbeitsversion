@@ -1,18 +1,19 @@
-#4958 - Meichow
+# 2172 - Jingzhou
 
 owner = MNG
 controller = MNG
 add_core = MNG
-culture = hakka
+culture = hubei
 religion = confucianism
-capital = "Meichow"
+capital = "Jingzhou"
 trade_goods = grain
 hre = no
-base_tax = 5
-base_production = 5
-base_manpower = 1
+base_tax = 3 
+base_production = 3
+base_manpower = 2
 is_city = yes
-add_core = MIN
+add_core = CXI
+add_core = CHC
 
 
 

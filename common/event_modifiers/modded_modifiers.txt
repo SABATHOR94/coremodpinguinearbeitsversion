@@ -409,3 +409,20 @@ pe3_liangzhou = {
 	local_defensiveness = 0.33
 	trade_goods_size = 2
 }
+
+pe3_jin_mountains = {
+	trade_goods_size = 1
+}
+
+pe3_beijing = {
+	global_tax_income = 60
+	trade_goods_size = 2.5
+}
+
+pe3_imperial_city = {
+	local_garrison_size = 1
+	supply_limit = 5
+	local_defender_dice_roll_bonus = 1
+	local_development_cost = -0.2
+	trade_value_modifier = 0.25
+}

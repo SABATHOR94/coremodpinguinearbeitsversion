@@ -2,13 +2,13 @@ government = monarchy
 add_government_reform = chinese_warlord
 technology_group = chinese
 religion = confucianism
-primary_culture = cantonese
-capital = 667	#Canton
+primary_culture = sichuanese
+capital = 679	#Chengdu
 
 1436.1.1 = {
 	monarch = {
-		name = "Yoshuan"
-		dynasty = "Yue"
+		name = "Shan"
+		dynasty = "Shu"
 		birth_date = 1420.1.1
 		adm = 4
 		dip = 4

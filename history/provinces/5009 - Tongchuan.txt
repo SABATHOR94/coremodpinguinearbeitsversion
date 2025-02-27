@@ -3,7 +3,7 @@
 owner = CSH
 controller = CSH
 add_core = CSH
-culture = xibei
+culture = altaic_new
 religion = confucianism
 capital = "Tongchuan"
 trade_goods = copper

@@ -1,18 +1,18 @@
-#4958 - Meichow
+# 2158 - Shiukwan
 
 owner = MNG
 controller = MNG
 add_core = MNG
 culture = hakka
 religion = confucianism
-capital = "Meichow"
-trade_goods = grain
+capital = "Shiukwan"
+trade_goods = iron
 hre = no
-base_tax = 5
-base_production = 5
-base_manpower = 1
+base_tax = 4 
+base_production = 4
+base_manpower = 2
 is_city = yes
-add_core = MIN
+add_core = HUA
 
 
 
