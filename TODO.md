@@ -18,6 +18,7 @@ Shu -> Quali
 Yuan -> Cav
 
 Yuan kleiner buff um auf selbe stärke zu bringen
+Yuan auf Warlord missions wechseln
 
 
 
