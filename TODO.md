@@ -1,10 +1,5 @@
 Advisor in kategorie kaufen
 
-
-
-
-
-
 China:
 Alle Slots ca gleichstark
 Alle im krieg gegen Ming starten lassens
@@ -21,6 +16,8 @@ Yue -> Fire dmg
 Wuu -> Mercs
 Shu -> Quali
 Yuan -> Cav
+
+Yuan kleiner buff um auf selbe stärke zu bringen
 
 
 
