@@ -13,6 +13,7 @@ Tang Gem Mountain Modifier
 Festungen in China
 Alle Slots ca gleichstark
 Alle im krieg gegen Ming starten lassen
+Mandat überarbeiten (wenns verloren wird / ausgelöscht usw)
 
 
 
