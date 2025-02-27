@@ -14,6 +14,12 @@ Festungen in China
 Alle Slots ca gleichstark
 Alle im krieg gegen Ming starten lassen
 Mandat überarbeiten (wenns verloren wird / ausgelöscht usw)
+Missionen und Events rund um die rückeroberung von China
+Banner estate einfügen
+Banner überarbeiten
+Banner für alle Chinesen freischalten
+Nationale Ideen für slots (ASU inspiriert)
+Imperial cities (Hauptstädte der Spieler)
 
 
 
