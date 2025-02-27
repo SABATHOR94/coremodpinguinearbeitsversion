@@ -9,6 +9,7 @@ China:
 Alle Slots ca gleichstark
 Alle im krieg gegen Ming starten lassens
 Mandat überarbeiten (wenns ausgelöscht usw)
+Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 
 Banner estate einfügen
 Banner überarbeiten
