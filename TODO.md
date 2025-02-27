@@ -30,3 +30,4 @@ Ideen und Vorschläge für neue Runde:
 - Jerusalem statt Hisn Kayfa slot
 - Individuellere Nationale Ideen für slots (z.B. GB auf late game fire damage scaling)
 - Gov cap malis auf vanilla zurücksetzen, unter gov cap -> bonus (dev cost?)
+- Capital area buffs (z.b. 25% goodsproduced)
