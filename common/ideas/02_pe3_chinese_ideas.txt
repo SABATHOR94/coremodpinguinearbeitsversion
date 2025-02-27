@@ -1,7 +1,7 @@
 YUE_ideas = { 
 	start = {
 		land_morale = 0.1
-		advisor_cost = -0.1
+		infantry_fire = 0.15
 	}
 	bonus = {
 		land_forcelimit_modifier = 0.25
@@ -57,7 +57,7 @@ WUU_ideas = {
 	}
 	ASU_WUU_NI3 = {
 		global_sailors_modifier = 0.2
-		ship_durability = 0.05
+		ship_durability = 0.10
 	}
 	ASU_WUU_NI4 = {
 		merchants = 1
@@ -113,6 +113,7 @@ SHU_ideas = {
 		imperial_mandate = 0.03
 		meritocracy = 0.5
 		legitimacy = 0.5
+		discipline = 0.05
 	}
 }
 
@@ -179,7 +180,7 @@ YUA_ideas = {
 		technology_cost = -0.1
 	}
 	yua_keshik_and_weijun = {
-		shock_damage = 0.1
+		shock_damage = 0.2
         cavalry_flanking = 0.5
 	}
 	yua_a_thousand_miles_as_if_at_home = {

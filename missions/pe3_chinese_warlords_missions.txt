@@ -59,7 +59,7 @@ chinese_kingdoms_1 = {
 				}
 				num_of_owned_provinces_with = {
 					value = 10
-					has_building = church
+					has_building = temple
 				}
 				num_of_owned_provinces_with = {
 					value = 10
@@ -370,53 +370,14 @@ chinese_kingdoms_3 = {
 				}
 				is_subject = no 
 			}
-			if = {
-				limit = { is_subject = yes } 
-				overlord = { 
-					OR = {
-						has_opinion_modifier = {
-							who = ROOT  
-							modifier = insulted
-						}
-						has_opinion_modifier = {
-							who = ROOT  
-							modifier = scornfully_insulted
-						}
-					}
-				}
-			}
 			army_size_percentage = 0.8 
 		}
 		effect = {
 			add_manpower = 10
 			create_general = { tradition = 75 } 
-			custom_tooltip = chi_25_ws_against_overlord_or_more_tt
-			tooltip = { add_mil_tech = 1 }
-			
-			custom_tooltip = pol_alternatively_tt
-			tooltip = { 
-				add_adm_power = 150 
-				add_dip_power = 150 
-				add_mil_power = 150 
-			}
-			hidden_effect = {
-				if = {
-					limit = { 
-						is_in_war = {
-							attacker_leader = ROOT
-							defender_leader = MNG
-							casus_belli = cb_independence_war
-							war_score = 25
-						}
-					}
-					add_mil_tech = 1 
-				}
-				else = {
-					add_adm_power = 150 
-					add_dip_power = 150 
-					add_mil_power = 150 
-				}
-			}
+			add_adm_power = 100 
+			add_dip_power = 100 
+			add_mil_power = 100 
 		}
 	}
 	
@@ -485,12 +446,15 @@ chinese_kingdoms_3 = {
 			if = {
 				limit = { has_dlc = "Mandate of Heaven" } 
 				OR = { 
-					in_golden_age = yes 
-					monthly_income = 150 
+					AND = {
+						in_golden_age = yes 
+						monthly_income = 500 
+					}
+					monthly_income = 750
 					is_emperor_of_china = yes 
 				}
 			}
-			else = { monthly_income = 150 }
+			else = { monthly_income = 750 }
 			prestige = 80 
 		}
 		effect = {
@@ -548,6 +512,8 @@ chinese_kingdoms_3 = {
 				name = era_of_the_great_dragon_modifier
 				duration = -1 
 			}
+			change_technology_group = ASU_reformed_asian_tech
+			change_unit_type = ASU_reformed_asian_tech
 		}
 	}
 }

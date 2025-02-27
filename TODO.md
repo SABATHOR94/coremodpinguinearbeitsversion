@@ -6,21 +6,14 @@ Advisor in kategorie kaufen
 
 
 China:
-Wuu Silk River modifier?
-Miao Tea Valley?
-Tang Gem Mountain Modifier?
-
 Alle Slots ca gleichstark
 Alle im krieg gegen Ming starten lassens
--Mandat überarbeiten (wenns verloren wird / ausgelöscht usw)
-Missionen und Events rund um die rückeroberung von China
+Mandat überarbeiten (wenns ausgelöscht usw)
+
 Banner estate einfügen
 Banner überarbeiten
 
-Trade überarbeiten
-Reformed Asian wenn China vereint
-Mechanik einbauen, dass Chinese Warlords nach Datum X penalties fürs verbünden bekommen
-
+Trade überarbeiten (Alle Wege nach Beijing)
 
 Qi -> Quantität
 Yue -> Fire dmg 
