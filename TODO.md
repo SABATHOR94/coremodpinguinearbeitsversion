@@ -32,4 +32,5 @@ Ideen und Vorschläge für neue Runde:
 - Individuellere Nationale Ideen für slots (z.B. GB auf late game fire damage scaling)
 - Gov cap malis auf vanilla zurücksetzen, unter gov cap -> bonus (dev cost?)
 - Capital area buffs (z.b. 25% goodsproduced)
--Invest Splendor decision -> 500 splender = 50 gov reform
+- Invest Splendor decision -> 500 splender = 50 gov reform
+- Trade good upgrade button?
