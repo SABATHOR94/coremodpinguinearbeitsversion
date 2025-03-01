@@ -14,7 +14,7 @@ pe3_fuck_your_hugbox_triggered_modifier = {
                 has_reform = chinese_warlord
             }
         }
-        is_year = 1500
+        is_year = 1550
 	}
 
 	all_power_cost = 0.2

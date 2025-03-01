@@ -19,6 +19,11 @@ Yuan -> Cav
 
 Yuan kleiner buff um auf selbe stärke zu bringen
 Yuan auf Warlord missions wechseln
+Yuan kriegt noch Changde und chahar
+Anfangsfrieden zwischen Warlords
+Core per siege entfernen, CB nerfen
+Control over Imperial Cities mandate nerfen
+Historical rivals zwischen Chinese Warlords
 
 
 

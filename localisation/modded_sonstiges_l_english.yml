@@ -338,3 +338,6 @@
 
  pe3_fuck_your_hugbox_triggered_modifier:0 "Questionable choice of Allies"
  pe3_fuck_your_hugbox_triggered_modifier_desc:0 "We strive for dominance in China and yet we are allied to another Chinese pretender."
+ pe3_chinese_event.1.t:0 "War in Heaven"
+ pe3_chinese_event.1.d:0 "The Mandate of Heaven trembles as rival factions rise against the ruling dynasty. Civil war erupts across China, with warlords, rebels, and imperial loyalists vying for supremacy. The fate of the Middle Kingdom hangs in the balance —will order be restored, or will chaos reign supreme?"
+ pe3_chinese_event.1.a:0 "We will restore order!"
