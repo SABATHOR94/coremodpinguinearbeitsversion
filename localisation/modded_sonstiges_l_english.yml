@@ -273,6 +273,12 @@
  pe3_beijing_desc:0 ""
  pe3_imperial_city:0 "Imperial City"
  pe3_imperial_city_desc:0 ""
+ #Province triggered modifiers
+ pe3_control_over_qi:0 "Control over Qingzhou"
+ pe3_control_over_yuan:0 "Control over Liangzhou"
+ pe3_control_over_shu:0 "Control over Chengdu"
+ pe3_control_over_wu:0 "Control over Hangzhou"
+ pe3_control_over_yue:0 "Control over Canton"
 
  #Shu
  SHU_ideas:0 "Shu Ideas"
@@ -341,3 +347,17 @@
  pe3_chinese_event.1.t:0 "War in Heaven"
  pe3_chinese_event.1.d:0 "The Mandate of Heaven trembles as rival factions rise against the ruling dynasty. Civil war erupts across China, with warlords, rebels, and imperial loyalists vying for supremacy. The fate of the Middle Kingdom hangs in the balance —will order be restored, or will chaos reign supreme?"
  pe3_chinese_event.1.a:0 "We will restore order!"
+
+ #mercs
+ pe3_merc_company_wuu_1:0 "Wuu Mercenaries I"
+ pe3_merc_company_wuu_2:0 "Wuu Mercenaries II"
+ pe3_merc_company_wuu_3:0 "Wuu Mercenaries III"
+ pe3_merc_company_wuu_4:0 "Wuu Mercenaries IV"
+ pe3_merc_company_wuu_5:0 "Wuu Mercenaries V"
+
+ #Privileges
+ pe3_quality_banner_privilege:0 "Increased Banner training"
+ pe3_quality_banner_privilege_desc:0 ""
+ pe3_quantity_banner_privilege:0 "Increased Banner conscription"
+ pe3_quantity_banner_privilege_desc:0 ""
+ ASU_banners_modifier_1:0 "Increased Banner training"

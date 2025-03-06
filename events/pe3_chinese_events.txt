@@ -11,9 +11,18 @@ country_event = {
     mean_time_to_happen = {
 		days = 1
 	}
-
-    immediate = {
-        MNG = {
+	immediate = {
+		add_mandate = -50
+		create_general = { tradition = 40 }
+        create_general = { tradition = 30 }
+        create_general = { tradition = 20 }
+	}
+    option = {
+		name = pe3_chinese_event.1.a
+		ai_chance = {
+			factor = 100
+		}
+		MNG = {
 			declare_war_with_cb = {
 				who = QIC
 				casus_belli = cb_chinese_unification 
@@ -85,11 +94,5 @@ country_event = {
 				casus_belli = cb_chinese_unification 
 			}
 		}
-    }
-    option = {
-		name = pe3_chinese_event.1.a
-        create_general = { tradition = 40 }
-        create_general = { tradition = 30 }
-        create_general = { tradition = 20 }
 	}
 }

@@ -426,3 +426,8 @@ pe3_imperial_city = {
 	local_development_cost = -0.2
 	trade_value_modifier = 0.25
 }
+
+ASU_banners_modifier_1 = {
+	discipline = 0.05
+	is_banner_modifier = yes
+}

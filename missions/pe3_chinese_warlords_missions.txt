@@ -24,6 +24,7 @@ chinese_kingdoms_1 = {
 			tag = CGS
 			tag = SHU 
 			tag = FRM
+			#tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}

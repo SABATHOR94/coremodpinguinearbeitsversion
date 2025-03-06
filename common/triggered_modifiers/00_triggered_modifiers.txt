@@ -623,6 +623,7 @@ lost_control_of_beijing = {
 	potential = {
 		has_reform = celestial_empire
 		has_dlc = "Mandate of Heaven"
+		always = no
 	}
 
 	trigger = {
@@ -643,6 +644,7 @@ lost_control_of_nanjing = {
 	potential = {
 		has_reform = celestial_empire
 		has_dlc = "Mandate of Heaven"
+		always = no
 	}
 
 	trigger = {
@@ -663,6 +665,7 @@ lost_control_of_canton = {
 	potential = {
 		has_reform = celestial_empire
 		has_dlc = "Mandate of Heaven"
+		always = no
 	}
 
 	trigger = {

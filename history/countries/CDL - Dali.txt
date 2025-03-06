@@ -1,20 +1,9 @@
 government = monarchy
-add_government_reform = chinese_warlord
+add_government_reform = autocracy_reform
+primary_culture = bai
+religion = buddhism
 technology_group = chinese
-religion = confucianism
-primary_culture = wu
-capital = 684	#Hangzhou
-
-1436.1.1 = {
-	monarch = {
-		name = "Wan"
-		dynasty = "Wu"
-		birth_date = 1420.1.1
-		adm = 4
-		dip = 4
-		mil = 4
-	}
-}
+capital = 661	# Dali
 
 historical_rival = MNG
 historical_rival = YUA
@@ -23,9 +12,9 @@ historical_rival = JIN
 historical_rival = TNG
 historical_rival = QIC
 historical_rival = LNG
-
+historical_rival = WUU
 historical_rival = YUE
 historical_rival = MIN
 historical_rival = CMI
-historical_rival = CDL
+
 historical_rival = SHU

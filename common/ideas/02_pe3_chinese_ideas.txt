@@ -4,7 +4,7 @@ YUE_ideas = {
 		infantry_fire = 0.15
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.25
+		leader_land_fire = 2
 	}
 	trigger = {
 		tag = YUE
@@ -22,7 +22,7 @@ YUE_ideas = {
 		trade_efficiency = 0.2
 	}
 	ASU_yue_NI4 = {
-		global_manpower_modifier = 0.25
+		global_trade_power = 0.25
 	}
 	ASU_yue_NI5 = {                             
 		naval_forcelimit_modifier = 0.25
@@ -41,7 +41,7 @@ WUU_ideas = {
 		trade_efficiency = 0.1
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.25
+		global_allowed_num_of_buildings = 1
 	}
 	trigger = {
 		tag = WUU
@@ -63,8 +63,7 @@ WUU_ideas = {
 		merchants = 1
 		naval_forcelimit_modifier = 0.25
 	}
-	ASU_WUU_NI5 = {                             
-		global_manpower_modifier = 0.25
+	ASU_WUU_NI5 = {
         allow_mercenary_drill = yes
 	}
 	ASU_WUU_NI6 = {
@@ -77,12 +76,12 @@ WUU_ideas = {
 
 SHU_ideas = {
 	start = {
-		global_manpower_modifier = 0.25
+		discipline = 0.05
 		shock_damage_received = -0.2
 	}
 	
 	bonus = {
-		land_forcelimit_modifier = 0.25
+		production_efficiency = 0.2
 	}
 	
 	trigger = {
@@ -110,10 +109,9 @@ SHU_ideas = {
 		infantry_power = 0.2
 	}
 	shun_claim_to_the_mandate = {
-		imperial_mandate = 0.03
+		imperial_mandate = 0.1
 		meritocracy = 0.5
 		legitimacy = 0.5
-		discipline = 0.05
 	}
 }
 
@@ -143,7 +141,7 @@ QIC_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	ASU_mng_NI4 = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.33
 	}
 	ASU_mng_NI5 = {
 		regiment_manpower_usage = -0.2
@@ -163,7 +161,7 @@ YUA_ideas = {
 		cavalry_power = 0.20
 	}
 	bonus = {
-		governing_capacity_modifier = 0.1
+		governing_capacity_modifier = 0.33
 	}
 	trigger = {
 		tag = YUA
@@ -180,12 +178,12 @@ YUA_ideas = {
 		technology_cost = -0.1
 	}
 	yua_keshik_and_weijun = {
-		shock_damage = 0.2
-        cavalry_flanking = 0.5
+		shock_damage = 0.05
+        cav_to_inf_ratio = 0.40
 	}
 	yua_a_thousand_miles_as_if_at_home = {
 		movement_speed = 0.15
-		envoy_travel_time = -0.1
+		cavalry_flanking = 0.5
 	}
 	yua_sino_mongol_administration = {
 		administrative_efficiency = 0.05

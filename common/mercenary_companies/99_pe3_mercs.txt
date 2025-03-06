@@ -1,0 +1,64 @@
+pe3_merc_company_wuu_1 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
+
+pe3_merc_company_wuu_2 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
+
+pe3_merc_company_wuu_3 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
+
+pe3_merc_company_wuu_4 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
+
+pe3_merc_company_wuu_5 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
