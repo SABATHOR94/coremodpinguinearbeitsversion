@@ -6,13 +6,16 @@ Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 
 Trade überarbeiten (Alle Wege nach Beijing)
 
-
-Yuan kleiner buff um auf selbe stärke zu bringen
-Yuan auf Warlord missions wechseln?
 Anfangsfrieden zwischen Warlords
-Historical rivals zwischen Chinese Warlords
 
 "Great" Prefix per mission
+
+
+
+
+
+
+
 
 Ideen und Vorschläge für neue Runde:
 - Standard mpr zu 200 erhöhen
