@@ -15,7 +15,8 @@ Anfangsfrieden zwischen Warlords
 
 
 
-
+Elbian Federation:
+Missionen um dominanz in Deutschland zu haben, gibt perma modifiers
 
 Ideen und Vorschläge für neue Runde:
 - Standard mpr zu 200 erhöhen
