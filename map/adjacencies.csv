@@ -166,4 +166,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 126;2982;sea;1305;-1;-1;-1;-1;Malta-Syracuse
 321;2302;sea;1317;-1;-1;-1;-1;Cyprus-Icel
 164;163;sea;1319;-1;-1;-1;-1;Naxos-Crete
+25;3;sea;1255;-1;-1;-1;-1;Kalmar-Gotland
+4165;1981;sea;1257;-1;-1;-1;-1;Goinge-Bornholm
+4745;1981;sea;1257;-1;-1;-1;-1;Rügen-Bornholm
+45;1258;sea;1258;-1;-1;-1;-1;Holstein-Lolland
+1750;4560;sea;1295;-1;-1;-1;-1;Alicante-Ibiza
 -1;-1;;-1;-1;-1;-1;-1;-1;

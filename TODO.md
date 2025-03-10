@@ -7,6 +7,9 @@ Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 Anfangsfrieden zwischen Warlords
 
 "Great" Prefix per mission
+^
+26 6 4165 1982
+Strait 25-3
 
 Elbian Federation:
 Missionen um dominanz in Deutschland zu haben, gibt perma modifiers
