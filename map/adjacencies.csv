@@ -156,4 +156,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5020;5019;sea;5061;-1;-1;-1;-1;Chinese-rivers
 681;2172;sea;5058;-1;-1;-1;-1;Chinese-rivers
 669;2155;sea;1372;-1;-1;-1;-1;Taiwan-strait
+122;4174;sea;1310;-1;-1;-1;-1;Italy-Albania
+112;113;sea;1308;-1;-1;-1;-1;Venice-Ferrera
+111;130;sea;1308;-1;-1;-1;-1;Friuli-Istria
+130;4753;sea;1308;-1;-1;-1;-1;Istria-Dalmatia
+164;2348;sea;1319;-1;-1;-1;-1;Naxos-Chios
+320;164;sea;1319;-1;-1;-1;-1;Naxos-Rhodes
+320;319;sea;1319;-1;-1;-1;-1;Naxos-Mentes
+126;2982;sea;1305;-1;-1;-1;-1;Malta-Syracuse
+321;2302;sea;1317;-1;-1;-1;-1;Cyprus-Icel
+164;163;sea;1319;-1;-1;-1;-1;Naxos-Crete
 -1;-1;;-1;-1;-1;-1;-1;-1;

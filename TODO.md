@@ -8,17 +8,15 @@ Anfangsfrieden zwischen Warlords
 
 "Great" Prefix per mission
 
-
-
 Elbian Federation:
 Missionen um dominanz in Deutschland zu haben, gibt perma modifiers
 
-North & South German Federation
+Respawns:
+Kolonien kaufen freiheit ab 500 dev, overlord kriegt perma boni
+Kolonialregionen auf 3 reduzieren
 
 Ideen und Vorschläge für neue Runde:
-- Standard mpr zu 200 erhöhen
 - Transporter bauzeit auf 30 tage reduzieren
-
 - Indonesien zweiter slot (Philippinen)
 - Kaukasus slot
 - Jerusalem statt Hisn Kayfa slot
@@ -27,4 +25,3 @@ Ideen und Vorschläge für neue Runde:
 - Invest Splendor decision -> 500 splender = 50 gov reform
 - Trade good upgrade button?
 - Lvl 4 und 5 CoT?
-- Merkantilismus ideen kriegen keinen cooldown und brauchen keine dev für CoT
