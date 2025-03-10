@@ -1,0 +1,4 @@
+#Germans
+NGF = "countries/NorthGermanFederation.txt"
+SGF = "countries/SouthGermanFederation.txt"
+
