@@ -48,6 +48,8 @@
  mil_advisor_event_display_title: "6. QOL: Mil Advisor Events"
  mil_advisor_event_display_desc: ""
 
+ rampart_warning_title: "TOO MANY RAMPARTS"
+ rampart_warning_desc: "You may only own three provinces with ramparts. Delete obsolete ramparts or your enemies may do that for you during war!"
 
 
 
