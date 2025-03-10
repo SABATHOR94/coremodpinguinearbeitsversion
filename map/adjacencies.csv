@@ -145,4 +145,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2695;2696;sea;1401;-1;-1;-1;-1;EastTimor-Yamdena
 2696;2725;sea;1409;-1;-1;-1;-1;Yamdena-Aru 
 2725;2724;sea;1409;-1;-1;-1;-1;Aru-Asmat
+682;4981;sea;5056;-1;-1;-1;-1;Chinese-rivers
+1821;5040;sea;5052;-1;-1;-1;-1;Chinese-rivers
+688;5002;sea;5067;-1;-1;-1;-1;Chinese-rivers
+1836;4996;sea;5068;-1;-1;-1;-1;Chinese-rivers
+2142;4196;sea;5064;-1;-1;-1;-1;Chinese-rivers
+2176;4991;sea;5066;-1;-1;-1;-1;Chinese-rivers
+2145;685;sea;5051;-1;-1;-1;-1;Chinese-rivers
+4984;686;sea;5054;-1;-1;-1;-1;Chinese-rivers
+5020;5019;sea;5061;-1;-1;-1;-1;Chinese-rivers
+681;2172;sea;5058;-1;-1;-1;-1;Chinese-rivers
+669;2155;sea;1372;-1;-1;-1;-1;Taiwan-strait
 -1;-1;;-1;-1;-1;-1;-1;-1;

@@ -1,0 +1,34 @@
+pe3_control_over_qi = { #690
+	trigger = {
+		has_reform = celestial_empire
+	}
+	imperial_mandate = 0.025
+}
+
+pe3_control_over_yuan = { #2182
+	trigger = {
+		has_reform = celestial_empire
+	}
+	imperial_mandate = 0.025
+}
+
+pe3_control_over_shu = { #679
+	trigger = {
+		has_reform = celestial_empire
+	}
+	imperial_mandate = 0.025
+}
+
+pe3_control_over_wu = { #684
+	trigger = {
+		has_reform = celestial_empire
+	}
+	imperial_mandate = 0.025
+}
+
+pe3_control_over_yue = { #667
+	trigger = {
+		has_reform = celestial_empire
+	}
+	imperial_mandate = 0.025
+}

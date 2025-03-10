@@ -1,0 +1,20 @@
+#
+
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CMI
+culture = miao
+religion = animism
+capital = "Qiannan"
+trade_goods = copper
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group
+
+fort_15th = yes

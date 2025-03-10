@@ -1,0 +1,21 @@
+pe3_fuck_your_hugbox_triggered_modifier = {
+	potential = {
+		ai = no
+        OR = {
+            has_reform = celestial_empire
+			has_reform = chinese_warlord
+        }
+	}
+
+	trigger = {
+		any_ally = {
+            OR = {
+                has_reform = celestial_empire
+                has_reform = chinese_warlord
+            }
+        }
+        is_year = 1550
+	}
+
+	all_power_cost = 0.2
+}

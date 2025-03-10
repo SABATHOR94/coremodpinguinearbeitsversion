@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = bai
+religion = buddhism
+technology_group = chinese
+capital = 661	# Dali
+
+historical_rival = MNG
+historical_rival = YUA
+historical_rival = CSH
+historical_rival = JIN
+historical_rival = TNG
+historical_rival = QIC
+historical_rival = LNG
+historical_rival = WUU
+historical_rival = YUE
+historical_rival = MIN
+historical_rival = CMI
+
+historical_rival = SHU

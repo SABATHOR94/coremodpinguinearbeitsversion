@@ -643,6 +643,7 @@ chinese_warlord = {
 		manpower_recovery_speed = 0.25
 		governing_capacity = 500
 		liberty_desire = 50
+		culture_conversion_cost = -0.33
 	}
 	
 	ai = {

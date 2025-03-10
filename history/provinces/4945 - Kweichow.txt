@@ -1,0 +1,22 @@
+#4945 - Kweichow
+
+owner = MNG
+controller = MNG
+add_core = MNG
+culture = cantonese
+religion = confucianism
+capital = "Kweichow"
+trade_goods = sugar
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+
+fort_15th = yes

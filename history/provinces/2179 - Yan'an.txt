@@ -1,8 +1,8 @@
 # 2179 - Yan'an
 
-owner = YUA
-controller = YUA
-add_core = YUA
+owner = CSH
+controller = CSH
+add_core = CSH
 culture = altaic_new
 religion = confucianism
 capital = "Yan'an"

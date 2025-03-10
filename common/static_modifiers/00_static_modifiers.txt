@@ -125,6 +125,7 @@ in_capital_state = {
 	local_state_maintenance_modifier = -0.5
 	local_governing_cost = -1.0
 	local_has_qizilbash = yes
+	trade_goods_size_modifier = 0.25
 }
 
 coastal = {
@@ -679,25 +680,20 @@ positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mandate
 	meritocracy = -2
 	reduced_liberty_desire = -30
-	global_trade_goods_size_modifier = -0.5
-	fire_damage_received = 0.5
-	shock_damage_received = 0.5
+	global_trade_goods_size_modifier = -0.20
+	fire_damage_received = 0.10
+	shock_damage_received = 0.10
 	global_unrest = 5
-	mercenary_manpower = -0.5
-	global_manpower_modifier = -0.5
+	mercenary_manpower = -0.15
+	global_manpower_modifier = -0.10
 }
 
 lost_mandate_of_heaven = {
-	discipline = -0.1
 	stability_cost_modifier = 0.5
-	global_unrest = 10
-	global_trade_goods_size_modifier = -0.5
-	fire_damage_received = 0.5
-	shock_damage_received = 0.5
+	global_unrest = 5
 	reduced_liberty_desire = -50
 	legitimacy = -1
-	mercenary_manpower = -0.5
-	global_manpower_modifier = -0.5
+	prestige = -3
 }
 
 cancelled_loan = {
@@ -2088,9 +2084,7 @@ marine_regiment = {
 
 banner_regiment = {
 	discipline = 0.05
-	land_maintenance_modifier = -0.5
-	regiment_manpower_usage = -0.75
-	reinforce_speed = -0.5
+	land_maintenance_modifier = 0.5
 }
 
 streltsy_regiment = {

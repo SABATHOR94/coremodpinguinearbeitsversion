@@ -1,0 +1,20 @@
+#
+
+owner = TNG
+controller = TNG
+add_core = TNG
+add_core = QIN
+culture = altaic_new
+religion = confucianism
+capital = "Jinzhou"
+trade_goods = gold
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group
+
+fort_15th = yes

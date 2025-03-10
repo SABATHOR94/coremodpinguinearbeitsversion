@@ -1,0 +1,25 @@
+#
+
+owner = CSH
+controller = CSH
+add_core = CSH
+culture = altaic_new
+religion = confucianism
+capital = "Weinan"
+trade_goods = grain
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 6
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group
+
+1595.1.1 = { discovered_by = SPA }
+
+1646.2.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+}

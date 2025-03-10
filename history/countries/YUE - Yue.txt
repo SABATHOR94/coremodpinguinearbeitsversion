@@ -7,10 +7,25 @@ capital = 667	#Canton
 
 1436.1.1 = {
 	monarch = {
-		name = "Youshan I Ma"
+		name = "Yoshuan"
+		dynasty = "Yue"
 		birth_date = 1420.1.1
-		adm = 5
+		adm = 4
 		dip = 4
-		mil = 3
+		mil = 4
 	}
 }
+
+historical_rival = MNG
+historical_rival = YUA
+historical_rival = CSH
+historical_rival = JIN
+historical_rival = TNG
+historical_rival = QIC
+historical_rival = LNG
+historical_rival = WUU
+
+historical_rival = MIN
+historical_rival = CMI
+historical_rival = CDL
+historical_rival = SHU
