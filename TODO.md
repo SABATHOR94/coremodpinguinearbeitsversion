@@ -8,6 +8,8 @@ Anfangsfrieden zwischen Warlords
 
 "Great" Prefix per mission
 
+Maghreb dev cost in wüste nerfen
+
 Österreich wieder in Wien node
 Schlesien in Sachsen node
 Trade nodes etwas anpassen von grenzen
