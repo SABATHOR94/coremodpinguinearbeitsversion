@@ -580,6 +580,14 @@ guiTypes = {
 				scripted = yes
 			}
 
+			# This one is for changing wool to cloth
+			guiButtonType = {
+				name = "pe3_upgrade_trade_good"
+				position = { x = 447 y = 21 }
+				quadTextureSprite = "GFX_button_cloth_change"
+				scripted = yes
+			}
+
 
 			iconType =
 			{
