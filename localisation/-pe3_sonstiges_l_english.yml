@@ -33,6 +33,14 @@
 
  pe3_bohemia_elbian_path_tt:0 "§RThis will lead to a Czech dominated Germany and thus forbid us to take a German flag.§!"
 
+ pe3_diplo_buy_freedom_title:0 "Request Freedom"
+ pe3_diplo_buy_freedom_tooltip:0 "We will request our freedom in exchange for a permanent buff for our overlord."
+ pe3_diplo_buy_freedom_desc:0 "We will request our freedom in exchange for a permanent buff for our overlord."
+
+ pe3_diplo_grant_freedom_title:0 "Grant Freedom"
+ pe3_diplo_grant_freedom_tooltip:0 "We will leave our colonial nation in charge of their own fate in exchange for a permanent buff."
+ pe3_diplo_grant_freedom_desc:0 "We will leave our colonial nation in charge of their own fate in exchange for a permanent buff."
+
 
  #Privileges
  pe3_quality_banner_privilege:0 "Increased Banner training"

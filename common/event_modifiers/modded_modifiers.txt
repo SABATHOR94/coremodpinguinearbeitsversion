@@ -456,3 +456,8 @@ pe3_boh_prussia = {
 	infantry_power = 0.15
 	num_accepted_cultures = 1
 }
+
+# @Sabathor, hier bitte die ermittelten buffs einfügen
+pe3_released_colony_overlord_buff = {
+	land_forcelimit = 50 #dummy
+}
