@@ -11,7 +11,8 @@ Respawns:
 Kolonien kaufen freiheit ab 500 dev, overlord kriegt perma boni
 Kolonialregionen auf 3 reduzieren
 Colonial Gov typen für die KI erstellen, welcher dem overlord massiv mehr FL und MP übergibt, damit Leute ohne Respawn in ihrer CN nicht benachteiligt werden
-
+Kolonialregionen von den Grenzen anpassen
+Natives komplett entfernen, auch deren tribesland...
 
 #####################################################################
 Indonesien zweiter slot (Philippinen)
