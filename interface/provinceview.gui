@@ -570,7 +570,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 			### Core
-
+			#PE3
 			### Hey you found our button!
 			# This one is for creating trade centers
 			guiButtonType = {

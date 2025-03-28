@@ -78,6 +78,9 @@ NDefines.NMilitary.WARGOAL_MAX_BONUS = 40
 -- Merc changes
 NDefines.NMilitary.MERCENARY_COMPANY_MAX_REGIMENTS = 40
 
+--Schiffe
+NDefines.NMilitary.TRANSPORT_TIME = 30
+
 
 -------------------------------------------------------
 ---- Economy changes
