@@ -20,6 +20,16 @@
 
  iv_tradecenter_button_title:0"Create Trade Center"
  iv_tradecenter_button_desc:0"This will create a level 1 Center of Trade.\n§YThis has a 10 year cooldown.§!"
+ pe3_upgrade_trade_good_title:0 "Upgrade Wool production"
+ pe3_upgrade_trade_good_desc:0 "This will exchange the wool for cloth."
+ regional_port:0 "Regional Port"
+ regional_port_desc:0 ""
+ world_port_2:0 "Global Port"
+ world_port_2_desc:0 ""
+ regional_hub:0 "Regional Hub"
+ regional_hub_desc:0 ""
+ world_trade_center_2:0 "Global Hub"
+ world_trade_center_2_desc:0 ""
 
 
 

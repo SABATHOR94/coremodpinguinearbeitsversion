@@ -1,7 +1,7 @@
 #376 - Connaught
 
 owner = DMS
-controller = CNDMSN
+controller = DMS
 culture = irish
 religion = catholic
 hre = no

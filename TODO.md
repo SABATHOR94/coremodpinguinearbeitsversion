@@ -23,6 +23,8 @@ Indonesien zweiter slot (Philippinen)
 Trade good upgrade button?
 Lvl 4 und 5 CoT?
 
+Afrika wasteland zu provinzen machen
+
 
 Sabathors to-do:
 Anfangsfrieden zwischen Warlords

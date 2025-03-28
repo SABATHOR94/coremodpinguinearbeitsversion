@@ -1,4 +1,8 @@
 ﻿l_english:
+
+  pe3_diplomatic_corps:0 "Seclusion"
+  pe3_diplomatic_corps_desc:0 "§GThis allows us to build Center of Trade with less restrictions!§!"
+
   NGF_ideas:0 "North German Ideas"
   NGF_ideas_start:0 "North German Traditions"
   NGF_ideas_bonus:0 "North German Ambition"

@@ -548,7 +548,7 @@ diplomatic_ideas = {
 		max_absolutism = 10
 		mercantilism_cost = -0.4
 	}
-	diplomatic_corps = {
+	pe3_diplomatic_corps = {
 		global_trade_goods_size_modifier = 0.15
 	}
 
