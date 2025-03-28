@@ -6,9 +6,6 @@ Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 
 "Great" Prefix per mission
 
-Elbian Federation:
-Missionen um dominanz in Deutschland zu haben, gibt perma modifiers
-
 Respawns:
 Kolonien kaufen freiheit ab 500 dev, overlord kriegt perma boni
 Kolonialregionen auf 3 reduzieren

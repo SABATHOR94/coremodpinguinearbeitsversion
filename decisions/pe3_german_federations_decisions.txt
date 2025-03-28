@@ -6,6 +6,7 @@ country_decisions = {
 		color = { 160 160 160 }
 		potential = {
 			NOT = { has_country_flag = gc_formed_ngf }
+			NOT = { has_country_flag = pe3_elbian_federation_flag }
 			NOT = { exists = NGF }
             OR = {
                 tag = PRU
@@ -84,6 +85,7 @@ country_decisions = {
 		color = { 170 170 255 }
 		potential = {
 			NOT = { has_country_flag = gc_formed_sgf }
+			NOT = { has_country_flag = pe3_elbian_federation_flag }
 			NOT = { exists = SGF }
             OR = {
                 tag = WES

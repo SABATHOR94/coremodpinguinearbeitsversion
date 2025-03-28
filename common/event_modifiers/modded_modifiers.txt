@@ -431,3 +431,28 @@ ASU_banners_modifier_1 = {
 	discipline = 0.05
 	is_banner_modifier = yes
 }
+
+pe3_boh_lubeck = {
+	trade_efficiency = 0.2
+	num_accepted_cultures = 1
+}
+
+pe3_boh_rhineland = {
+	global_trade_goods_size_modifier = 0.1
+	num_accepted_cultures = 1
+}
+
+pe3_boh_hegemony = {
+	land_forcelimit_modifier = 0.25
+	manpower_in_accepted_culture_provinces = 0.25
+}
+
+pe3_boh_south_germany = {
+	manpower_recovery_speed = 0.2
+	num_accepted_cultures = 1
+}
+
+pe3_boh_prussia = {
+	infantry_power = 0.15
+	num_accepted_cultures = 1
+}

@@ -238,6 +238,7 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_prussia_flag }
+			NOT = { has_country_flag = pe3_elbian_federation_flag }
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -258,7 +259,7 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			province_id = 41	# Königsberg
+			province_id = 41	# Kï¿½nigsberg
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -289,8 +290,8 @@ country_decisions = {
 					religion = anglican
 				}
 			}
-			owns_core_province = 41 # Königsberg
-			41 = { 					# Königsberg
+			owns_core_province = 41 # Kï¿½nigsberg
+			41 = { 					# Kï¿½nigsberg
 				is_state = yes
 			}
 		}
@@ -435,6 +436,7 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_prussia_flag }
+			NOT = { has_country_flag = pe3_elbian_federation_flag }
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -457,7 +459,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 41	# Königsberg
+				province_id = 41	# Kï¿½nigsberg
 				AND = {
 					OR = {
 						area = west_prussia_area
@@ -494,7 +496,7 @@ country_decisions = {
 				religion = anglican
 			}
 			OR = {
-				owns_core_province = 41			# Königsberg
+				owns_core_province = 41			# Kï¿½nigsberg
 				owns_core_province = 42			# Warmia
 				owns_core_province = 43			# Danzig
 			}
