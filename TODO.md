@@ -6,6 +6,27 @@ Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 
 "Great" Prefix per mission
 
+#####
+Straits:
+Taiwan - Phillipinen
+Sulawesi - Phillipinen
+Australien - New Guinea (und umliegende kackinseln)
+Alaska spitze verbinden
+Nova Scotia mit New Foundland verbinden
+Scotra (vor Äthiopien) mit Horn verbinden
+
+#################
+Trade:
+Bordeaux -> Genoa
+Champagne x> Genoa
+Wien -> Champagne
+Valencia -> Bordeaux
+Ragusa griechischer Teil nach Constantinople
+Tunis -> Genoa
+Ragusa x> Genoa
+Florida in Chesapeake
+Südlichster Teil Californiens in Rio Grande / Mexico aufteilen
+
 #####################################################################
 Respawns:
 Kolonien kaufen freiheit ab 500 dev, overlord kriegt perma boni
@@ -13,6 +34,7 @@ Kolonialregionen auf 3 reduzieren
 Colonial Gov typen für die KI erstellen, welcher dem overlord massiv mehr FL und MP übergibt, damit Leute ohne Respawn in ihrer CN nicht benachteiligt werden
 Kolonialregionen von den Grenzen anpassen
 Natives komplett entfernen, auch deren tribesland...
+Straits in der Karibik einfügen
 
 #####################################################################
 Indonesien zweiter slot (Philippinen)
