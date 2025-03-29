@@ -1,8 +1,8 @@
 #795 - Potosi
 
-owner = CRA
-controller = CRA
-add_core = CRA
+# owner = CRA
+# controller = CRA
+# add_core = CRA
 culture = aimara
 
 

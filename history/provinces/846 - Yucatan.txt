@@ -1,7 +1,7 @@
 #846 - Yucatan
 
-owner = COC 
-controller = COC
+# owner = COC 
+# controller = COC
 culture = yucatec
 religion = mesoamerican_religion
 capital = "Sotuta" 

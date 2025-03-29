@@ -18,7 +18,6 @@ discovered_by = aboriginal_tech
 center_of_trade = 1
 extra_cost = 8
 
-add_province_triggered_modifier = reiches_australien
 
 discovered_by = MKS
 discovered_by = TER

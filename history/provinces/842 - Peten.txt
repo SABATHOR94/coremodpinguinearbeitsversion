@@ -1,7 +1,7 @@
 #842 - Pet�n
 
-owner = ITZ
-controller = ITZ
+# owner = ITZ
+# controller = ITZ
 culture = putun
 religion = mesoamerican_religion
 capital = "Pet�n"
