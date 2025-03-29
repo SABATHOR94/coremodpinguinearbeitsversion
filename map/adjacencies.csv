@@ -111,7 +111,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 631;627;sea;1354;-1;-1;-1;-1;Bali-Blambangan
 #Modded:
 235;87;sea;1271;-1;-1;-1;-1;Kent-Calais #geht
-4374;169;sea;1272;-1;-1;-1;-1;Dorset-Arvor #geht
+4374;4385;sea;1272;-1;-1;-1;-1;Dorset-Cotentin #geht
 251;24;sea;1975;-1;-1;-1;-1;Aberdeen-Stavanger #geht
 629;639;sea;1358;-1;-1;-1;-1;Demak-Banjar #geht nicht
 2455;2986;sea;1302;-1;-1;-1;-1;Tunis-Sardinia
@@ -171,4 +171,26 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4745;1981;sea;1257;-1;-1;-1;-1;Rügen-Bornholm
 45;1983;sea;1258;-1;-1;-1;-1;Holstein-Lolland
 1750;4560;sea;1295;-1;-1;-1;-1;Alicante-Ibiza
+982;981;sea;1491;-1;-1;-1;-1;NovaScotia-NewFoundland
+2536;4622;sea;1505;-1;-1;-1;-1;Miami-Cuba 
+2652;4624;sea;1512;-1;-1;-1;-1;Ecab-Guane
+487;486;sea;1516;-1;-1;-1;-1;Jamaica-Cuba 
+487;488;sea;1516;-1;-1;-1;-1;Jamaica-DomRep
+2654;483;sea;1524;-1;-1;-1;-1;TurkIslands-Cuba
+2536;482;sea;1503;-1;-1;-1;-1;Miami-Bahamas
+483;482;sea;1524;-1;-1;-1;-1;TurkIslands-Bahamas
+4621;492;sea;1526;-1;-1;-1;-1;Higuey-Boriken
+492;493;sea;1526;-1;-1;-1;-1;Boriken-StThomas
+493;1881;sea;1526;-1;-1;-1;-1;StThomas-Stmartin
+1881;494;sea;1523;-1;-1;-1;-1;Stmartin-StKitts
+496;497;sea;1523;-1;-1;-1;-1;Guadalupe-Dominica
+500;501;sea;1522;-1;-1;-1;-1;Barbados-StVincent
+502;500;sea;1522;-1;-1;-1;-1;Trinidad-StVincent
+491;2808;sea;1519;-1;-1;-1;-1;Aruba-Coro
+979;2611;sea;1680;-1;-1;-1;-1;Unangan-Kodiak
+738;657;sea;1393;-1;-1;-1;-1;Sakam-Ilocos
+2701;644;sea;1402;-1;-1;-1;-1;Tagloc-Manado
+2722;2730;sea;1410;-1;-1;-1;-1;Daru-Awngthim
+1099;2788;sea;1446;-1;-1;-1;-1;Socotra-Hafun
+2654;489;sea;1516;-1;-1;-1;-1;Baracoa-Tortuga
 -1;-1;;-1;-1;-1;-1;-1;-1;

@@ -6,15 +6,6 @@ Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 
 "Great" Prefix per mission
 
-#####
-Straits:
-Taiwan - Phillipinen
-Sulawesi - Phillipinen
-Australien - New Guinea (und umliegende kackinseln)
-Alaska spitze verbinden
-Nova Scotia mit New Foundland verbinden
-Scotra (vor Äthiopien) mit Horn verbinden
-
 #################
 Trade:
 Bordeaux -> Genoa
