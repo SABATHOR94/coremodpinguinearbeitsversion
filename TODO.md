@@ -6,6 +6,7 @@ Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 
 "Great" Prefix per mission
 Mehr Monumente (aus ASU?)
+Modulare "ideen" durch provinz modifier in der hauptstadt
 
 #################
 Trade:
