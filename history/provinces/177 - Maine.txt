@@ -1,7 +1,7 @@
 # 177 Maine - Principal cities: Le Mans, Laval
 
-owner = NRM
-controller = NRM
+owner = PRO
+controller = PRO
 capital = "Le Mans"
 is_city = yes
 culture = cosmopolitan_french
@@ -11,8 +11,7 @@ base_tax = 6
 base_production = 6
 trade_goods = cloth
 base_manpower = 4
-add_local_autonomy = 80
-add_core = NRM
+add_core = PRO
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
