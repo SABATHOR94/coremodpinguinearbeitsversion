@@ -5,17 +5,12 @@ Mandat überarbeiten (wenns ausgelöscht usw)
 Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 
 "Great" Prefix per mission
+Mehr Monumente (aus ASU?)
 
 #################
 Trade:
-Bordeaux -> Genoa
-Champagne x> Genoa
-Wien -> Champagne
-Valencia -> Bordeaux
 Ragusa griechischer Teil nach Constantinople
-Tunis -> Genoa
 Ragusa x> Genoa
-Florida in Chesapeake
 Südlichster Teil Californiens in Rio Grande / Mexico aufteilen
 
 #####################################################################
@@ -24,7 +19,7 @@ Colonial Gov typen für die KI erstellen, welcher dem overlord massiv mehr FL un
 
 #####################################################################
 Indonesien zweiter slot (Philippinen)
-Afrika wasteland zu provinzen machen
+
 
 ####################
 Sabathors to-do:
@@ -33,8 +28,7 @@ Maghreb dev cost in wüste nerfen
 Karakun Dev cost edict anpassen (same bei Sokoto und Äthiopien)
 Trade nodes etwas anpassen von grenzen
 Invest Splendor decision -> 500 splender = 50 gov reform
-Provence anpassen ggf durch Normandie ersetzen
-Köln leicht nerfen
+Köln leicht nerfen <--- Brauchts das wirklich angesichts der stärke von Böhmen und Bayern?
 Australien keine Cn mehr
 Konzept overlord modifier anpassen+
 
@@ -45,3 +39,4 @@ Irgendwann mal:
 #- Jerusalem statt Hisn Kayfa slot 
 #- Individuellere Nationale Ideen für slots (z.B. GB auf late game fire damage scaling)
 #- Gov cap malis auf vanilla zurücksetzen, unter gov cap -> bonus (dev cost?)
+Afrika wasteland zu provinzen machen
