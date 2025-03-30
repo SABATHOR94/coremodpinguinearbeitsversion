@@ -8,12 +8,6 @@ Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
 Mehr Monumente (aus ASU?)
 Modulare "ideen" durch provinz modifier in der hauptstadt
 
-#################
-Trade:
-Ragusa griechischer Teil nach Constantinople
-Ragusa x> Genoa
-Südlichster Teil Californiens in Rio Grande / Mexico aufteilen
-
 #####################################################################
 Respawns:
 Colonial Gov typen für die KI erstellen, welcher dem overlord massiv mehr FL und MP übergibt, damit Leute ohne Respawn in ihrer CN nicht benachteiligt werden
