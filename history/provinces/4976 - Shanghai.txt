@@ -13,7 +13,7 @@ base_production = 10
 base_manpower = 5
 is_city = yes
 
-
+add_province_triggered_modifier = pe3_shanghai_riches
 
 discovered_by = chinese
 discovered_by = indian

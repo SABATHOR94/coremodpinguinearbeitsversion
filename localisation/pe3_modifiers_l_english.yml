@@ -83,6 +83,16 @@
  pe3_beijing_desc:0 ""
  pe3_imperial_city:0 "Imperial City"
  pe3_imperial_city_desc:0 ""
+ pe3_cantonese_cannons: "Cantonese Cannons"
+ pe3_cantonese_cannons_desc: ""
+ pe3_shanghai_riches: "Shanghaian Riches"
+ pe3_shanghai_riches_desc: ""
+ pe3_chengdu_tenacity: "Chengduan Tenacity"
+ pe3_chengdu_tenacity_desc: ""
+ pe3_liangzhou_road: "Liangzhouan Road Network"
+ pe3_liangzhou_road_desc: ""
+ pe3_qingzhou_cities: "Qingzhouan Urban Center"
+ pe3_qingzhou_cities_desc: ""
 
  pe3_formed_west_rome: "Restored West Roman glory"
 

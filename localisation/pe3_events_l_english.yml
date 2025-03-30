@@ -91,3 +91,11 @@
  faithful_defender.2.t: "Defender of the Faith questioned"
  faithful_defender.2.da: "We are no longer the uncontested defender of the faith. Oh well, we will prevail anyway!"
  faithful_defender.2.a: "Factus sit..."
+
+ pe3_chinese_event.1.t:0 "War in Heaven"
+ pe3_chinese_event.1.desc:0 "The Mandate of Heaven trembles as rival factions rise against the ruling dynasty. Civil war erupts across China, with warlords, rebels, and imperial loyalists vying for supremacy. The fate of the Middle Kingdom hangs in the balance —will order be restored, or will chaos reign supreme?"
+ pe3_chinese_event.1.a:0 "We will restore order!"
+
+ pe3_chinese_event.2.t:0 "The Heavens Decree Our Rule"
+ pe3_chinese_event.2.desc:0 "The celestial order has spoken—our rule is divinely ordained, and none shall dare oppose it. Let all who challenge our authority tremble, for defying the Mandate of Heaven is to defy fate itself. Those who resist will be crushed under the weight of destiny!"
+ pe3_chinese_event.2.a:0 "We are the Son of Heaven!"

@@ -1,17 +1,12 @@
 Advisor in kategorie kaufen
 
 China:
-Mandat überarbeiten (wenns ausgelöscht usw)
-Mandat wiederholbar per decision, wenn ausgelöscht. Nur für chinesen.
-
-"Great" Prefix per mission
 Mehr Monumente (aus ASU?)
-Modulare "ideen" durch provinz modifier in der hauptstadt
 
 #####################################################################
 Respawns:
 Colonial Gov typen für die KI erstellen, welcher dem overlord massiv mehr FL und MP übergibt, damit Leute ohne Respawn in ihrer CN nicht benachteiligt werden
-
+Scheinbar ist die decision Anzeige um gewissen Nationen zu gründen verbuggt
 #####################################################################
 Indonesien zweiter slot (Philippinen)
 
@@ -21,11 +16,10 @@ Sabathors to-do:
 Anfangsfrieden zwischen Warlords
 Maghreb dev cost in wüste nerfen
 Karakun Dev cost edict anpassen (same bei Sokoto und Äthiopien)
-Trade nodes etwas anpassen von grenzen
 Invest Splendor decision -> 500 splender = 50 gov reform
 Köln leicht nerfen <--- Brauchts das wirklich angesichts der stärke von Böhmen und Bayern?
 Australien keine Cn mehr
-Konzept overlord modifier anpassen+
+Konzept overlord modifier anpassen+ // pe3_released_colony_overlord_buff <---
 
 #############################################################################################################s
 

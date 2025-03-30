@@ -1712,6 +1712,9 @@ on_annexed = {
 			limit = { is_emperor_of_china = yes }
 			dismantle_empire_of_china = yes
 			set_global_flag = empire_of_china_dismantled
+
+			#ASU
+			clr_global_flag = ASU_eoc_failsafe_flag
 		}
 		if = {
 			limit = { has_country_modifier = legatus_natus }
@@ -1786,17 +1789,18 @@ on_mandate_of_heaven_gained = {
 		change_technology_group = chinese
 		change_unit_type = chinese
 	}
-	if = {
-		limit = { 
-			has_dlc = "Domination" 
-			NOT = { primary_culture = mongol }
-			NOT = { primary_culture = chahar }
-			NOT = { primary_culture = khalkha }
-			NOT = { primary_culture = oirats }
-			has_domination_eoc_missions_available = yes
-		}
-		swap_non_generic_missions = yes 
-	}
+	#PE3 // Wir wollen hier nicht die Missionen überschreiben
+	#if = {
+	#	limit = { 
+	#		has_dlc = "Domination" 
+	#		NOT = { primary_culture = mongol }
+	#		NOT = { primary_culture = chahar }
+	#		NOT = { primary_culture = khalkha }
+	#		NOT = { primary_culture = oirats }
+	#		has_domination_eoc_missions_available = yes
+	#	}
+	#	swap_non_generic_missions = yes 
+	#}
 	if = {
 		limit = {
 			OR = {
@@ -1812,33 +1816,6 @@ on_mandate_of_heaven_gained = {
 	add_country_modifier = {
 		name = new_mandate_holder
 		duration = 9125
-	}
-	1816 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
-	}
-	1821 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
-	}
-	667 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
 	}
 	china_superregion = {
 		limit = {
