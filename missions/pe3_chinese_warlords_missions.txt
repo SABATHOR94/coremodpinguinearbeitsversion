@@ -89,13 +89,19 @@ chinese_kingdoms_1 = {
 				}
 				is_emperor_of_china = yes
 			}
-			custom_trigger_tooltip = {
+			OR = {
+				custom_trigger_tooltip = {
 				tooltip = chi_strongest_warlord_tt
-				any_country = { 
-					capital_scope = { superregion = china_superregion }
-					NOT = { army_size = ROOT } 
-					NOT = { total_development = ROOT }
-				}	
+					any_country = { 
+						capital_scope = { superregion = china_superregion }
+						NOT = { army_size = ROOT } 
+						NOT = { total_development = ROOT }
+					}	
+				}
+				china_superregion = {
+					country_or_non_sovereign_subject_holds = ROOT
+					type = all
+				}
 			}
 		}
 		effect = {	
