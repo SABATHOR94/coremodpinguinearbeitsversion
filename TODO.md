@@ -1,12 +1,21 @@
 Advisor in kategorie kaufen
+Manpower edict per klick
+Alle Parlamentssitze vergeben
+War Taxes vergessen decision? (Vanilla?)
+Rev Guard decision buffs verbessern
+Vanilla Söldner -> Kav und Arty entfernen
 
 China:
 Mehr Monumente (aus ASU?)
+Tier 6 flip raus, dafür pluto und divine freischalten
+Yuan missionen
 
 #####################################################################
 Respawns:
 Colonial Gov typen für die KI erstellen, welcher dem overlord massiv mehr FL und MP übergibt, damit Leute ohne Respawn in ihrer CN nicht benachteiligt werden
 Scheinbar ist die decision Anzeige um gewissen Nationen zu gründen verbuggt
+provinz 2810 in Mexiko packen
+
 #####################################################################
 Indonesien zweiter slot (Philippinen)
 
