@@ -1,5 +1,5 @@
 trade_company_australia = {
-	color = { 196 191 61 }
+	color = { 126 20 20 }
 	
 	provinces = {
 		1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094
