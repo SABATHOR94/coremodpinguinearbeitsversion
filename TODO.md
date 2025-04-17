@@ -1,5 +1,3 @@
-Advisor in kategorie kaufen
-
 
 China:
 Mehr Monumente (aus ASU?)
@@ -31,3 +29,4 @@ Irgendwann mal:
 #- Gov cap malis auf vanilla zurücksetzen, unter gov cap -> bonus (dev cost?)
 Afrika wasteland zu provinzen machen
 Indonesien zweiter slot (Philippinen)
+Weitere Berater hinzufügen

@@ -52,3 +52,6 @@
 
  pe3_manpower_edict_decision_title:0 "Activate Nationwide Manpower Edict"
  pe3_manpower_edict_decision_desc:0 "This will activate the manpower edict in every state."
+
+ pe3_recruit_military_advisor_decision_title:0 "Recruit Military Advisor"
+ pe3_recruit_military_advisor_decision_desc:0 "This will allow us to choose a certain military advisor. Scroll down in the event for more."
