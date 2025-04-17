@@ -2,7 +2,6 @@ Advisor in kategorie kaufen
 Manpower edict per klick
 Alle Parlamentssitze vergeben
 War Taxes vergessen decision? (Vanilla?)
-Rev Guard decision buffs verbessern
 
 China:
 Mehr Monumente (aus ASU?)

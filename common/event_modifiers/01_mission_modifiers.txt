@@ -9412,22 +9412,23 @@ fra_iberian_domination_modifier = {
 }
 
 fra_elite_guard_modifier = {
-	discipline = 0.025
+	discipline = 0.05
 	is_revolutionary_guard_modifier = yes 
 }
 fra_mass_guard_modifier = {
-	regiment_manpower_usage = -0.15
+	regiment_manpower_usage = -0.2
 	is_revolutionary_guard_modifier = yes 
 }
 fra_professional_guard_modifier = {
 	drill_gain_modifier = 1 
-	land_attrition = -0.15
+	drill_decay_modifier = -0.33
+	land_attrition = -0.25
 	is_revolutionary_guard_modifier = yes 
 }
 
 
 fra_vanguard_guard_modifier = {
-	morale_damage_received = -0.15
+	morale_damage_received = -0.33
 	is_revolutionary_guard_modifier = yes 
 }
 
