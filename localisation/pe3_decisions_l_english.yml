@@ -46,3 +46,9 @@
 
  pe3_emperor_of_china_failsafe_title:0 "Claim the Mandate of Heaven"
  pe3_emperor_of_china_failsafe_desc:0 "As the heavens align in your favor, the time has come to assert your divine right to rule. The people look to you as the chosen sovereign, destined to bring prosperity and order. With the Mandate of Heaven declared, your reign is legitimized—but beware, for should you falter, the wrath of heaven may plunge the realm into chaos."
+
+ pe3_all_seats_parliament_decision_title:0 "Distribute Parliament Seats"
+ pe3_all_seats_parliament_decision_desc:0 "This will distribute a parliament seat to each province."
+
+ pe3_manpower_edict_decision_title:0 "Activate Nationwide Manpower Edict"
+ pe3_manpower_edict_decision_desc:0 "This will activate the manpower edict in every state."

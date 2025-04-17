@@ -1,7 +1,5 @@
 Advisor in kategorie kaufen
-Manpower edict per klick
-Alle Parlamentssitze vergeben
-War Taxes vergessen decision? (Vanilla?)
+
 
 China:
 Mehr Monumente (aus ASU?)
@@ -13,10 +11,6 @@ Respawns:
 Colonial Gov typen für die KI erstellen, welcher dem overlord massiv mehr FL und MP übergibt, damit Leute ohne Respawn in ihrer CN nicht benachteiligt werden
 Scheinbar ist die decision Anzeige um gewissen Nationen zu gründen verbuggt
 provinz 2810 in Mexiko packen
-
-#####################################################################
-Indonesien zweiter slot (Philippinen)
-
 
 ####################
 Sabathors to-do:
@@ -36,3 +30,4 @@ Irgendwann mal:
 #- Individuellere Nationale Ideen für slots (z.B. GB auf late game fire damage scaling)
 #- Gov cap malis auf vanilla zurücksetzen, unter gov cap -> bonus (dev cost?)
 Afrika wasteland zu provinzen machen
+Indonesien zweiter slot (Philippinen)
