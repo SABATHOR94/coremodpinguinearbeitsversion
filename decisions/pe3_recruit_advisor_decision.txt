@@ -1,5 +1,6 @@
 country_decisions = {
     pe3_recruit_military_advisor_decision = {
+        color = { 166  0  0 }
         major = yes
         potential = {
             is_year = 1445

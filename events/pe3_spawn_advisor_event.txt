@@ -26,24 +26,6 @@ country_event = {
 		create_advisor = recruitmaster
 	}
 	option = {
-		name = gecko.11.e
-		
-		add_adm_power  = -25
-		create_advisor = siege_specialist	
-	}
-	option = {
-		name = gecko.11.f
-		
-		add_adm_power  = -25
-		create_advisor = infantry_leader		
-	}
-	option = {
-		name = gecko.11.g
-		
-		add_adm_power  = -25
-		create_advisor = cavalry_leader	
-	}
-	option = {
 		name = gecko.11.h
 		
 		add_adm_power  = -25
