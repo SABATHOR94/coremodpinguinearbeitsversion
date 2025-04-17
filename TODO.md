@@ -1,24 +1,3 @@
-Yuan missionen?
-
-#####################################################################
-Respawns:
-Colonial Gov typen für die KI erstellen, welcher dem overlord massiv mehr FL und MP übergibt, damit Leute ohne Respawn in ihrer CN nicht benachteiligt werden
-Scheinbar ist die decision Anzeige um gewissen Nationen zu gründen verbuggt
-Formables:
-Kanada
-USA
-Lousiana
-Texas
-Kalifornia
-Alaska
-Mexiko
-UCA
-Karibik
-Venezuela
-Peru
-Brasilien
-Argentinien
-
 ####################
 Anfangsfrieden zwischen Warlords
 
@@ -26,10 +5,9 @@ Anfangsfrieden zwischen Warlords
 #############################################################################################################
 
 ########################################
-Verschobene Änderungen
+Verschobene Änderungen oder ungewiss was gewollt ist
 ########################################
 Köln leicht nerfen <--- Brauchts das wirklich angesichts der stärke von Böhmen und Bayern?
-Australien keine Cn mehr
 Konzept overlord modifier anpassen+ // pe3_released_colony_overlord_buff <---
 Karakun Dev cost edict anpassen (same bei Sokoto und Äthiopien) / ???
 
