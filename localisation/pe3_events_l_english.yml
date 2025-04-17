@@ -114,3 +114,11 @@
  gecko.11.j:0 "Recruit Quartermaster"
  gecko.11.k:0 "Recruit Artillery Officer"
  gecko.11.l:0 "Recruit Army Organiser"
+
+ pe3_condoterrie_events.1.t:0 "Hidden Event: Condoterrie 1"
+ pe3_condoterrie_events.1.desc:0 "You shouldnt be able to see this"
+ pe3_condoterrie_events.1.a:0 "Ok"
+
+ pe3_condoterrie_events.2.t:0 "Hidden Event: Condoterrie 2"
+ pe3_condoterrie_events.2.desc:0 "You shouldnt be able to see this"
+ pe3_condoterrie_events.2.a:0 "Ok"

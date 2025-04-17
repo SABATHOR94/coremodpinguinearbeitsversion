@@ -7,7 +7,7 @@ country_decisions = {
 			NOT = {
 				has_country_modifier = more_condottieri
 			}
-
+			always = no #Verschoben in ein automatisches event in /events/pe3_condotierrie_events
 		}
 		allow = {
 			adm_tech = 6
@@ -31,6 +31,7 @@ country_decisions = {
 			NOT = {
 				has_country_modifier = even_more_condottieri
 			}
+			always = no #Verschoben in ein automatisches event in /events/pe3_condotierrie_events
 		}
 		allow = {
 			adm_tech = 11
