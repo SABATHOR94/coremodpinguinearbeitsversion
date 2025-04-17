@@ -49,3 +49,10 @@ pe3_west_roman_empire_decision_trigger = {
 		province_id = 343
 	}
 }
+
+pe3_usa_decision_trigger = {
+    OR = {
+		region = northeast_america_region
+		region = southeast_america_region
+	}
+}
