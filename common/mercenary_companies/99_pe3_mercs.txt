@@ -1,0 +1,178 @@
+custom_merc_1 = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 40
+	cost_modifier = 0.75
+
+	cavalry_weight = 0
+	artillery_weight = 0
+
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+	}
+}
+
+custom_merc_2 = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 40
+	cost_modifier = 0.75
+
+	cavalry_weight = 0
+	artillery_weight = 0
+
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+	}
+}
+
+custom_merc_3 = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 40
+	cost_modifier = 0.75
+
+	cavalry_weight = 0
+	artillery_weight = 0
+
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+	}
+}
+
+custom_merc_4 = {
+	regiments_per_development = 0.075
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 40
+	cost_modifier = 1
+
+	cavalry_weight = 0
+	artillery_weight = 0
+
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+	}
+}
+
+custom_merc_5 = {
+	regiments_per_development = 0.075
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 40
+	cost_modifier = 1
+
+	cavalry_weight = 0
+	artillery_weight = 0
+
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+	}
+}
+
+custom_merc_6 = {
+	regiments_per_development = 0.075
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 40
+	cost_modifier = 1
+
+	cavalry_weight = 0
+	artillery_weight = 0
+
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+	}
+}
+
+custom_merc_artillery_1 = {
+	regiments_per_development = 0.075
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 40
+	cost_modifier = 1
+
+	cavalry_weight = 0
+	artillery_weight = 1
+
+	trigger = {
+		mil_tech = 16
+		is_allowed_to_recruit_mercenaries = yes
+	}
+}
+
+custom_merc_cavalry_1 = {
+	regiments_per_development = 0.075
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	max_size = 40
+	cost_modifier = 1
+
+	cavalry_weight = 1
+	artillery_weight = 0
+
+	trigger = {
+		mil_tech = 16
+		is_allowed_to_recruit_mercenaries = yes
+	}
+}
+
+pe3_merc_company_wuu_1 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
+
+pe3_merc_company_wuu_2 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
+
+pe3_merc_company_wuu_3 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
+
+pe3_merc_company_wuu_4 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}
+
+pe3_merc_company_wuu_5 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0.1
+    artillery_weight = 0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        has_idea = ASU_WUU_NI5
+    }
+    # No home province means local mercenary company
+}

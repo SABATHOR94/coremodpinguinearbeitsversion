@@ -1,0 +1,455 @@
+USA_ideas = {
+	start = {
+		land_forcelimit_modifier = 0.10
+		global_sailors_modifier = 0.20
+	}
+	
+	bonus = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	
+	trigger = {
+		tag = USA
+	}
+	free = yes
+	
+	freedom_of_religion = {
+		tolerance_heretic = 2
+        tolerance_heathen = 2
+        tolerance_own = 2
+	}
+	usa_bill_of_rights = {
+		global_unrest = -2
+	}
+	manifest_destiny = {
+		development_cost = -0.10
+	}
+	lessons_of_valley_forge = {
+		land_morale = 0.10
+	}
+	workshop_of_the_world = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	shining_city_on_a_hill = {
+		infantry_power = 0.1
+	}
+	empire_of_liberty = {
+		governing_capacity_modifier = 0.15
+ 	}
+}
+
+CAN_ideas = {
+	start = {
+		hostile_attrition = 1
+        max_hostile_attrition = 1
+	}
+	
+	bonus = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	
+	trigger = {
+		tag = CAN
+	}
+	free = yes
+	
+		
+	singing_lumberjacks = {
+		production_efficiency = 0.10
+	}	
+	the_hudson_bay_company = {
+		merchants = 1
+	}
+    settling_the_interior = {
+		fort_maintenance_modifier = -0.5
+        garrison_size = 0.33
+	}
+	the_maritimes = {
+		navy_tradition = 1
+        global_sailors_modifier = 0.25
+	}
+	the_quebec_act = {
+		tolerance_heretic = 2
+	}
+	legacy_of_the_empire = {
+		trade_steering = 0.15
+	}
+	the_forests_of_canada = {
+		naval_forcelimit_modifier = 0.2
+        build_cost = -0.1
+	}
+}
+
+ALA_ideas = {
+	start = {	
+		ship_durability = 0.05
+		navy_tradition = 1
+	}
+	bonus = {
+		defensiveness = 0.35
+	}
+	trigger = {
+		tag = ALA
+	}
+	free = yes
+	ALA_endurance = {
+		development_cost = -0.05
+	}
+	ALA_hard_push_east = {
+		build_cost = -0.1
+	}
+	ALA_secretary_icebox = {
+		global_allowed_num_of_buildings = 1
+	}
+	ALA_bear_hunting = {
+		fire_damage = 0.15
+	}
+	ALA_diversity = {
+		tolerance_heretic = 2
+		num_accepted_cultures = 1
+	}
+	ALA_navy = {
+		naval_forcelimit_modifier = 0.25
+		global_sailors_modifier = 0.25
+	}
+	ALA_beauty = {
+		prestige = 1
+	}
+}
+
+MEX_ideas = {
+	start = {
+		gold_depletion_chance_modifier = -0.25
+		inflation_reduction = 0.1
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.10
+	}
+	
+	trigger = {
+		tag = MEX
+	}
+	free = yes
+	
+		
+	rebuilding_mexico = {
+		build_cost = -0.10
+	}	
+	the_republic_of_indians = {
+		global_manpower_modifier = 0.15
+	}
+    peace_by_purchase = {
+		years_of_nationalism = -5
+	}
+	casa_de_las_campanas = {
+		idea_cost = -0.10
+	}
+	repartimiento = {
+		production_efficiency = 0.1
+	}
+	heroes_of_the_revolution = {
+		leader_land_shock = 1
+	}
+	grito_de_delores = {
+		land_morale = 0.10	
+	}
+}
+
+WSI_ideas = {
+	start = {
+		merchants = 1
+		development_cost = -0.1
+	}
+	bonus = {
+		global_ship_recruit_speed = -0.25
+	}
+	trigger = {
+		tag = WSI
+	}
+	free = yes      #will be added at load.
+	WSI_Plantation_Economy = {
+		production_efficiency = 0.1
+		build_cost = -0.10
+	}
+	WSI_Blue_Mountain_Coffee = {
+		global_ship_trade_power = 0.1
+	}
+	WSI_Sugar_Revolution = {
+		global_unrest = -2
+	}
+	WSI_American_Trade_Hub = {
+		hull_size_modifier = 0.05
+        ship_durability = 0.05
+	}
+	WSI_Miskoto_Zambos = {
+		sailors_recovery_speed = 0.15
+	}
+	WSI_Interconnected_Relations = {
+		diplomatic_reputation = 1
+	}
+	WSI_Colonial_Legacy = {
+		naval_forcelimit_modifier = 0.25
+        global_sailors_modifier = 0.25
+	}
+}
+
+BRZ_ideas = {
+	start = {
+		hostile_attrition = 1
+		land_forcelimit_modifier = 0.15
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}	
+	trigger = {
+		tag = BRZ
+	}
+	free = yes
+
+	governorate_general = {
+		governing_capacity = 200
+	}
+	research_of_nassau = {
+		idea_cost = -0.1
+	}
+	mines_of_minas_gerais = {
+		inflation_reduction = 0.1
+	}
+	halting_foreign_incursions = {
+		infantry_power = 0.1
+	}
+	entradas_and_bandeiras = {
+		global_manpower_modifier = 0.15
+	}
+	inconfidencia_mineira = {
+		stability_cost_modifier = -0.1
+	}
+	old_seat_of_the_empire = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+}
+
+#New ones
+LOU_ideas = {
+	start = {	
+		movement_speed = 0.1
+		build_cost = -0.1
+	}
+	bonus = {
+		development_cost = -0.1
+	}
+	trigger = {
+		tag = LOU
+	}
+	free = yes
+	LOU_ideas_1 = {
+		cavalry_cost = -0.1
+        cav_to_inf_ratio = 0.4
+	}
+	LOU_ideas_2 = {
+		cavalry_power = 0.1
+	}
+	LOU_ideas_3 = {
+		leader_land_manuever = 1
+	}
+	LOU_ideas_4 = {
+		production_efficiency = 0.1
+	}
+	LOU_ideas_5 = {
+		country_diplomatic_power = 1
+	}
+	LOU_ideas_6 = {
+		shock_damage = 0.1
+	}
+	LOU_ideas_7 = {
+		caravan_power = 0.2
+	}
+}
+
+CAL_ideas = {
+	start = {	
+		production_efficiency = 0.2
+        global_manpower_modifier = 0.1
+	}
+	bonus = {
+		development_cost = -0.1
+	}
+	trigger = {
+		tag = CAL
+	}
+	free = yes
+	CAL_ideas_1 = {
+		global_regiment_cost = -0.2
+	}
+	CAL_ideas_2 = {
+		garrison_damage = 0.5
+	}
+	CAL_ideas_3 = {
+		leader_land_fire = 1
+	}
+	CAL_ideas_4 = {
+		global_tax_modifier = 0.25
+	}
+	CAL_ideas_5 = {
+		country_admin_power = 1
+	}
+	CAL_ideas_6 = {
+		garrison_size = 0.25
+	}
+	CAL_ideas_7 = {
+		province_trade_power_modifier = 0.25
+	}
+}
+
+COL = {
+	start = {	
+		production_efficiency = 0.1
+        technology_cost = -0.05
+	}
+	bonus = {
+		development_cost = -0.1
+	}
+	trigger = {
+		tag = COL
+	}
+	free = yes
+	COL_ideas_1 = {
+		land_maintenance_modifier = -0.10
+	}
+	COL_ideas_2 = {
+		governing_capacity = 300
+	}
+	COL_ideas_3 = {
+		candidate_random_bonus = 2
+	}
+	COL_ideas_4 = {
+		republican_tradition = 0.2
+	}
+	COL_ideas_5 = {
+		discipline = 0.05
+	}
+	COL_ideas_6 = {
+		morale_damage_received = -0.1
+	}
+	COL_ideas_7 = {
+		global_trade_power = 0.1
+	}
+}
+
+PEU = {
+	start = {	
+		gold_depletion_chance_modifier = -0.25
+        inflation_reduction = 0.1
+	}
+	bonus = {
+		development_cost = -0.1
+	}
+	trigger = {
+		tag = PEU
+	}
+	free = yes
+	PEU_ideas_1 = {
+		artillery_power = 0.1
+	}
+	PEU_ideas_2 = {
+		advisor_cost = -0.1
+	}
+	PEU_ideas_3 = {
+		defensiveness = 0.25
+	}
+	PEU_ideas_4 = {
+		garrison_size = 0.25
+	}
+	PEU_ideas_5 = {
+		land_morale = 0.1
+	}
+	PEU_ideas_6 = {
+		production_efficiency = 0.1
+	}
+	PEU_ideas_7 = {
+		global_manpower = 50
+	}
+}
+
+LAP = {
+	start = {	
+		global_unrest = -2
+        global_autonomy = -0.05
+	}
+	bonus = {
+		infantry_power = 0.1
+	}
+	trigger = {
+		tag = LAP
+	}
+	free = yes
+	LAP_ideas_1 = {
+		war_exhaustion = -0.03
+	}
+	LAP_ideas_2 = {
+		trade_efficiency = 0.1
+	}
+	LAP_ideas_3 = {
+		prestige_decay = -0.01
+	}
+	LAP_ideas_4 = {
+		monarch_lifespan = 0.2
+	}
+	LAP_ideas_5 = {
+		reelection_cost = -0.2
+	}
+	LAP_ideas_6 = {
+		global_ship_trade_power = 0.1
+	}
+	LAP_ideas_7 = {
+		global_sailors_modifier = 0.25
+	}
+}
+
+CAM = {
+	start = {	
+		global_unrest = -2
+        global_autonomy = -0.05
+	}
+	bonus = {
+		infantry_power = 0.1
+	}
+	trigger = {
+		tag = CAM
+	}
+	free = yes
+	CAM_ideas_1 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	CAM_ideas_2 = {
+		trade_efficiency = 0.1
+	}
+	CAM_ideas_3 = {
+		global_tax_modifier = 0.2
+	}
+	CAM_ideas_4 = {
+		monarch_lifespan = 0.25
+	}
+	CAM_ideas_5 = {
+		global_autonomy = -0.05
+	}
+	CAM_ideas_6 = {
+		development_cost = -0.1
+	}
+	CAM_ideas_7 = {
+		global_sailors_modifier = 0.25
+	}
+}

@@ -1,0 +1,45 @@
+country_decisions = {
+    pe3_emperor_of_china_failsafe = {
+        major = yes
+        color =  { 255 255 0 }
+        potential = {
+            ROOT = {
+				has_reform = chinese_warlord
+			}
+            NOT = {
+                any_country  = {
+                    is_emperor_of_china = yes
+                }
+            }
+            capital_scope = { 
+                OR = {
+                    region = north_china_region
+                    region = south_china_region
+                    region = xinan_region
+                }
+            }
+			NOT = {
+				has_global_flag = ASU_eoc_failsafe_flag
+			}
+            is_subject = no
+        }
+        ai_will_do = {
+            factor = 1000
+        }
+        allow = {
+            capital_scope = { 
+                OR = {
+                    region = north_china_region
+                    region = south_china_region
+                    region = xinan_region
+                }
+            }
+			total_development = 300
+        }
+        effect = {
+			country_event = {
+                id = pe3_chinese_event.2
+            }
+        }
+    }
+}

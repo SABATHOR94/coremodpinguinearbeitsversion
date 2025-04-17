@@ -1,0 +1,88 @@
+﻿l_german:
+# QOL Information
+
+ ADVISOR_EVENT_COOLDOWN:0 "Advisor Event Cooldown Modifier"
+ PHILOSOPHER_AVAILABLE:0 "Philosopher ()"
+ NATURAL_SCIENTIST_AVAILABLE:0 "Natural Scientist (10% ADM tech cost)"
+ ARMY_REFORMER_AVAILABLE:0 "Army Reformer (10% MIL tech cost)"
+ NAVAL_REFORMER_AVAILABLE:0 "Naval Reformer (10% DIP tech cost)"
+ ARTIST_AVAILABLE:0 "Artist (20% stability cost)"
+ TREASURER_AVAILABLE:0 "Treasurer (10% DIP tech cost)"
+ THEOLOGIAN_AVAILABLE:0 "Theologian (2% missionary strength)"
+ STATESMAN_AVAILABLE:0 "Statesman (10% ADM tech cost)"
+ COLONIAL_GOVERNOR_AVAILABLE:0 "Colonial Governor (10% global tarrifs)"
+ SPYMASTER_AVAILABLE:0 "Spymaster (15% spy detection; 15% spy network)"
+ DIPLOMAT_AVAILABLE:0 "Diplomat (50 DIP)"
+ TRADER_AVAILABLE:0 "Trader (25 DIP)"
+ MASTER_OF_MINT_AVAILABLE:0 "Master of Mint (-0.1% inflation reduction)"
+ NAVIGATOR_AVAILABLE:0 "Navigator (10% colonial range)"
+ GRAND_CAPTAIN_AVAILABLE:0 "Grand Captain (20% Moral)"
+ ARMY_ORGANISER_AVAILABLE:0 "Army Organizer (10% land forcelimit)"
+ COMMANDANT_AVAILABLE:0 "Commandant (10% discipline)"
+ QUARTERMASTER_AVAILABLE:0 "Quartermaster (15% reinforcement speed)"
+ RECRUITMASTER_AVAILABLE:0 "Master Recruiter (10% national manpower modifier)"
+ FORTIFICATION_EXPERT_AVAILABLE:0 "Fortification Expert (20% fort defence; -25% fort maintenance)"
+ INQUISITOR_AVAILABLE:0 "Inquisitor (10% foreign spy detection)"
+ RADICAL_REFORMS_AVAILABLE:0 "Radical Reforms (Master of Mint + Trader)"
+
+ sent_gift_display_title:0 "1. QOL: A Sent Gift Stats"
+ sent_gift_display_desc:0 "Sent Gift Stats"
+ GIFTS_SENT:0 "Gifts Sent [Root.gifts_sent.GetValue]"
+ GIFTS_RECIEVED:0 "Gifts Recieved [Root.gifts_recieved.GetValue]"
+ GIFTS_TAXES:0 "Taxes [Root.gifts_taxes.GetValue]"
+
+ DELAY_ADVISOR_EVENT_OPTION:0 "Not Now!"
+
+ DIP_CLICKS: "§G[This.dip_dev_clicks.GetValue]§! £dip£ Dip-Dev-Clicks"
+ ADM_CLICKS: "§G[This.adm_dev_clicks.GetValue]§! £adm£ Adm-Dev-Clicks"
+ MIL_CLICKS: "§G[This.mil_dev_clicks.GetValue]§! £mil£ Mil-Dev-Clicks" 
+ dev_click_display_title: "2. QOL: Dev-Click Counter"
+ dev_click_display_desc: ""
+
+ important_events_display_title: "3. QOL: Important Events"
+ important_events_display_desc: ""
+ adm_advisor_event_display_title: "4. QOL: Admin Advisor Events"
+ adm_advisor_event_display_desc: ""
+ dip_advisor_event_display_title: "5. QOL: Diplo Advisor Events"
+ dip_advisor_event_display_desc: ""
+ mil_advisor_event_display_title: "6. QOL: Mil Advisor Events"
+ mil_advisor_event_display_desc: ""
+
+ rampart_warning_title: "TOO MANY RAMPARTS"
+ rampart_warning_desc: "You may only own three provinces with ramparts. Delete obsolete ramparts or your enemies may do that for you during war!"
+
+
+
+
+# Gift Localizations
+
+ send_gift_with_taxes:0 "Send Gift (with Taxes)"
+ send_gift_with_taxes_title:0 "Send Gift (with Taxes)"
+ send_gift_with_taxes_desc:0 "Open Send Gift Event where you can decide on the amount of money to send. The target country recieves this amount with taxes subtracted"
+ send_gift_with_taxes_tooltip:0 "Opens Send Gift Event"
+ send_gift_with_taxes_alert_tooltip:0 "Send Gift Alert"
+
+ send_gift.1.t:0 "Send Gift"
+ send_gift.1.d_ally:0 "Sire, \n how much money do you want to gift to our dearest allies ([gift_recipient.GetName] @[gift_recipient.GetTag])? \n \n Treasurer - As they are one of our staunchest allies, we don't have to hide the fact we are delivering gifts to them. \n  \n (Taxes 15%)"
+ send_gift.1.d_rival:0 "Sire, \n how much money do you want to waste on on our rivals ([gift_recipient.GetName] @[gift_recipient.GetTag]).\n \n Spymaster - As they are widely known as our rivals, we have to use additional funds to hide our involvement \n \n (Taxes 25%)"
+ send_gift.1.d_neutral:0 "Sire, \n how much money do you want to gift to these lowly peasants ([gift_recipient.GetName] @[gift_recipient.GetTag])? \n \n Theologian - As we have no specified diplomatic stance to them, the church will be willing to take on the perilous journey in exchange for a part of the delivered sum being donated to us. \n \n (Taxes 20%)"
+ 
+SEND_GIFT_RECIPIENT_EVENT_TOOLTIP:0 "Notifies the recipient"
+
+ send_gift.2.t:0 "Gift Received"
+ send_gift.2.d_ally:0 "Sire, \n we have recieved a gift of [Root.gift_value_recipient.GetValue] ¤ from our dearest allies ([gift_sender.GetName] @[gift_sender.GetTag])!"
+ send_gift.2.d_rival:0 "Sire, \n the delusion of our rival ([gift_sender.GetName] @[gift_sender.GetTag]) knows no limits. They have sent us a gift of [Root.gift_value_recipient.GetValue] ¤!"
+ send_gift.2.d_neutral:0 "Sire, \n we have recieved a gift of [Root.gift_value_recipient.GetValue] ¤ from ([gift_sender.GetName] @[gift_sender.GetTag])!"
+
+ RECIEVE_GIFT_CONFIRM:0 "Thank you"
+ RECIEVE_GIFT_DISABLE_EVENT:0 "Don't notify me any longer (can be changed in the settings)"
+
+ SEND_GIFT_100:0 "100 ¤"
+ SEND_GIFT_500:0 "500 ¤"
+ SEND_GIFT_1000:0 "1000 ¤"
+ SEND_GIFT_5000:0 "5000 ¤"
+ SEND_GIFT_10000:0 "10000 ¤"
+ SEND_GIFT_20000:0 "20000 ¤"
+ SEND_GIFT_CANCEL:0 "These fools will get nothing from me!"
+
+ CANNOT_SEND_MONEY:0 "Please use the \"Send Gift (with Taxes)\" Economy-Interaction instead"

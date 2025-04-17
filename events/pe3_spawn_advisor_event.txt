@@ -1,0 +1,52 @@
+#advisors
+country_event = {
+	id = gecko.11
+	title = gecko.11.title
+	desc = gecko.11.desc
+	picture = LAND_MILITARY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = gecko.11.a
+		
+		add_adm_power  = -25
+		create_advisor = commandant		
+	}
+	option = {
+		name = gecko.11.b
+		
+		add_adm_power  = -25
+		create_advisor = army_reformer
+	}
+	option = {
+		name = gecko.11.c
+		
+		add_adm_power  = -25
+		create_advisor = recruitmaster
+	}
+	option = {
+		name = gecko.11.h
+		
+		add_adm_power  = -25
+		create_advisor = grand_captain	
+	}
+	option = {
+		name = gecko.11.i
+		
+		add_adm_power  = -25
+		create_advisor = fortification_expert		
+	}
+	option = {
+		name = gecko.11.j
+		
+		add_adm_power  = -25
+		create_advisor = quartermaster		
+	}
+	option = {
+		name = gecko.11.l
+		
+		add_adm_power  = -25
+		create_advisor = army_organiser	
+	}	
+}

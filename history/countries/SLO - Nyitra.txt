@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = slovak
+religion = catholic
+technology_group = eastern
+capital = 1772 # Nitra
+government_rank = 1
+
+1441.1.1 = {
+	monarch = {
+		name = "Waldemar I"
+		dynasty = "Piast"
+		birth_date = 1423.1.1
+		adm = 1
+		dip = 6
+		mil = 4
+	}
+}

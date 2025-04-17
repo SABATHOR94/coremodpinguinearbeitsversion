@@ -1,0 +1,194 @@
+YUE_ideas = { 
+	start = {
+		land_morale = 0.1
+		infantry_fire = 0.15
+	}
+	bonus = {
+		leader_land_fire = 2
+	}
+	trigger = {
+		tag = YUE
+	}
+	free = yes       #will be added at load.
+	ASU_yue_NI1= {            
+		technology_cost = -0.1
+		idea_cost = -0.1
+	}
+	ASU_yue_NI2 = {     
+		global_sailors_modifier = 0.2
+		ship_durability = 0.1         
+	}
+	ASU_yue_NI3 = {
+		trade_efficiency = 0.2
+	}
+	ASU_yue_NI4 = {
+		global_trade_power = 0.25
+	}
+	ASU_yue_NI5 = {                             
+		naval_forcelimit_modifier = 0.25
+	}
+	ASU_yue_NI6 = {
+		fire_damage = 0.2
+	}
+	ASU_yue_NI7  = {                    
+		backrow_artillery_damage = 0.1
+	}
+}
+
+WUU_ideas = { 
+	start = {
+		land_morale = 0.1
+		trade_efficiency = 0.1
+	}
+	bonus = {
+		global_allowed_num_of_buildings = 1
+	}
+	trigger = {
+		tag = WUU
+	}
+	free = yes       #will be added at load.
+	ASU_WUU_NI1= {            
+		mercenary_manpower = 0.5
+		merc_maintenance_modifier = -0.25
+	}
+	ASU_WUU_NI2 = {     
+		mercenary_discipline = 0.05
+		mercenary_cost = -0.25
+	}
+	ASU_WUU_NI3 = {
+		global_sailors_modifier = 0.2
+		ship_durability = 0.10
+	}
+	ASU_WUU_NI4 = {
+		merchants = 1
+		naval_forcelimit_modifier = 0.25
+	}
+	ASU_WUU_NI5 = {
+        allow_mercenary_drill = yes
+	}
+	ASU_WUU_NI6 = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	ASU_WUU_NI7  = {                    
+		artillery_power = 0.2
+	}
+}
+
+SHU_ideas = {
+	start = {
+		discipline = 0.05
+		shock_damage_received = -0.1
+	}
+	
+	bonus = {
+		production_efficiency = 0.2
+	}
+	
+	trigger = {
+		tag = SHU
+	}
+	free = yes
+	
+	shun_humble_beginnings = {
+		manpower_recovery_speed = 0.2
+	}
+	shun_dashing_king = {
+		diplomatic_reputation = 1
+		prestige = 1
+	}
+	shun_hidden_treasury = {
+		interest = -0.5
+	}
+	shun_obedient_to_heaven = {
+		land_morale = 0.2
+	}
+	shun_perfection_of_sieging = {
+		siege_ability = 0.2
+	}
+	shun_from_sticks_to_guns = {
+		infantry_power = 0.2
+	}
+	shun_claim_to_the_mandate = {
+		imperial_mandate = 0.1
+		meritocracy = 0.5
+		legitimacy = 0.5
+	}
+}
+
+QIC_ideas = {
+	start = {
+		land_morale = 0.1
+		infantry_power = 0.1
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.33
+	}
+	
+	trigger = {
+		tag = QIC
+	}
+	free = yes		#will be added at load.
+	
+	ASU_mng_NI1 = {
+		defensiveness = 0.20
+		garrison_size = 0.20
+	}
+	ASU_mng_NI2 = {
+		manpower_recovery_speed = 0.2
+	}
+	ASU_mng_NI3 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	ASU_mng_NI4 = {
+		global_manpower_modifier = 0.33
+	}
+	ASU_mng_NI5 = {
+		regiment_manpower_usage = -0.1
+	}
+	ASU_mng_NI6 = {
+		land_morale_constant = 0.2
+	}
+	ASU_mng_NI7 = {
+		global_regiment_cost = -0.2
+        land_attrition = -0.2
+	}
+}
+
+YUA_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		cavalry_power = 0.20
+	}
+	bonus = {
+		governing_capacity_modifier = 0.33
+	}
+	trigger = {
+		tag = YUA
+	}
+	free = yes
+	
+	yua_da_zai_qian_yuan = {
+		core_creation = -0.25
+	}
+	yua_keshik_and_weijun = {
+		shock_damage = 0.05
+        cav_to_inf_ratio = 0.40
+	}
+	yua_a_savage_kingdom_holy_and_enchanted = {
+		land_morale = 0.1
+	}
+	yua_the_three_teachings_and_nine_schools_respected = {
+		technology_cost = -0.1
+	}
+	yua_a_thousand_miles_as_if_at_home = {
+		cavalry_flanking = 0.5
+		movement_speed = 0.05
+	}
+	yua_sino_mongol_administration = {
+		administrative_efficiency = 0.05
+	}
+	yua_pax_mongolica = {
+		global_trade_goods_size_modifier = 0.1
+	}
+}

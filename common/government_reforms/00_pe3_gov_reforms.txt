@@ -1,0 +1,120 @@
+pe3_tunis_caliphate_republic_reform = {
+	icon = "caliphate"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+            has_reform = pe3_tunis_caliphate_republic_reform
+            have_had_reform = pe3_tunis_caliphate_republic_reform
+        }
+	}
+    trigger = {
+		religion_group = muslim
+	}
+
+	modifiers = {
+        manpower_recovery_speed = 0.15
+        all_estate_loyalty_equilibrium = 0.05
+        warscore_cost_vs_other_religion = -0.1
+		governing_capacity = 100
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+	duration = 4
+}
+
+pe3_tunis_caliphate_theocracy_reform = {
+	icon = "caliphate"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+            has_reform = pe3_tunis_caliphate_theocracy_reform
+            have_had_reform = pe3_tunis_caliphate_theocracy_reform
+        }
+	}
+    trigger = {
+		religion_group = muslim
+	}
+
+	modifiers = {
+        devotion = 1
+        shock_damage = 0.2
+        all_estate_loyalty_equilibrium = 0.05
+        warscore_cost_vs_other_religion = -0.1
+		governing_capacity = 100
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+}
+
+pe3_arab_caliphate_reform = {
+	icon = "caliphate"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+            has_reform = pe3_arab_caliphate_reform
+            have_had_reform = pe3_arab_caliphate_reform
+        }
+	}
+    trigger = {
+		religion_group = muslim
+	}
+
+	modifiers = {
+        devotion = 1
+        shock_damage = 0.2
+        manpower_in_true_faith_provinces = 0.25
+		land_forcelimit_modifier = 0.25
+		prestige_per_development_from_conversion = 0.25
+		land_attrition = -0.25
+	}
+
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
+
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			pe3_three_headed_mechanic
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+}
+
+
+pe3_chinese_warlord_pluto_divine_unlock_reform = {
+	icon = "samurai"
+	potential = {
+		has_reform = chinese_warlord
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_divine_idea_group = yes
+	}
+}

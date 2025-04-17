@@ -1,0 +1,51 @@
+country_decisions = {
+
+	more_condottieri_1 = {
+		major = no
+		color =  { 255 0 0 }
+		potential = {
+			NOT = {
+				has_country_modifier = more_condottieri
+			}
+			always = no #Verschoben in ein automatisches event in /events/pe3_condotierrie_events
+		}
+		allow = {
+			adm_tech = 6
+		}
+		effect = {
+			add_country_modifier = {
+				name = more_condottieri
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+	more_condottieri_2 = {
+		major = no
+		color =  { 255 0 0 }
+		potential = {
+			NOT = {
+				has_country_modifier = even_more_condottieri
+			}
+			always = no #Verschoben in ein automatisches event in /events/pe3_condotierrie_events
+		}
+		allow = {
+			adm_tech = 11
+		}
+		effect = {
+			add_country_modifier = {
+				name = even_more_condottieri
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+}

@@ -1,0 +1,126 @@
+namespace = pe3_chinese_event
+
+country_event = {
+    id = pe3_chinese_event.1
+    title = pe3_chinese_event.1.t
+    picture = CHINESE_GENERAL_eventPicture
+    major = yes
+    desc = pe3_chinese_event.1.desc
+    fire_only_once = yes
+
+	trigger = {
+		tag = MNG
+		exists = MNG
+	}
+
+    mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		add_mandate = -50
+		create_general = { tradition = 40 }
+        create_general = { tradition = 30 }
+        create_general = { tradition = 20 }
+	}
+    option = {
+		name = pe3_chinese_event.1.a
+		ai_chance = {
+			factor = 100
+		}
+		MNG = {
+			declare_war_with_cb = {
+				who = QIC
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = YUA
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = YUE
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = SHU
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = CMI
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = CDL
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = LNG
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = TNG
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = MIN
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = WUU
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = JIN
+				casus_belli = cb_chinese_unification 
+			}
+		}
+        MNG = {
+			declare_war_with_cb = {
+				who = CSH
+				casus_belli = cb_chinese_unification 
+			}
+		}
+	}
+}
+
+country_event = {
+    id = pe3_chinese_event.2
+    title = pe3_chinese_event.2.t
+    picture = CHINESE_GENERAL_eventPicture
+    major = yes
+    desc = pe3_chinese_event.2.desc
+    is_triggered_only = yes
+
+    option = {
+		name = pe3_chinese_event.2.a
+		ai_chance = {
+			factor = 100
+		}
+		clr_global_flag = empire_of_china_dismantled
+		set_emperor_of_china = ROOT
+		dismantle_empire_of_china = no
+		add_government_reform = celestial_empire
+		set_mandate = 50
+		set_meritocracy = 60
+		set_global_flag = ASU_eoc_failsafe_flag
+	}
+}

@@ -1,0 +1,88 @@
+﻿l_english:
+
+ NGF:0 "Norddeutscher Bund"
+ NGF_ADJ:0 "North German"
+ NGF_ideas:0 "North German Ideas"
+ NGF_ideas_start:0 "North German Tradition"
+ NGF_ambition:0 "North German Ambition"
+
+ SGF:0 "Süddeutscher Bund"
+ SGF_ADJ:0 "South German"
+ SGF_ideas:0 "South German Ideas"
+ SGF_ideas_start:0 "South German Tradition"
+ SGF_ambition:0 "South German Ambition"
+
+ BOH3_ideas: "Elbian Ideas"
+ BOH3_ideas_start: "Elbian Tradition"
+ BOH3_ideas_bonus: "Elbian Ambition"
+
+ AFR:0 "Toto"
+ AFR_ADJ:0"Toto"
+ AFR_ADJ2:0"Toto"
+ AFR_ideas:0"Toto Ideas"
+ AFR_ambition:0 "Toto Ambition"
+ AFR_ideas_start:0 "Toto Tradition"
+ 
+ QIC_ideas:0 "Qi Ideas"
+ QIC_ideas_start:0 "Qi Tradition"
+ QIC_ideas_bonus:0 "Qi Ambition"
+
+ YUE_ideas:0 "Yue Ideas"
+ YUE_ideas_start:0 "Yue Ideas"
+ YUE_ideas_bonus:0 "Yue Ambition"
+
+ WUU_ideas:0 "Wu Ideas"
+ WUU_ideas_start:0 "Wu Ideas"
+ WUU_ideas_bonus:0 "Wu Ambition"
+
+ SHU_ideas:0 "Shu Ideas"
+ SHU_ideas_start:0 "Shu Tradition"
+ SHU_ideas_bonus:0 "Shu Ambition"
+ 
+ PE3_WEST_ROME: "West Rome"
+ PE3_WEST_ROME_ADJ: "West Roman"
+ 
+ PE3_ELBIAN_FEDERATION: "Elbian Federation"
+ PE3_ELBIAN_FEDERATION_ADJ: "Elbian"
+
+ MGH_ideas: "Maghrebi Ideas"
+ MGH_ideas_start: "Maghrebi Traditions"
+ MGH_ideas_bonus: "Maghrebi Ambition"
+
+ YUE_ideas: "Yue Ideas"
+ YUE_ideas_start: "Yue Traditions"
+ YUE_ideas_bonus: "Yue Ambition"
+
+ KAK_ideas: "Kara-Kuni Ideas"
+ KAK_ideas_start: "Kara-Kuni Traditions"
+ KAK_ideas_bonus: "Kara-Kuni Ambition"
+ 
+ WELSHNOMEN: "Westphalia"
+ WELSHNOMEN_ADJ: "Westphalian"
+
+ BAUERNRUSSIA: "Peasant Confederacy"
+ BAUERNRUSSIA_ADJ: "Peasant Confederate"
+
+ GROSSBAYERN: "Bavaria Magna"
+ GROSSBAYERN_ADJ: "Mia san Mias"
+
+ KAISERREICHIRLAND: "Impireacht Éireann"
+ KAISERREICHIRLAND_ADJ: "Éire Iontach"
+
+ TAUNGUEMPIRE: "Taungu Empire"
+ TAUNGUEMPIRE_ADJ: "Taungu"
+
+ PE3_GREAT_YUAN: "Great Yuan"
+ PE3_GREAT_YUAN_ADJ: "Great Yuan"
+
+ PE3_GREAT_QI: "Great Qi"
+ PE3_GREAT_QI_ADJ: "Great Qi"
+
+ PE3_GREAT_SHU: "Great Shu"
+ PE3_GREAT_SHU_ADJ: "Great Shu"
+
+ PE3_GREAT_YUE: "Great Yue"
+ PE3_GREAT_YUE_ADJ: "Great Yue"
+
+ PE3_GREAT_WUU: "Great Wuu"
+ PE3_GREAT_WUU_ADJ: "Great Wuu"

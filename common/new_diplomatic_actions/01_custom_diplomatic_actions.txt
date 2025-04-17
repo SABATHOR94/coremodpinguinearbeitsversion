@@ -1,0 +1,121 @@
+send_gift_with_taxes = {
+    category = economy
+
+    require_acceptance = no
+
+    is_visible = {
+        ai = no
+    }
+
+    is_allowed = {
+        ai = no
+        is_in_deficit = no
+        is_bankrupt = no
+
+        #NOT = {
+        #    has_country_modifier = gecko_debt_tackled
+        #}
+        #NOT = {
+        #    has_country_modifier = gecko_debt_tackled_2
+        #}
+    }
+
+    on_accept = {
+        FROM = { #zu dem das Geld geht
+            save_event_target_as = gift_recipient
+        }
+
+        ROOT = { #der, der die aktion ausführt
+            save_event_target_as = gift_sender
+        }
+
+        country_event = {
+            id = send_gift.1
+            tooltip = SEND_GIFT_TOOLTIP
+        }
+    }
+}
+
+#Colony fragt nach freiheit
+pe3_diplo_buy_freedom = {
+    category = influence
+
+    require_acceptance = yes
+
+    is_visible = {
+        ai = no
+        is_colonial_nation = yes
+        is_subject_of = FROM
+    }
+
+    is_allowed = {
+        ai = no
+        is_in_deficit = no
+        is_bankrupt = no
+        total_development = 500
+    }
+
+    on_accept = {
+        FROM = { #Empfänger
+            if = {
+                limit = {
+                    NOT = {
+                        has_country_modifier = pe3_released_colony_overlord_buff
+                    }
+                }
+                add_country_modifier = {
+                    name = pe3_released_colony_overlord_buff
+                    duration = -1
+                }
+            }
+        }
+
+        ROOT = { #Sender
+            grant_independence = yes
+        }
+    }
+}
+
+#Overlord gibt freiheit
+pe3_diplo_grant_freedom = {
+    category = influence
+
+    require_acceptance = no
+
+    is_visible = {
+        ai = no
+        FROM = {
+			is_subject_of = ROOT
+			is_colonial_nation = yes
+		}
+    }
+
+    is_allowed = {
+        ai = no
+        is_in_deficit = no
+        is_bankrupt = no
+        FROM = {
+            total_development = 500
+        }
+    }
+
+    on_accept = {
+        FROM = { #Empfänger
+            grant_independence = yes
+        }
+
+        ROOT = { #Sender
+            if = {
+                limit = {
+                    NOT = {
+                        has_country_modifier = pe3_released_colony_overlord_buff
+                    }
+                }
+                add_country_modifier = {
+                    name = pe3_released_colony_overlord_buff
+                    duration = -1
+                }
+            }
+        }
+    }
+}

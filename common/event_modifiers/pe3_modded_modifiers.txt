@@ -1,0 +1,465 @@
+colonial_venture = {
+	global_colonial_growth = 30
+	colonists = 1
+	range = 5
+}
+
+colonist_venture = {
+	global_colonial_growth = 25
+}
+
+deving_replacement = {
+	development_cost = -0.1
+}
+
+more_condottieri = {
+	possible_condottieri = 0.5
+}
+
+even_more_condottieri = {
+	possible_condottieri = 0.5
+}
+
+maghreb_mod_1 = {
+	global_heretic_missionary_strength = 0.05
+	missionary_maintenance_cost = -0.5
+	missionaries = 1
+	development_cost = -0.2
+}
+maghreb_mod_2 = {
+	land_morale = 0.15
+}
+maghreb_mod_3 = {
+	galley_power = 0.25
+}
+maghreb_mod_4 = {
+	colonists = 1
+	global_colonial_growth = 20
+}
+maghreb_mod_5 = {
+	global_autonomy = -0.1
+}
+maghreb_mod_6 = {
+	liberty_desire_from_subject_development = -0.2
+	global_tariffs = 0.25
+}
+maghreb_mod_7 = {
+	local_manpower_modifier = 0.5
+	regiment_recruit_speed = -0.5
+	supply_limit_modifier = 1
+}
+maghreb_mod_8 = {
+	development_cost = -0.1
+}
+maghreb_mod_9 = {
+	global_trade_goods_size_modifier = 0.1
+}
+estate_burghers_hydraulic_rights_mountain = {
+	local_development_cost = -0.3
+}
+estate_burghers_hydraulic_rights_arctic = {
+	local_development_cost = -0.5
+}
+delay_navigator = {}
+delay_grand_captain = {}
+delay_army_organiser = {}
+delay_commandant = {}
+delay_quartermaster = {}
+delay_recruitmaster = {}
+delay_fortification_expert = {}
+delay_inquisitor = {}
+delay_philosopher = {}
+delay_natural_scientist = {}
+delay_army_reformer = {}
+delay_naval_reformer = {}
+delay_artist = {}
+delay_treasurer = {}
+delay_theologian = {}
+delay_statesman = {}
+delay_colonial_governor = {}
+
+spymaster = {}
+diplomat = {}
+trader = {}
+master_of_mint = {}
+navigator = {}
+grand_captain = {}
+army_organiser = {}
+commandant = {}
+quartermaster = {}
+recruitmaster = {}
+fortification_expert = {}
+inquisitor = {}
+philosopher = {}
+natural_scientist = {}
+army_reformer = {}
+naval_reformer = {}
+artist = {}
+treasurer = {}
+theologian = {}
+statesman = {}
+colonial_governor = {}
+
+modded_piety_bav = {
+	land_morale = 0.1
+	global_tax_modifier = 0.2
+}
+
+maghrebs_prospers = {
+	local_development_cost = -0.05
+	local_manpower_modifier = 0.2
+}
+
+independence_warrior = {
+	defensiveness = 0.20
+	stability_cost_modifier = -0.2
+	siege_ability = 0.20
+}
+
+eth_mod_1 = {
+	global_missionary_strength = 0.03
+	missionaries = 1
+}
+
+tau_mod_recov = {
+	reinforce_speed = 0.10
+}
+
+liberated_ulm = {
+	local_development_cost = -0.3
+}
+
+mysore_mod_1 = {
+	trade_efficiency = 0.15
+}
+
+mysore_mod_2 = {
+	build_cost = -0.1
+	global_ship_recruit_speed = -0.33
+}
+
+mysore_mod_3 = {
+	development_cost = -0.1
+}
+
+mysore_mod_4 = {
+	culture_conversion_cost = -0.25
+	female_advisor_chance = 0.5
+	advisor_pool = 2
+}
+
+kak_mod_1 = {
+	shock_damage_received = -0.2
+	manpower_recovery_speed = 0.2
+	morale_damage = 0.1
+}
+
+kak_people = {
+	local_development_cost = -0.4
+	local_manpower_modifier = 1
+}
+
+kak_mod_2 = {
+	trade_goods_size = 3
+}
+
+kak_mod_3 = {
+	local_hostile_movement_speed = 0.5
+	local_assault_fort_cost_modifier = 0.5
+	defensiveness = 0.33
+}
+kak_mod_4 = {
+	manpower_recovery_speed = 0.1
+	trade_efficiency = 0.1
+}
+
+kak_mod_5 = {
+	local_garrison_size = 0.4
+	local_defensiveness = 0.4
+}
+
+kak_mod_6 = {
+	land_forcelimit = 5
+	global_manpower = 5
+}
+
+kak_mod_deity_1 = {
+	enforce_religion_cost = -5
+}
+
+kak_mod_deity_2 = {
+	leader_land_fire = 1
+}
+
+kak_mod_deity_3 = {
+	build_cost = -0.1
+}
+
+kak_mod_deity_4 = {
+	naval_morale = 0.2
+}
+
+kak_mod_deity_5 = {
+	monarch_lifespan = 0.3
+}
+
+kak_mod_deity_6 = {
+	global_tax_modifier = 0.2
+}
+
+Ehrenmann = {
+	global_tax_income = 24
+}
+
+pe3_maghreb_conversion = {
+	global_missionary_strength = 0.03
+	missionaries = 2
+}
+
+pe3_tunis_conquest_of_rome = {
+	land_morale = 0.1
+	morale_damage = 0.15
+}
+
+pe3_tunis_conquest_of_toskana = {
+	development_cost = -0.1
+}
+
+conversion_zeal_norse = {
+	global_missionary_strength = 0.1
+	missionaries = 1
+}
+
+norse_festival_trigger_modifier = {
+	global_tax_modifier = 0.01
+}
+
+odin_modifier = {
+	colonists = 1
+	global_colonial_growth = 40
+	native_uprising_chance = -0.5
+}
+
+tor_modifier = {
+	global_unrest = -2
+	ae_impact = -0.15
+	improve_relation_modifier = 0.2
+}
+
+tyr_modifier = {
+	shock_damage = 0.1
+	morale_damage_received = -0.05
+	land_forcelimit_modifier = 0.15
+}
+
+snotra_modifier = {
+	trade_efficiency = 0.15
+	global_trade_goods_size_modifier = 0.05
+	build_cost = -0.05
+}
+
+freya_modifier = {
+	war_exhaustion = -0.2
+	manpower_recovery_speed = 0.1
+	global_missionary_strength = 0.02
+}
+
+freya_modifier_2 = {
+	monarch_lifespan = 0.33
+}
+
+njord_modifier = {
+	hull_size_modifier = 0.1
+	naval_forcelimit_modifier = 0.1
+	movement_speed_in_fleet_modifier = 1
+}
+
+Ire_navy_construction = {
+    global_ship_recruit_speed = -0.15
+    global_ship_repair = 0.1
+}
+
+Ire_navy_establishment = {
+    navy_tradition = 2
+    naval_maintenance_modifier = -0.15
+}
+
+Ire_naval_supremacy = {
+    naval_morale = 0.15
+    allowed_marine_fraction = 0.15
+    has_man_of_war = yes
+    allowed_man_of_war_fraction = 0.2
+}
+
+Ire_happy_people = {
+    build_cost = -0.2
+    build_time = -0.25
+    interest = -1
+}
+
+Ire_happy_people_2 = {
+	all_estate_loyalty_equilibrium = 0.15
+	all_power_cost = -0.03
+}
+
+Ire_No_enemys = {
+    #fire_damage = 0.15
+    fire_damage_received = -0.10
+    manpower_recovery_speed = 0.10
+}
+
+Ire_Prestigous_conquest = {
+    add_prestige = 50
+    prestige_decay = -0.03
+    legitimacy = 1
+    republican_tradition = 0.5
+    devotion = 1
+}
+
+modded_irish_1 = {
+	land_forcelimit = 8
+	war_exhaustion = -0.1
+}
+
+ire_legi_rule = {
+	province_warscore_cost = -0.1
+	core_creation = -0.05
+}
+
+irish_whiskey_production = {
+	global_unrest = -2
+	production_efficiency = 0.15
+}
+
+pe3_african_frontiers = {
+	colonists = 1
+	global_colonial_growth = 50
+}
+
+trade_hub_created = {}
+trade_hub_created_in_province = {}
+
+pe3_my_arrakis = {
+	trade_goods_size = 2
+}
+
+pe3_arabia_monarch_development = {
+	development_cost = -0.10
+	build_cost = -0.10
+}
+
+pe3_arabia_monarch_money = {
+	global_tax_modifier = 0.33
+	production_efficiency = 0.20
+	trade_efficiency = 0.20
+	global_trade_goods_size_modifier = 0.1
+}
+
+pe3_three_headed_negative_morale = {
+	land_morale = -0.1
+}
+pe3_three_headed_negative_morale_dmg = {
+	morale_damage_received = 0.1
+}
+pe3_three_headed_negative_discipline = {
+	discipline = -0.025
+}
+pe3_three_headed_positive_dmg = {
+	shock_damage = 0.1
+	fire_damage = 0.1
+}
+pe3_three_headed_positive_morale = {
+	land_morale = 0.2
+}
+pe3_three_headed_positive_morale_dmg = {
+	morale_damage = 0.2
+}
+pe3_three_headed_positive_discipline = {
+	discipline = 0.05
+}
+pe3_three_headed_positive_flat_shock = {
+	infantry_shock = 0.2
+	cavalry_shock = 0.2
+}
+pe3_three_headed_positive_arty_fire = {
+	artillery_fire = 0.5
+}
+pe3_three_headed_positive_power_cost = {
+	all_power_cost = -0.05
+}
+
+pe3_formed_west_rome = {
+	governing_capacity_modifier = 0.50
+	manpower_in_own_culture_provinces = 0.25
+	manpower_in_accepted_culture_provinces = 0.25
+	num_accepted_cultures = 3
+}
+
+pe3_faithful_defender_modifier = {
+	land_morale = 0.05
+	manpower_in_true_faith_provinces = 0.05
+}
+
+pe3_chengdu_valley = {
+	trade_goods_size = 2
+}
+
+pe3_liangzhou = {
+	global_tax_income = 36
+	local_defensiveness = 0.33
+	trade_goods_size = 2
+}
+
+pe3_jin_mountains = {
+	trade_goods_size = 1
+}
+
+pe3_beijing = {
+	global_tax_income = 60
+	trade_goods_size = 2.5
+}
+
+pe3_imperial_city = {
+	local_garrison_size = 1
+	supply_limit = 5
+	local_defender_dice_roll_bonus = 1
+	local_development_cost = -0.2
+	trade_value_modifier = 0.25
+}
+
+ASU_banners_modifier_1 = {
+	discipline = 0.05
+	is_banner_modifier = yes
+}
+
+pe3_boh_lubeck = {
+	trade_efficiency = 0.2
+	num_accepted_cultures = 1
+}
+
+pe3_boh_rhineland = {
+	global_trade_goods_size_modifier = 0.1
+	num_accepted_cultures = 1
+}
+
+pe3_boh_hegemony = {
+	land_forcelimit_modifier = 0.25
+	manpower_in_accepted_culture_provinces = 0.25
+}
+
+pe3_boh_south_germany = {
+	manpower_recovery_speed = 0.2
+	num_accepted_cultures = 1
+}
+
+pe3_boh_prussia = {
+	infantry_power = 0.15
+	num_accepted_cultures = 1
+}
+
+pe3_released_colony_overlord_buff = {
+	global_trade_goods_size_modifier = 0.15
+	production_efficiency = 0.2
+	land_forcelimit_modifier = 0.2
+	global_manpower = 0.15
+}

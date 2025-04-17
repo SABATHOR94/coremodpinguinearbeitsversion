@@ -1,0 +1,60 @@
+﻿l_english:
+ gc_form_ngf_title:0 "Unite North Germany"
+ gc_form_ngf_desc:0 ""
+
+ gc_form_sgf_title:0 "Unite South Germany"
+ gc_form_sgf_desc:0 ""
+
+ unite_africa_nation_title:0"Bless the Rain down in Africa"
+ unite_africa_nation_desc:0"… I bless the rains down in Africa (I bless the rains)\nI bless the rains down in Africa\nI bless the rains down in Africa (ooh, I'm gonna take the time)\nGonna take some time to do the things we never had, ooh-hoo"
+
+ colonial_venture_title:0 "Pinguin: Colonial Ventures"
+ colonial_venture_desc:0 ""
+ colonial_venture:0 "Colonial Venture"
+ colonial_venture_decision:0 "Colonial Venture"
+ colonist_venture_title:0 "Pinguin: Hire an Explorer"
+ colonist_venture_desc:0 ""
+ colonist_venture:0 "Colonial Gain"
+ colonist_venture_decision:0 "Colonial Gain"
+
+ more_condottieri_2_title:0 "Pinguin: Even more Condottieri"
+ more_condottieri_2_desc:0 "Stacks with 'More Condottieri'"
+ more_condottieri_1_title:0 "Pinguin: More Condottieri"
+ more_condottieri_1_desc:0 ""
+ more_condottieri:0 "Pinguin: More Condottieri"
+ even_more_condottieri:0 "Even more Condottieri"
+
+ maghreb_nation_title:0 "Unite the Maghreb"
+ maghreb_nation_desc:0 "We have united the Maghreb and shall now make it a Great Republic!"
+
+ taungu_nation_title:0 "Form Taungu"
+ taungu_nation_desc:0 "Form the first Taungu Empire and conquer Burma!"
+
+ RenameBavaria_title: "More than Bavaria"
+ RenameBavaria_desc: ""
+
+ RenameIreland_title: "The Irish Empire"
+ RenameIreland_desc: ""
+ 
+ pe3_restore_west_rome_decision_title: "Restore West Rome"
+ pe3_restore_west_rome_decision_desc: "Claim the heritage and glory of West Rome!"
+ pe3_establish_elbian_federation_title: "Form the Elbian Federation"
+ pe3_establish_elbian_federation_desc: "We will unite the germans and the czechs under one banner."
+
+ trigger_norse_festival_title:0 "Celebrate for we are free!"
+ trigger_norse_festival_desc:0 "§YThis decision can be taken every 15 years.§!"^
+
+ pe3_emperor_of_china_failsafe_title:0 "Claim the Mandate of Heaven"
+ pe3_emperor_of_china_failsafe_desc:0 "As the heavens align in your favor, the time has come to assert your divine right to rule. The people look to you as the chosen sovereign, destined to bring prosperity and order. With the Mandate of Heaven declared, your reign is legitimized—but beware, for should you falter, the wrath of heaven may plunge the realm into chaos."
+
+ pe3_all_seats_parliament_decision_title:0 "Distribute Parliament Seats"
+ pe3_all_seats_parliament_decision_desc:0 "This will distribute a parliament seat to each province."
+
+ pe3_manpower_edict_decision_title:0 "Activate Nationwide Manpower Edict"
+ pe3_manpower_edict_decision_desc:0 "This will activate the manpower edict in every state."
+
+ pe3_recruit_military_advisor_decision_title:0 "Recruit Military Advisor"
+ pe3_recruit_military_advisor_decision_desc:0 "This will allow us to choose a certain military advisor. Scroll down in the event for more."
+
+ pe3_invest_splendor_decision_title:0 "Invest Splendor"
+ pe3_invest_splendor_decision_desc:0 "Invest our Splendor into reform progress!"

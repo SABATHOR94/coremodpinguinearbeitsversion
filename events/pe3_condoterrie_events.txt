@@ -1,0 +1,57 @@
+namespace = pe3_condoterrie_events
+
+country_event = {
+    id = pe3_condoterrie_events.1
+    title = pe3_condoterrie_events.1.t
+    picture = CHINESE_GENERAL_eventPicture
+    hidden = yes
+    desc = pe3_condoterrie_events.1.desc
+
+	trigger = {
+		adm_tech = 6
+		NOT = { has_country_modifier = more_condottieri }
+	}
+    mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		add_country_modifier = {
+			name = more_condottieri
+			duration = -1
+		}
+	}
+    option = {
+		name = pe3_condoterrie_events.1.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+    id = pe3_condoterrie_events.2
+    title = pe3_condoterrie_events.2.t
+    picture = CHINESE_GENERAL_eventPicture
+    hidden = yes
+    desc = pe3_condoterrie_events.2.desc
+
+	trigger = {
+		adm_tech = 11
+		NOT = { has_country_modifier = even_more_condottieri }
+	}
+    mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		add_country_modifier = {
+			name = even_more_condottieri
+			duration = -1
+		}
+	}
+    option = {
+		name = pe3_condoterrie_events.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

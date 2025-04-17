@@ -1,0 +1,107 @@
+pe3_control_over_qi = { #690
+	trigger = {
+		owner = {
+			has_reform = celestial_empire
+		}
+	}
+	imperial_mandate = 0.025
+}
+
+pe3_control_over_yuan = { #2182
+	trigger = {
+		owner = {
+			has_reform = celestial_empire
+		}
+	}
+	imperial_mandate = 0.025
+}
+
+pe3_control_over_shu = { #679
+	trigger = {
+		owner = {
+			has_reform = celestial_empire
+		}
+	}
+	imperial_mandate = 0.025
+}
+
+pe3_control_over_wu = { #684
+	trigger = {
+		owner = {
+			has_reform = celestial_empire
+		}
+	}
+	imperial_mandate = 0.025
+}
+
+pe3_control_over_yue = { #667
+	trigger = {
+		owner = {
+			has_reform = celestial_empire
+		}
+	}
+	imperial_mandate = 0.025
+}
+##############################
+#Control over Imperial Cities
+##############################
+
+pe3_cantonese_cannons = {
+	trigger = {
+		owner = {
+			OR = {
+				has_reform = celestial_empire
+				has_reform = chinese_warlord
+			}
+		}
+	}
+	backrow_artillery_damage = 0.1
+}
+
+pe3_shanghai_riches = {
+	trigger = {
+		owner = {
+			OR = {
+				has_reform = celestial_empire
+				has_reform = chinese_warlord
+			}
+		}
+	}
+	global_trade_goods_size = 0.2
+}
+
+pe3_chengdu_tenacity = {
+	trigger = {
+		owner = {
+			OR = {
+				has_reform = celestial_empire
+				has_reform = chinese_warlord
+			}
+		}
+	}
+	shock_damage_received = -0.1
+}
+
+pe3_liangzhou_road = {
+	trigger = {
+		owner = {
+			OR = {
+				has_reform = celestial_empire
+				has_reform = chinese_warlord
+			}
+		}
+	}
+	movement_speed = 0.15
+}
+
+pe3_qingzhou_cities = {
+	trigger = {
+		owner = {
+			OR = {
+				has_reform = celestial_empire
+				has_reform = chinese_warlord
+			}
+		}
+	}
+	regiment_manpower_usage = -0.1
+}

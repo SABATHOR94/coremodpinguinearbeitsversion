@@ -1,0 +1,20 @@
+country_decisions = {
+    pe3_recruit_military_advisor_decision = {
+        color = { 166  0  0 }
+        major = yes
+        potential = {
+            is_year = 1445
+            ai = no
+        }
+        allow = {
+            adm_power = 50
+            ai = no
+        }
+        effect = {
+            country_event = {
+                id = gecko.11
+            }
+        }
+    }
+}
+
