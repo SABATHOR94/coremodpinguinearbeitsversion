@@ -1,7 +1,7 @@
 ﻿l_english:
 
-#General
-
+ #General
+ 
  #mercs
  pe3_merc_company_wuu_1:0 "Wuu Mercenaries I"
  pe3_merc_company_wuu_2:0 "Wuu Mercenaries II"
@@ -20,8 +20,26 @@
 
  iv_tradecenter_button_title:0"Create Trade Center"
  iv_tradecenter_button_desc:0"This will create a level 1 Center of Trade.\n§YThis has a 10 year cooldown.§!"
+ pe3_upgrade_trade_good_title:0 "Upgrade Wool production"
+ pe3_upgrade_trade_good_desc:0 "This will exchange the wool for cloth."
+ regional_port:0 "Regional Port"
+ regional_port_desc:0 ""
+ world_port_2:0 "Global Port"
+ world_port_2_desc:0 ""
+ regional_hub:0 "Regional Hub"
+ regional_hub_desc:0 ""
+ world_trade_center_2:0 "Global Hub"
+ world_trade_center_2_desc:0 ""
 
+ pe3_bohemia_elbian_path_tt:0 "§RThis will lead to a Czech dominated Germany and thus forbid us to take a German flag.§!"
 
+ pe3_diplo_buy_freedom_title:0 "Request Freedom"
+ pe3_diplo_buy_freedom_tooltip:0 "We will request our freedom in exchange for a permanent buff for our overlord."
+ pe3_diplo_buy_freedom_desc:0 "We will request our freedom in exchange for a permanent buff for our overlord."
+
+ pe3_diplo_grant_freedom_title:0 "Grant Freedom"
+ pe3_diplo_grant_freedom_tooltip:0 "We will leave our colonial nation in charge of their own fate in exchange for a permanent buff."
+ pe3_diplo_grant_freedom_desc:0 "We will leave our colonial nation in charge of their own fate in exchange for a permanent buff."
 
 
  #Privileges
@@ -34,10 +52,10 @@
  estate_burghers_hydraulic_rights_mountain: "Chutes"
  estate_burghers_hydraulic_rights_arctic: "Thermal Springs"
 
-# Gov Reforms
+ # Gov Reforms
  adu_taifa_adminstration_pinguin_mod: "Andalusian Tercios"
 
-# Age Rewards
+ # Age Rewards
 
  pinguin_ab_ottoman_siege_ability: "Imperial Diplomacy"
  pinguin_ab_portugal_colonial_growth: "Coptic Restoration"
@@ -51,7 +69,7 @@
  pinguin_ab_autonomy: "Centralisation"
  pinguin_ab_russia_boost: "African Continental Army"
 
-# Religion
+ # Religion
 
  kak_mod_deity_1: "Air"
  kak_mod_deity_2: "Fire"
@@ -117,9 +135,7 @@
 
  pe3_fuck_your_hugbox_triggered_modifier:0 "Questionable choice of Allies"
  pe3_fuck_your_hugbox_triggered_modifier_desc:0 "We strive for dominance in China and yet we are allied to another Chinese pretender."
- pe3_chinese_event.1.t:0 "War in Heaven"
- pe3_chinese_event.1.d:0 "The Mandate of Heaven trembles as rival factions rise against the ruling dynasty. Civil war erupts across China, with warlords, rebels, and imperial loyalists vying for supremacy. The fate of the Middle Kingdom hangs in the balance —will order be restored, or will chaos reign supreme?"
- pe3_chinese_event.1.a:0 "We will restore order!"
+
 
 
  kak_event_tooltip: "An event will fire in §RThree days§! and we can choose to move our capital to §GSamarkand§! or stay in §GTurkestan§!."
@@ -165,4 +181,7 @@
  ire_religion_title:0 "Tale of the Past"
  ire_religion_desc:0 "Although we are stern Catholics, it seems Rome is far away, and with our newly found strength and independence, separating from Rome and the Catholic world would be an option."
  irish_london_cap: "§YLondon§! must have higher development than any province in §YIberia§!, §YFrance§!, §YScandinavia§! and §YThe British Isles§!. \nYou must also be the strongest trade power in the §YEnglish Channel§!."
+
+ TRADE_COMPANY_AUSTRALIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Australian Company"
+ TRADE_COMPANY_AUSTRALIA_Indonesia_Trade_Company:0 "Australian Trade Company"
 

@@ -107,6 +107,7 @@ north_german_region = {
 		mecklenburg_area
 		braunschweig_area
 		lusatia_area
+		silesia_area
 	}
 }
 
@@ -230,7 +231,6 @@ poland_region = {
 		malopolska_area
 		red_ruthenia_area
 		mazovia_area
-		silesia_area
 		central_poland_area
 		sandomierz_area
 		kuyavia_area

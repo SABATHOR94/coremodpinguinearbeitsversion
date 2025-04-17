@@ -106,3 +106,15 @@ pe3_arab_caliphate_reform = {
 		}
 	}
 }
+
+
+pe3_chinese_warlord_pluto_divine_unlock_reform = {
+	icon = "samurai"
+	potential = {
+		has_reform = chinese_warlord
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_divine_idea_group = yes
+	}
+}

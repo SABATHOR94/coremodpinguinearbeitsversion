@@ -31,7 +31,7 @@ YUE_ideas = {
 		fire_damage = 0.2
 	}
 	ASU_yue_NI7  = {                    
-		backrow_artillery_damage = 0.2
+		backrow_artillery_damage = 0.1
 	}
 }
 
@@ -77,7 +77,7 @@ WUU_ideas = {
 SHU_ideas = {
 	start = {
 		discipline = 0.05
-		shock_damage_received = -0.2
+		shock_damage_received = -0.1
 	}
 	
 	bonus = {
@@ -144,7 +144,7 @@ QIC_ideas = {
 		global_manpower_modifier = 0.33
 	}
 	ASU_mng_NI5 = {
-		regiment_manpower_usage = -0.2
+		regiment_manpower_usage = -0.1
 	}
 	ASU_mng_NI6 = {
 		land_morale_constant = 0.2
@@ -171,19 +171,19 @@ YUA_ideas = {
 	yua_da_zai_qian_yuan = {
 		core_creation = -0.25
 	}
+	yua_keshik_and_weijun = {
+		shock_damage = 0.05
+        cav_to_inf_ratio = 0.40
+	}
 	yua_a_savage_kingdom_holy_and_enchanted = {
 		land_morale = 0.1
 	}
 	yua_the_three_teachings_and_nine_schools_respected = {
 		technology_cost = -0.1
 	}
-	yua_keshik_and_weijun = {
-		shock_damage = 0.05
-        cav_to_inf_ratio = 0.40
-	}
 	yua_a_thousand_miles_as_if_at_home = {
-		movement_speed = 0.15
 		cavalry_flanking = 0.5
+		movement_speed = 0.05
 	}
 	yua_sino_mongol_administration = {
 		administrative_efficiency = 0.05

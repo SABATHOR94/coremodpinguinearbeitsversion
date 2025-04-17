@@ -3,10 +3,8 @@ woc_boh_first_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Winds of Change"
 	}
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
 	}
@@ -539,10 +537,8 @@ boh_first_locked = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Winds of Change"
 	}
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BOH
 		NOT = {
 			OR = {
@@ -597,10 +593,8 @@ boh_first_unlocked_catholic = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Winds of Change"
 	}
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BOH
 		has_country_flag = boh_catholic_missions
 		NOT = {
@@ -992,10 +986,8 @@ boh_first_unlocked_hussite = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Winds of Change"
 	}
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BOH
 		has_country_flag = boh_hussite_missions
 		NOT = {
@@ -1323,10 +1315,8 @@ woc_boh_second_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Winds of Change"
 	}
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1551,10 +1541,8 @@ woc_boh_third_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Winds of Change"
 	}
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
 	}
@@ -2371,10 +2359,8 @@ woc_boh_fourth_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Winds of Change"
 	}
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
 	}
@@ -2701,10 +2687,8 @@ woc_boh_fifth_branch = {
 	generic = no
 	ai = yes
 	potential_on_load = {
-		has_dlc = "Winds of Change"
 	}
 	potential = {
-		has_dlc = "Winds of Change"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
 	}

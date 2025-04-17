@@ -8,6 +8,11 @@ country_event = {
     desc = pe3_chinese_event.1.desc
     fire_only_once = yes
 
+	trigger = {
+		tag = MNG
+		exists = MNG
+	}
+
     mean_time_to_happen = {
 		days = 1
 	}
@@ -94,5 +99,28 @@ country_event = {
 				casus_belli = cb_chinese_unification 
 			}
 		}
+	}
+}
+
+country_event = {
+    id = pe3_chinese_event.2
+    title = pe3_chinese_event.2.t
+    picture = CHINESE_GENERAL_eventPicture
+    major = yes
+    desc = pe3_chinese_event.2.desc
+    is_triggered_only = yes
+
+    option = {
+		name = pe3_chinese_event.2.a
+		ai_chance = {
+			factor = 100
+		}
+		clr_global_flag = empire_of_china_dismantled
+		set_emperor_of_china = ROOT
+		dismantle_empire_of_china = no
+		add_government_reform = celestial_empire
+		set_mandate = 50
+		set_meritocracy = 60
+		set_global_flag = ASU_eoc_failsafe_flag
 	}
 }

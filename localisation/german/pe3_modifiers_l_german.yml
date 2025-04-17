@@ -1,0 +1,107 @@
+﻿l_german:
+ burma_taungu:0 "The Peacock's Nest"
+ tau_mod_recov:0 "A Mountain to breed for"
+
+ reiches_australien:0 "Welschige Kolonie"
+ reiche_karibik:0 "Sehr welschige Kolonie"
+
+ maghreb_mod_1:0 "Rise of Ibadi"
+ maghreb_mod_2:0 "Maghrebi Power"
+ maghreb_mod_3:0 "Sailors of Algiers"
+ maghreb_mod_4:0 "Dreams of the Sea"
+ maghreb_mod_5:0 "Just Conquest"
+ maghreb_mod_6:0 "Islamic Scholars"
+ maghreb_mod_7:0 "Worthy Soil"
+ maghreb_mod_8:0 "Push for Grandeur"
+ maghreb_mod_9:0 "North African Silks"
+ maghreb_mod_10:0 "Wrath of Carthage"
+ maghreb_gold:0 "Gold of Atlas"
+ maghrebs_prospers:0 "Republic of Lights"
+ pe3_maghreb_conversion: "Ibadi Inkursion"
+ pe3_maghreb_conversion_desc: "Ibadi Inkursion"
+
+ bukhara_mod_1:0 "Yasi Crossing"
+ bukhara_mod_2:0 "Central Asian Republic"
+ kak_mod_1:0 "Invention of the Spear"
+ kak_mod_2:0 "Central Asian Fishing Fleet"
+ kak_mod_3:0 "Kashgar Fort"
+ kak_mod_4:0 "True Meritocracy"
+ kak_mod_5:0 "Flat Trap"
+ kak_mod_6:0 "Hordebreakers"
+
+ modded_piety_bav:0 "Nettoeinzahler"
+ liberated_ulm:0 "Bavarian Ulm"
+
+ independence_warrior:0 "Fight for independence"
+ IndependenceWar_title:0 "Freeedom!"
+
+ eth_mod_1:0 "Convert the Horn"
+
+ mysore_mod_1:0 "Riches of the Indian Ocean"
+ mysore_mod_2:0 "Tropical Timber"
+ mysore_mod_3:0 "Sturdy Works"
+ mysore_mod_4:0 "Cloves at the Court"
+
+
+ Ire_navy_construction:0 "Superior Construction Plans"
+ Ire_navy_establishment:0 "Cheap Traditions"
+ Ire_naval_supremacy:0 "Emerald Fleet of Luck"
+ Ire_happy_people:0 "Happy Harpers"
+ Ire_happy_people_2:0 "Luck of the Irish"
+ Ire_No_enemys:0 "I have no enemies"
+ Ire_Prestigous_conquest:0 "The Glory of Gory"
+ ire_legi_rule:0 "Legitimate Ruler of the Isle"
+ copper_of_ireland:0 "Corkonian Copper Mine"
+ irish_whiskey_production:0 "Whiskey Boom"
+ modded_irish_1:0 "There can be only one"
+
+ pe3_african_frontiers:"African Frontier"
+
+ adu_taifa_adminstration_pinguin_mod_desc:0 "The Spanish have been battered and beaten but their military ideas shall live on! \n§RAffects only Tercios:§!"
+
+ pe3_faithful_defender_modifier:0 "Faithful Defender"
+
+ trade_hub_created:0"Trade Center Cooldown"
+ trade_hub_created_in_province:0"Trade Center Cooldown"
+ 
+ odin_modifier: "Norse Conlonization"
+ tor_modifier: "Enforced Stabilization"
+ tyr_modifier: "Berserkergangs"
+ snotra_modifier: "Open Trading"
+ freya_modifier: "Pagan Reproduction"
+ freya_modifier_2: "The King's Tower"
+ njord_modifier: "Seeking Jormungandr"
+ norse_festival_trigger_modifier: "Held Festival"
+
+ pe3_chengdu_valley:0 "Chengdu Valley"
+ pe3_chengdu_valley_desc:0 "The Chengdu Valley has rich soil."
+ pe3_liangzhou:0 "Start of the Silk Road"
+ pe3_liangzhou_desc:0 "The Silk road provides wealth."
+ pe3_jin_mountains:0 "Precious metals"
+ pe3_jin_mountains_desc:0 "The mountains of Shanxi contain precious metals."
+ pe3_beijing:0 "Imperial Throne"
+ pe3_beijing_desc:0 ""
+ pe3_imperial_city:0 "Imperial City"
+ pe3_imperial_city_desc:0 ""
+ pe3_cantonese_cannons: "Cantonese Cannons"
+ pe3_cantonese_cannons_desc: ""
+ pe3_shanghai_riches: "Shanghaian Riches"
+ pe3_shanghai_riches_desc: ""
+ pe3_chengdu_tenacity: "Chengduan Tenacity"
+ pe3_chengdu_tenacity_desc: ""
+ pe3_liangzhou_road: "Liangzhouan Road Network"
+ pe3_liangzhou_road_desc: ""
+ pe3_qingzhou_cities: "Qingzhouan Urban Center"
+ pe3_qingzhou_cities_desc: ""
+
+ pe3_formed_west_rome: "Restored West Roman glory"
+
+ pe3_my_arrakis:0"My Desert, My Arrakis, My Dune."
+
+ ASU_banners_modifier_1:0 "Increased Banner training"
+
+ pe3_boh_lubeck:0 "Lübeckian Ports"
+ pe3_boh_rhineland:0 "Workshops of the Rhineland"
+ pe3_boh_hegemony:0 "Elbian Hegemony over Germany"
+ pe3_boh_south_germany:0 "South German Manpower"
+ pe3_boh_prussia:0 "Prussian integration"

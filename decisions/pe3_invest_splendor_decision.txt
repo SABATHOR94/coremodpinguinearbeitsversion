@@ -1,0 +1,19 @@
+country_decisions = {
+    pe3_invest_splendor_decision = {
+        color = { 166  0  0 }
+        major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			splendor = 500
+		}
+		effect = {
+			add_splendor = -500
+            change_government_reform_progress = 50
+		}
+    }
+}

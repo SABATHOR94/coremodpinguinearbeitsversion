@@ -1837,7 +1837,7 @@ spice_islands_modifier = { #Main entrepots of the Mollucas, point of origin for 
 	trade_goods_size = 3.0
 }
 
-skanemarket = { #Skånemarknaden - Biggest Herring Market in Europe
+skanemarket = { #Skï¿½nemarknaden - Biggest Herring Market in Europe
 	trade_goods_size = 2
 }
 
@@ -9923,7 +9923,7 @@ standardized_uniforms_modifier = {
 
 elite_revolutionary_guard_modifier = {
 	is_revolutionary_guard_modifier = yes
-	discipline = 0.025
+	discipline = 0.1
 	land_maintenance_modifier = 1.0
 }
 
@@ -9933,7 +9933,8 @@ elite_revolutionary_guard_modifier_country = {
 
 professional_revolutionary_guard_modifier = {
 	is_revolutionary_guard_modifier = yes
-	drill_decay_modifier = -0.25
+	drill_decay_modifier = -0.33
+	drill_gain_modifier = 1
 	land_maintenance_modifier = 0.5
 }
 

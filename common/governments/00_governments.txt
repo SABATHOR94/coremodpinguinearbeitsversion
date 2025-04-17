@@ -360,6 +360,9 @@ monarchy = {
 				great_council_of_mechelen_reform
 				parliament_vs_monarchy_reform
 				restoration_of_the_senate_reform
+
+				#pe3
+				pe3_chinese_warlord_pluto_divine_unlock_reform
 			}
 		}
 		growth_of_administration = {

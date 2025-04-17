@@ -570,13 +570,21 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 			### Core
-
+			#PE3
 			### Hey you found our button!
 			# This one is for creating trade centers
 			guiButtonType = {
 				name = "iv_tradecenter_button"
 				position = { x = 447 y = 56 }
 				quadTextureSprite = "GFX_button_flogi_tradecenter"
+				scripted = yes
+			}
+
+			# This one is for changing wool to cloth
+			guiButtonType = {
+				name = "pe3_upgrade_trade_good"
+				position = { x = 447 y = 21 }
+				quadTextureSprite = "GFX_button_cloth_change"
 				scripted = yes
 			}
 

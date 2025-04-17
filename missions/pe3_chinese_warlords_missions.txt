@@ -24,7 +24,7 @@ chinese_kingdoms_1 = {
 			tag = CGS
 			tag = SHU 
 			tag = FRM
-			#tag = YUA
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -89,13 +89,19 @@ chinese_kingdoms_1 = {
 				}
 				is_emperor_of_china = yes
 			}
-			custom_trigger_tooltip = {
+			OR = {
+				custom_trigger_tooltip = {
 				tooltip = chi_strongest_warlord_tt
-				any_country = { 
-					capital_scope = { superregion = china_superregion }
-					NOT = { army_size = ROOT } 
-					NOT = { total_development = ROOT }
-				}	
+					any_country = { 
+						capital_scope = { superregion = china_superregion }
+						NOT = { army_size = ROOT } 
+						NOT = { total_development = ROOT }
+					}	
+				}
+				china_superregion = {
+					country_or_non_sovereign_subject_holds = ROOT
+					type = all
+				}
 			}
 		}
 		effect = {	
@@ -169,6 +175,7 @@ chinese_kingdoms_2 = {
 			tag = CGS
 			tag = SHU 
 			tag = FRM
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -354,6 +361,7 @@ chinese_kingdoms_3 = {
 			tag = CGS
 			tag = SHU 
 			tag = FRM
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -515,6 +523,36 @@ chinese_kingdoms_3 = {
 			}
 			change_technology_group = ASU_reformed_asian_tech
 			change_unit_type = ASU_reformed_asian_tech
+			if = {
+				limit = {
+					tag = YUA
+				}
+				override_country_name = PE3_GREAT_YUAN
+			}
+			if = {
+				limit = {
+					tag = QIC
+				}
+				override_country_name = PE3_GREAT_QI
+			}
+			if = {
+				limit = {
+					tag = SHU
+				}
+				override_country_name = PE3_GREAT_SHU
+			}
+			if = {
+				limit = {
+					tag = YUE
+				}
+				override_country_name = PE3_GREAT_YUE
+			}
+			if = {
+				limit = {
+					tag = WUU
+				}
+				override_country_name = PE3_GREAT_WUU
+			}
 		}
 	}
 }
@@ -545,6 +583,7 @@ chinese_kingdoms_4 = {
 			tag = CGS
 			tag = SHU 
 			tag = FRM
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -671,6 +710,7 @@ chinese_kingdoms_5 = {
 			tag = CGS
 			tag = SHU 
 			tag = FRM
+			tag = YUA
 		}
 		NOT = { map_setup = map_setup_random }
 	}
