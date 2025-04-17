@@ -1,0 +1,187 @@
+﻿l_german:
+
+ #General
+ 
+ #mercs
+ pe3_merc_company_wuu_1:0 "Wuu Mercenaries I"
+ pe3_merc_company_wuu_2:0 "Wuu Mercenaries II"
+ pe3_merc_company_wuu_3:0 "Wuu Mercenaries III"
+ pe3_merc_company_wuu_4:0 "Wuu Mercenaries IV"
+ pe3_merc_company_wuu_5:0 "Wuu Mercenaries V"
+ custom_merc_1:0 "Medium Merc Company I"
+ custom_merc_2:0 "Medium Merc Company II"
+ custom_merc_3:0 "Medium Merc Company III"
+ custom_merc_4:0 "Large Merc Company IV"
+ custom_merc_5:0 "Large Merc Company V"
+ custom_merc_6:0 "Large Merc Company VI"
+ custom_merc_artillery_1:0 "Artillery Merc Company I"
+ custom_merc_cavalry_1:0 "Cavalry Merc Company I"
+
+
+ iv_tradecenter_button_title:0"Create Trade Center"
+ iv_tradecenter_button_desc:0"This will create a level 1 Center of Trade.\n§YThis has a 10 year cooldown.§!"
+ pe3_upgrade_trade_good_title:0 "Upgrade Wool production"
+ pe3_upgrade_trade_good_desc:0 "This will exchange the wool for cloth."
+ regional_port:0 "Regional Port"
+ regional_port_desc:0 ""
+ world_port_2:0 "Global Port"
+ world_port_2_desc:0 ""
+ regional_hub:0 "Regional Hub"
+ regional_hub_desc:0 ""
+ world_trade_center_2:0 "Global Hub"
+ world_trade_center_2_desc:0 ""
+
+ pe3_bohemia_elbian_path_tt:0 "§RThis will lead to a Czech dominated Germany and thus forbid us to take a German flag.§!"
+
+ pe3_diplo_buy_freedom_title:0 "Request Freedom"
+ pe3_diplo_buy_freedom_tooltip:0 "We will request our freedom in exchange for a permanent buff for our overlord."
+ pe3_diplo_buy_freedom_desc:0 "We will request our freedom in exchange for a permanent buff for our overlord."
+
+ pe3_diplo_grant_freedom_title:0 "Grant Freedom"
+ pe3_diplo_grant_freedom_tooltip:0 "We will leave our colonial nation in charge of their own fate in exchange for a permanent buff."
+ pe3_diplo_grant_freedom_desc:0 "We will leave our colonial nation in charge of their own fate in exchange for a permanent buff."
+
+
+ #Privileges
+ pe3_quality_banner_privilege:0 "Increased Banner training"
+ pe3_quality_banner_privilege_desc:0 ""
+ pe3_quantity_banner_privilege:0 "Increased Banner conscription"
+ pe3_quantity_banner_privilege_desc:0 ""
+
+ estate_burgher_of_bukhara: "Expansion of the Cities"
+ estate_burghers_hydraulic_rights_mountain: "Chutes"
+ estate_burghers_hydraulic_rights_arctic: "Thermal Springs"
+
+ # Gov Reforms
+ adu_taifa_adminstration_pinguin_mod: "Andalusian Tercios"
+
+ # Age Rewards
+
+ pinguin_ab_ottoman_siege_ability: "Imperial Diplomacy"
+ pinguin_ab_portugal_colonial_growth: "Coptic Restoration"
+ pinguin_ab_venice_ship_trade: "Eastern Trade"
+ pinguin_ab_siege_blockades: "Wird gebaut!"
+ pinguin_ab_rival_change: "Global Conflicts"
+ pinguin_ab_manchu_banner: "Asian Protectionism"
+ pinguin_ab_allow_feudal_de_jure_law: "Just Laws"
+ pinguin_ab_allow_edict_of_absolutism: "Edict of Absolutism"
+ pinguin_ab_rival_border_fort: "Fort Act"
+ pinguin_ab_autonomy: "Centralisation"
+ pinguin_ab_russia_boost: "African Continental Army"
+
+ # Religion
+
+ kak_mod_deity_1: "Air"
+ kak_mod_deity_2: "Fire"
+ kak_mod_deity_3: "Earth"
+ kak_mod_deity_4: "Water"
+ kak_mod_deity_5: "Miasma"
+ kak_mod_deity_6: "Plasma"
+ Esel: "Donkey"
+ Esel_desc: ""
+ Stier: "Bull"
+ Stier_desc: ""
+ Keiler: "Boar"
+ Keiler_desc: ""
+ Schlange: "Serpent"
+ Schlange_desc: ""
+ Wolf: "Wolf"
+ Wolf_desc: ""
+ Pinguin: "Penguin"
+ Pinguin_desc: ""
+
+# Norse
+ conversion_zeal_norse: "Pagan Euphoria"
+
+# Oman / Arabia
+
+ pe3_arabia_monarch_development:0 "Internal Development"
+ pe3_arabia_monarch_money:0 "Internal Commerce"
+ pe3_arabia_distribute_20_dev_tt:0"Distributes 20 random development across the Empire"
+ pe3_arabia_one_to_be_monarch_tt:0 "§GHas a 10% chance for the following:§!\n-20 random development\n-Development and build cost for 10 years\n-A boost to economics for 10 years\n-Cheap advisors\n-Mana points of each category\n-3 Stability\n-100 Reform progress\n-2.5 years of income\n-Maximum prestige\n-15 Crownland"
+ pe3_arabia_one_to_change_history_tt:0 "§YRolls for both a positive and negative modifier.§!\n§R-Ruler dies§!\n§R-Heir dies §!\n§R-3 Stability §!\n§R-50 All power §!\n§R-100 Prestige §!\n§R-10% Morale §!\n§R+10% Morale damage received §!\n§R-2.5% Discipline §!\n§R-All advisors die §!\n§R-2 Leaders die and we lose 10% army professionalism §!"
+ pe3_arabia_one_to_change_history_2_tt:0 "§G+1 Ruler stats §!\n§G+1 Heir stats §!\n§G+10% Shock and fire damage §!\n§G+20% Moral §!\n§G+5% Discipline §!\n§G+5 years of manpower §!\n§G+0.2 Infantry and cavalry shock §!\n§G+0.5 Artillery fire §!\n§G-5% All power cost §!\n§G+ 6/6/6 heir §!"
+ pe3_arabia_one_to_murder_tt:0 "§RSomeone will die.§!\n-10% Chance to kill neighbouring ruler for 100 power projection\n-15% Chance to kill neighbouring heir for 50 power projection\n-25% Chance to kill neighbouring leader for 25 power projection\n-25% Chance to kill one of our leaders and replace him\n-25% Chance to kill one of our advisors."
+ pe3_three_headed_negative_morale:0"§RAnd one to be mad§!"
+ pe3_three_headed_negative_morale_dmg:0"§RAnd one to be mad§!"
+ pe3_three_headed_negative_discipline:0"§RAnd one to be mad§!"
+ pe3_three_headed_positive_dmg:0"§RAnd one to be mad§!"
+ pe3_three_headed_positive_morale:0"§RAnd one to be mad§!"
+ pe3_three_headed_positive_morale_dmg:0"§RAnd one to be mad§!"
+ pe3_three_headed_positive_discipline:0"§RAnd one to be mad§!"
+ pe3_three_headed_positive_flat_shock:0"§RAnd one to be mad§!"
+ pe3_three_headed_positive_arty_fire:0"§RAnd one to be mad§!"
+ pe3_three_headed_positive_power_cost:0"§RAnd one to be mad§!"
+ pe3_three_headed_negative_morale_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_negative_morale_dmg_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_negative_discipline_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_positive_dmg_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_positive_morale_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_positive_morale_dmg_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_positive_discipline_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_positive_flat_shock_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_positive_arty_fire_desc:0"§RWho's ideas will change history§!"
+ pe3_three_headed_positive_power_cost_desc:0"§RWho's ideas will change history§!"
+ pe3_100_pp_kill:0 "Killed enemy ruler"
+ pe3_50_pp_kill:0 "Killed enemy heir"
+ pe3_25_pp_kill:0 "Killed enemy leader"
+
+ #Province triggered modifiers
+ pe3_control_over_qi:0 "Control over Qingzhou"
+ pe3_control_over_yuan:0 "Control over Liangzhou"
+ pe3_control_over_shu:0 "Control over Chengdu"
+ pe3_control_over_wu:0 "Control over Hangzhou"
+ pe3_control_over_yue:0 "Control over Canton"
+
+ pe3_fuck_your_hugbox_triggered_modifier:0 "Questionable choice of Allies"
+ pe3_fuck_your_hugbox_triggered_modifier_desc:0 "We strive for dominance in China and yet we are allied to another Chinese pretender."
+
+
+
+ kak_event_tooltip: "An event will fire in §RThree days§! and we can choose to move our capital to §GSamarkand§! or stay in §GTurkestan§!."
+
+ pe3_defender_gained_tt: "This modifier will be lost if we are no longer the §YDefender of the Faith§! or if we no longer run full §YReligious Ideas§!"
+ pe3_defender_lost_tt: "We have lost the §GFaithful Defender Modifier§!."
+
+# Decisions
+
+ FORMBHARAT: "You may form Bharat. Even if you do not fulfill all requirements."
+ FORMBHARAT_tt: "Completed Mysore's 'Tiger of Mysore' mission."
+
+  # Ehrenmann: "Ehrenmann"
+  # Ehrenmann_title: "Ehrenmann"
+  # Ehrenmann_desc: "Danke für die schönen Videos!"
+  # KAKreveal_title: "Reveal Regions"
+  # KAKreveal_desc: ""
+
+ maghreb_development_cost.tooltip:0 "All owned provinces in the Maghreb Region will receive §G-15% local development cost§! and §G20% local manpower§! until the end of the game."
+ 
+ 
+ kak_people: "Great Yasi"
+ kak_people_2: "The provinces required for this mission must be §Gprosperous§!."
+
+ irish_developement_title:0 "Irish Homeland"
+ irish_developement_desc:0 "Revitalize the island of Ireland by building shipyards and expanding its maritime strength. Enhance trade and naval power to preserve the heritage of the Emerald Isle and forge an independent nation."
+ irish_navy_start_title:0 "New Ambitions"
+ irish_navy_start_desc:0 "In an age when the currents of destiny relentlessly crashed against Ireland’s shores, raise the fleet of the Emerald Isle and construct at least 10 large ships to assert maritime supremacy. With this naval power, Ireland shall not only safeguard its trade routes but also usher in a new era of maritime tradition and strength."
+ irish_navy_suprimacy_title:0 "Irish Ascendancy"
+ irish_navy_suprimacy_desc:0 "From emerald shores to distant coasts, Ireland sails forth, mastering the waves into an era of naval power and glory. The flag of the Emerald Isle flutters proudly in the ocean winds, a symbol of unstoppable greatness and maritime supremacy."
+ Ire_new_capital_title:0 "Emerald London"
+ Ire_new_capital_desc:0 "In the streets of London, Irish culture flourishes, as the green isle becomes the greatest city in Western Europe. With each step, our heritage takes root, a kingdom reborn in splendor and glory."
+ Ire_expansion_title:0 "A Hundred Years?"
+ Ire_expansion_desc:0 "From emerald hills, destiny calls to conquer Northern France, with storm in our hearts. With sword and shield, we march forth to claim glory and honor for the Irish legacy."
+ Ire_english_dream_title:0 "Irish Triumph"
+ Ire_english_dream_desc:0 "Where England fell and sank in shadow’s shroud, Ireland rises, forcing Paris to glory and fame. With sword and courage, we shatter the darkness, and the Emerald Isle becomes a legend, undefeated and proud."
+ ire_coal_mine_title:0 "The Age of Coal"
+ ire_coal_mine_desc:0 "In Sligo's depths, the earth reveals its heart, the first coal ignites fiercely, bold and bright. Ireland unleashes the fire's spirit, sparking wealth and power, heralding a radiant new age."
+ rye_whisky_title:0 "Island Ruler"
+ rye_whisky_desc:0 "By uniting the clans we have shown our dominance. If we secure our rule, we could prepare to strike out. However, we should also try to find a way to keep our people happy..."
+ irish_whiskey_title:0 "Irish Whiskey"
+ irish_whiskey_desc:0 "We have found a fountain of youth and of joy! Rejoice! The Irish have invented Whiskey - and they will never stop loving it. While they are drunk it will be easier to govern these lands and to employ some controversial changes in internal affairs."
+ ire_religion_title:0 "Tale of the Past"
+ ire_religion_desc:0 "Although we are stern Catholics, it seems Rome is far away, and with our newly found strength and independence, separating from Rome and the Catholic world would be an option."
+ irish_london_cap: "§YLondon§! must have higher development than any province in §YIberia§!, §YFrance§!, §YScandinavia§! and §YThe British Isles§!. \nYou must also be the strongest trade power in the §YEnglish Channel§!."
+
+ TRADE_COMPANY_AUSTRALIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Australian Company"
+ TRADE_COMPANY_AUSTRALIA_Indonesia_Trade_Company:0 "Australian Trade Company"
+

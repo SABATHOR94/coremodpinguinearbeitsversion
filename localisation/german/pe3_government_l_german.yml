@@ -1,0 +1,23 @@
+﻿l_german:
+ erzbischof_reform:0 "Caspar, Melchior, Balthasar"
+
+ KAK_republic_reform: "Ardent Republic"
+ KAK_republic_reform_desc: "The Animist Republic of Central Asia fears none expect the butcher!"
+
+ pe3_tunis_caliphate:"Maghrebi Caliphate"
+ pe3_tunis_caliphate_ADJ:"Maghrebi Caliphate"
+ pe3_tunis_caliphate_republic_reform:"Democratic Caliphate"
+ pe3_tunis_caliphate_theocracy_reform:"Maghrebi Caliphate"
+
+ pe3_arab_caliphate_reform:0"Arabian Caliphate"
+ pe3_arab_caliphate_reform_desc:0"The dragon must have 3 heads"
+ ability_pe3_three_headed_mechanic:0"The dragon has 3 heads..."
+ pe3_one_to_be_murderer:0"§ROne to be a murderer...§!"
+ pe3_one_to_be_murderer_desc:0"§R...who will unleash death§!"
+ pe3_one_to_be_monarch:0"§ROne to be a monarch...§!"
+ pe3_one_to_be_monarch_desc:0"§R...who's crown will weigh heavy§!"
+ pe3_one_to_change_history:0"§RAnd one to be mad...§!"
+ pe3_one_to_change_history_desc:0"§R...who's ideas will change history§!"
+
+ pe3_chinese_warlord_pluto_divine_unlock_reform:0 "Expand the Court"
+ pe3_chinese_warlord_pluto_divine_unlock_reform_desc:0 "The Court will be expanded by theocrats and to a lesser degree with democracy."
