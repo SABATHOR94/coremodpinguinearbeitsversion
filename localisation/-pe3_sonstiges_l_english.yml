@@ -1,7 +1,7 @@
 ﻿l_english:
 
-#General
-
+ #General
+ 
  #mercs
  pe3_merc_company_wuu_1:0 "Wuu Mercenaries I"
  pe3_merc_company_wuu_2:0 "Wuu Mercenaries II"
@@ -52,10 +52,10 @@
  estate_burghers_hydraulic_rights_mountain: "Chutes"
  estate_burghers_hydraulic_rights_arctic: "Thermal Springs"
 
-# Gov Reforms
+ # Gov Reforms
  adu_taifa_adminstration_pinguin_mod: "Andalusian Tercios"
 
-# Age Rewards
+ # Age Rewards
 
  pinguin_ab_ottoman_siege_ability: "Imperial Diplomacy"
  pinguin_ab_portugal_colonial_growth: "Coptic Restoration"
@@ -69,7 +69,7 @@
  pinguin_ab_autonomy: "Centralisation"
  pinguin_ab_russia_boost: "African Continental Army"
 
-# Religion
+ # Religion
 
  kak_mod_deity_1: "Air"
  kak_mod_deity_2: "Fire"
@@ -181,4 +181,7 @@
  ire_religion_title:0 "Tale of the Past"
  ire_religion_desc:0 "Although we are stern Catholics, it seems Rome is far away, and with our newly found strength and independence, separating from Rome and the Catholic world would be an option."
  irish_london_cap: "§YLondon§! must have higher development than any province in §YIberia§!, §YFrance§!, §YScandinavia§! and §YThe British Isles§!. \nYou must also be the strongest trade power in the §YEnglish Channel§!."
+
+ TRADE_COMPANY_AUSTRALIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Australian Company"
+ TRADE_COMPANY_AUSTRALIA_Indonesia_Trade_Company:0 "Australian Trade Company"
 
