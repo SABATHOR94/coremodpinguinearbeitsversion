@@ -55,3 +55,6 @@
 
  pe3_recruit_military_advisor_decision_title:0 "Recruit Military Advisor"
  pe3_recruit_military_advisor_decision_desc:0 "This will allow us to choose a certain military advisor. Scroll down in the event for more."
+
+ pe3_invest_splendor_decision_title:0 "Invest Splendor"
+ pe3_invest_splendor_decision_desc:0 "Invest our Splendor into reform progress!"
