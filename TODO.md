@@ -3,7 +3,6 @@ Manpower edict per klick
 Alle Parlamentssitze vergeben
 War Taxes vergessen decision? (Vanilla?)
 Rev Guard decision buffs verbessern
-Vanilla Söldner -> Kav und Arty entfernen
 
 China:
 Mehr Monumente (aus ASU?)
