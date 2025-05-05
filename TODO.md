@@ -1,6 +1,7 @@
 ####################
 Anfangsfrieden zwischen Warlords
 
+Triggered modifier für chinesen auf die tags "hard"coden
 
 #############################################################################################################
 
