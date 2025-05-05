@@ -105,3 +105,5 @@
  pe3_boh_hegemony:0 "Elbian Hegemony over Germany"
  pe3_boh_south_germany:0 "South German Manpower"
  pe3_boh_prussia:0 "Prussian integration"
+
+ pe3_released_colony_overlord_buff:0 "Released Colony Buff"
