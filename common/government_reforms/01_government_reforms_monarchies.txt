@@ -557,13 +557,6 @@ chinese_warlord = {
 			religion = confucianism
 		}
 		technology_group = chinese
-		capital_scope = {
-			OR = {
-				region = north_china_region
-				region = xinan_region
-				region = south_china_region
-			}
-		}
 		if = {
 			limit = { is_subject = yes }
 			overlord = { has_reform = celestial_empire }
@@ -591,13 +584,6 @@ chinese_warlord = {
 			religion = confucianism
 		}
 		technology_group = chinese
-		capital_scope = {
-			OR = {
-				region = north_china_region
-				region = xinan_region
-				region = south_china_region
-			}
-		}
 		if = {
 			limit = { is_subject = yes }
 			overlord = { has_reform = celestial_empire }
@@ -606,6 +592,7 @@ chinese_warlord = {
 	maintain_dynasty = yes
 	allow_force_tributary = no
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		OR = {
